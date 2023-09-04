@@ -774,7 +774,7 @@ html{
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
-.contenedor .containerTestimony .bundleOpinion .verMas:hover{
+.contenedor .containerTestimony .verMas:hover{
     background-color:#232323;
     border:1px solid #232323;
     color: #26a4e3;
