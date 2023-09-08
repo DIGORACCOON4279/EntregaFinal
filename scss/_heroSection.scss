@@ -1,0 +1,158 @@
+// Hero section
+
+.heroSection{
+    width: 100%;
+    height: auto;
+    max-height: max-content;
+    background-image: url("../img/pic1.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    object-fit: cover;
+    animation: background .5s linear;
+    @keyframes background{
+        0%{
+            transform: scale(0%);
+            opacity:0;
+        }
+        25%{
+            transform: scale(25%);
+            opacity:0;
+        }
+        50%{
+            transform: scale(50%);
+            opacity:.5;
+        }
+        75%{
+            transform: scale(100%);
+            opacity:.7;
+        }
+        100%{
+            transform: scale(100%);
+            opacity:1;
+        }
+    }
+    .hero{
+        width: 80%;
+        max-width: 1100px;
+        height: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px auto;
+        .info{
+            width: 50%;
+            text-align: left;
+            animation: info 1s linear;
+            @keyframes info{
+                0%{
+                    transform: translateY(100%);
+                    opacity:.0;
+                }
+                25%{
+                    transform: translateY(75%);
+                    opacity:.0;
+                }
+                50%{
+                    transform: translateY(50%);
+                    opacity:.3;
+                }
+                75%{
+                    transform: translateY(25%);
+                    opacity:.7;
+                }
+                100%{
+                    transform: translateY(0%);
+                    opacity:1;
+                }
+            }
+            h1{
+                font-size:$mainTitle;
+                line-height:$lineHeight;
+                margin-bottom: 40px;
+                font-weight: $boldMedium;
+                color:$whiteColor;
+            }
+            h2{
+                font-size: $MediumTitle;
+                font-weight:$boldMedium;
+                color: $secondaryColor;
+            }
+            .btnAction{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .ctaDeveloper{
+                    width:50%;
+                    font-size:$regularText;
+                    margin: 0px 2px;
+                    text-align: center;
+                    padding: $paddingMainCto;
+                    text-decoration: none;
+                    background-color:$secondaryColor;
+                    color:$whiteColor;
+                    border-radius: $ctoBorderRadius;
+                    font-weight: $bold;
+                    transition: all .3s ease-in;
+                    &:hover{
+                        background-color:$hoverColor;
+                        color: $secondaryColor ;
+                        box-shadow: 0 0 10px $secondaryColor;
+                        text-shadow: 0 0 10px $secondaryColor;
+                    }
+                }
+                .ctaDesigner{
+                    width:50%;
+                    font-size: $regularText;
+                    margin: 0px 2px;
+                    text-align: center;
+                    padding: $paddingMainCto;
+                    text-decoration: none;
+                    background-color:$primaryColor;
+                    color:$whiteColor;
+                    border-radius: $ctoBorderRadius;
+                    font-weight: $bold;
+                    transition: all .3s ease-in;
+                    &:hover{
+                        background-color:$hoverColor;
+                        color: $primaryColor ;
+                        box-shadow: 0 0 10px $primaryColor;
+                        text-shadow: 0 0 10px $primaryColor;
+                    }
+                }
+            }
+        }
+        .cellphone{
+            width: 33%;
+            object-fit: cover;
+            animation: cellphone 1.5s linear;
+            @keyframes cellphone{
+                0%{
+                    transform: translateX(50%);
+                    opacity:.0;
+                }
+                25%{
+                    transform: translateX(35%);
+                    opacity:.0;
+                }
+                50%{
+                    transform: translateX(20%);
+                    opacity:.3;
+                }
+                75%{
+                    transform: translateX(10%);
+                    opacity:.7;
+                }
+                100%{
+                    transform: translateX(0%);
+                    opacity:1;
+                }
+            }
+        }
+    }
+}
+
+
