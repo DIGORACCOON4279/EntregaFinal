@@ -1,0 +1,72 @@
+// Banner Advertising
+.bannerPublicidadUno{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 2px $shadowColor;
+    background-color: $backgroundColor;
+    margin: $sectionMargin;
+    .banner{
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: $sectionMargin;
+    }
+    .laptop{
+        width: 90%;
+    }
+}
+
+.bannerPublicidadDos{
+    width:100%;
+    height: auto;
+    max-height: 200px;
+    margin: 150px auto;
+    max-height: max-content;
+    background-image:url("../img/backgroundSteps2.png");
+    background-attachment: fixed;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    .bannerSection{
+        width: 80%;
+        max-width: 1100px;
+        margin: 100px 0px;
+        .banner{
+            width: 100%;
+            display: flex;
+            flex-direction:row;
+            justify-content: space-around;
+            gap: 50px;
+            .itemCellphones{
+                width: 50%;
+                height: 100%;
+            }
+            .accordion{
+                margin: auto auto !important;
+                .accordion-Item{
+                    .accordion-header{
+                        font-size: 1rem !important;
+                        font-family: 'Poppins', sans-serif !important;
+                        accordion-button{
+                            box-shadow: none !important;
+                        }
+                    }
+                }
+                .accordion-body{
+                    font-family: 'Poppins', sans-serif !important;
+                    font-size: 0.8rem !important;
+                    font-weight: 400 ;
+                    color:black !important;
+                }
+            }
+        }
+    }
+}
+

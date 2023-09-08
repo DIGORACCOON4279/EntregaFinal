@@ -1,5 +1,4 @@
 // Nav - bar
-
 .header{
     width:100%;
     position:fixed;
@@ -60,7 +59,7 @@
                 &:hover .categoria{
                     color:$secondaryColor;
                     background-color: $opacityBackgroundColor;
-                    border-bottom: 1px solid $orangeOpacityColor;
+                    border-bottom: 1px solid $secondaryColor;
                 }
             }
         }

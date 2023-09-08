@@ -145,7 +145,7 @@ html .contenedor .arrow {
 .header .menu ul li:hover .categoria {
   color: #eb5a00;
   background-color: rgba(255, 255, 255, 0.2039215686);
-  border-bottom: 1px solid rgba(235, 90, 0, 0.2196078431);
+  border-bottom: 1px solid #eb5a00;
 }
 .header .menu .socialMedia {
   display: none;
@@ -454,6 +454,75 @@ html .contenedor .arrow {
   transform: scale(100.5%);
   filter: grayscale(30%);
   box-shadow: 0 0 21px 7px #010101;
+}
+
+.bannerPublicidadUno {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px 2px #090909;
+  background-color: #0f0f0f;
+  margin: 150px auto;
+}
+.bannerPublicidadUno .banner {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+.bannerPublicidadUno .laptop {
+  width: 90%;
+}
+
+.bannerPublicidadDos {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin: 150px auto;
+  max-height: max-content;
+  background-image: url("../img/backgroundSteps2.png");
+  background-attachment: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+.bannerPublicidadDos .bannerSection {
+  width: 80%;
+  max-width: 1100px;
+  margin: 100px 0px;
+}
+.bannerPublicidadDos .bannerSection .banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+}
+.bannerPublicidadDos .bannerSection .banner .itemCellphones {
+  width: 50%;
+  height: 100%;
+}
+.bannerPublicidadDos .bannerSection .banner .accordion {
+  margin: auto auto !important;
+}
+.bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header {
+  font-size: 1rem !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header accordion-button {
+  box-shadow: none !important;
+}
+.bannerPublicidadDos .bannerSection .banner .accordion .accordion-body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.8rem !important;
+  font-weight: 400;
+  color: black !important;
 }
 
 /*# sourceMappingURL=main.css.map */
