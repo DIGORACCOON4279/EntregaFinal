@@ -478,9 +478,6 @@ html .contenedor .arrow {
 .bannerPublicidadDos {
   width: 100%;
   height: auto;
-  max-height: 200px;
-  margin: 150px auto;
-  max-height: max-content;
   background-image: url("../img/backgroundSteps2.png");
   background-attachment: fixed;
   background-position: 100%;
@@ -509,20 +506,21 @@ html .contenedor .arrow {
   height: 100%;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion {
+  width: 35% !important;
   margin: auto auto !important;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header {
   font-size: 1rem !important;
   font-family: "Poppins", sans-serif !important;
 }
-.bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header accordion-button {
+.bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header .accordion-button {
   box-shadow: none !important;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion .accordion-body {
   font-family: "Poppins", sans-serif !important;
   font-size: 0.8rem !important;
   font-weight: 400;
-  color: black !important;
+  color: #0c0c0c !important;
 }
 
 /*# sourceMappingURL=main.css.map */

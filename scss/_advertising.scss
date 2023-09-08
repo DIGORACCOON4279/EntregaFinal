@@ -17,13 +17,9 @@
         width: 90%;
     }
 }
-
 .bannerPublicidadDos{
     width:100%;
     height: auto;
-    max-height: 200px;
-    margin: 150px auto;
-    max-height: max-content;
     background-image:url("../img/backgroundSteps2.png");
     background-attachment: fixed;
     background-position: 100%;
@@ -33,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
+    margin: $sectionMargin;
     .bannerSection{
         width: 80%;
         max-width: 1100px;
@@ -49,21 +45,22 @@
                 height: 100%;
             }
             .accordion{
+                width: 35% !important;
                 margin: auto auto !important;
                 .accordion-Item{
                     .accordion-header{
-                        font-size: 1rem !important;
-                        font-family: 'Poppins', sans-serif !important;
-                        accordion-button{
+                        font-size: $regularText !important;
+                        font-family: $mainFont !important;
+                        .accordion-button{
                             box-shadow: none !important;
                         }
                     }
                 }
                 .accordion-body{
-                    font-family: 'Poppins', sans-serif !important;
-                    font-size: 0.8rem !important;
-                    font-weight: 400 ;
-                    color:black !important;
+                    font-family: $mainFont !important;
+                    font-size: $smallTitle !important;
+                    font-weight:$boldMedium ;
+                    color:$blackColor !important;
                 }
             }
         }
