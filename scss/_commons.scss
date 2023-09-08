@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0c0c0c;
-    font-family: 'Poppins', sans-serif;
+    background-color: $blackColor;
+    font-family: $mainFont;
 }
 html{
     scroll-behavior: smooth;
     .contenedor{
         width: 100%;
         height: auto;
-        margin: 0px auto;
+        margin: $margin;
         .socialMediaUno{
             display: flex;
             flex-direction: column;
@@ -33,13 +33,13 @@ html{
                 width: 100%;
                 padding: 7px 7px;
                 border-radius: $borderRadius;
-                background-color: #ffffff34;
+                background-color: $opacityBackgroundColor;
                 overflow: visible;
-                filter: drop-shadow(0 0 10px #090909);
+                filter: drop-shadow(0 0 10px $shadowColor);
                 transform: scale(100%);
                 transition: all 0.3s ease-in-out;
                 &:hover{
-                    filter: drop-shadow(0 0 10px #3a3a3a);
+                    filter: drop-shadow(0 0 10px $dropShadow);
                     transform: scale(105%);
                 }
             }
