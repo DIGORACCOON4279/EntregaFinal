@@ -137,7 +137,7 @@ body html .contenedor {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .heroSection .hero .info {
   width: 50%;
@@ -248,6 +248,58 @@ body html .contenedor {
     transform: translateX(0%);
     opacity: 1;
   }
+}
+
+.nosotros {
+  width: 90%;
+  max-width: 1100px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros .subtitulo {
+  color: #e3e3e3;
+  font-size: 1.87rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.nosotros .containerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nosotros .containerInfo .laptop {
+  width: 65%;
+}
+.nosotros .containerInfo .info {
+  width: 35%;
+  height: auto;
+  background-color: #0f0f0f;
+  box-shadow: 0 0 10px 2px #090909;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.nosotros .containerInfo .info p {
+  font-size: 1rem;
+  color: #a2a2a2;
+  border-bottom: 1px solid #2e2e2e;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.nosotros .containerInfo .info p span {
+  color: #26a4e3;
+}
+.nosotros .containerInfo .info .grupos {
+  margin-top: 10px;
+  width: 30%;
 }
 
 /*# sourceMappingURL=main.css.map */

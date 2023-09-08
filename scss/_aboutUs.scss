@@ -1,0 +1,53 @@
+// Quienes somos
+
+.nosotros{
+    width:90%;
+    max-width: 1100px;
+    margin: 150px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .subtitulo{
+        color: $whiteColor;
+        font-size: $LargeTitle;
+        font-weight: $bold;
+        margin-bottom: 0px;
+    }
+    .containerInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .laptop{
+            width: 65%;
+        }
+        .info{
+            width: 35%;
+            height: auto;
+            background-color: $backgroundColor;
+            box-shadow: 0 0 10px 2px $shadowColor;
+            border-radius: $cardBorderRadius;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            overflow: hidden;
+            p{
+                font-size: $regularText;
+                color: $tertiaryColor;
+                border-bottom:  1px solid $lineColor;
+                padding-bottom: 10px;
+                font-family: $mainFont;
+                span{
+                    color: #26a4e3;
+                }
+            }
+            .grupos{
+                margin-top: 10px;
+                width: 30%;
+            }
+        }
+    }
+}

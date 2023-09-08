@@ -41,7 +41,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin: 0px auto;
+        margin: $margin;
         .info{
             width: 50%;
             text-align: left;
@@ -77,7 +77,7 @@
             }
             h2{
                 font-size: $MediumTitle;
-                font-weight:$boldMedium;
+                font-weight: $boldMedium;
                 color: $secondaryColor;
             }
             .btnAction{
