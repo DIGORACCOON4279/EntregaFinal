@@ -602,6 +602,120 @@ html .contenedor .arrow {
   object-fit: cover;
 }
 
+.containerTestimony {
+  width: 85%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerTestimony .subtitulo {
+  color: white;
+  font-size: 1.87rem;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+.containerTestimony .bundleOpinion .groupLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 80px auto;
+}
+.containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+  width: 32%;
+  color: aliceblue;
+  background-color: rgb(15, 15, 15);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px 2px #090909;
+  margin: 7px;
+  text-align: left;
+}
+.containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionTop {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionTop .quotationMark {
+  opacity: 0.1;
+}
+.containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionTop .rating {
+  width: 30%;
+  filter: drop-shadow(0px 0px 2px);
+  opacity: 0.8;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionMedium {
+  width: 90%;
+  padding: 10px 10px;
+  border-top: 1px solid #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionMedium .paragraph {
+  font-size: 0.75rem;
+  color: #a2a2a2;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  position: relative;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom .user {
+  width: 15%;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom .data {
+  position: absolute;
+  top: 12px;
+  left: 60px;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom .data p {
+  font-size: 0.6rem;
+  color: #d0d0d0;
+  margin-bottom: 0px;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom .socialMedia {
+  align-self: flex-end;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom .socialMedia a {
+  text-decoration: none;
+}
+.containerTestimony .bundleOpinion .groupLine .opinionBottom .socialMedia .iconLink {
+  width: 20px;
+}
+
+.verMas {
+  width: 20%;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #26A4E3;
+  border: 1px solid #26A4E3;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 60px;
+  padding: 20px 35px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.verMas:hover {
+  background-color: #232323;
+  border: 1px solid #232323;
+  color: #26a4e3;
+  box-shadow: 0 0 10px #26a4e3;
+  text-shadow: 0 0 10px #26a4e3;
+}
+
 .accordion {
   width: 80%;
   height: auto;
