@@ -537,7 +537,6 @@ html .contenedor .arrow {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 300 auto;
 }
 .contenedorMatch .bannerMatch {
   width: 90%;
@@ -546,7 +545,7 @@ html .contenedor .arrow {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .contenedorMatch .bannerMatch .sideCompany, .contenedorMatch .bannerMatch .sideStaff {
   width: 100%;
@@ -558,20 +557,19 @@ html .contenedor .arrow {
   justify-content: space-between;
   align-items: center;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff {
   width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #141414;
+  background-color: #101010;
   border-radius: 20px;
   margin: 30px auto;
   padding: 5px 15px;
   column-gap: 15px;
-}
-.contenedorMatch .bannerMatch .sideCompany .cardCompany {
   animation: company 10000ms linear infinite;
+  animation: staff 10000ms linear infinite;
 }
 @keyframes company {
   0% {
@@ -595,9 +593,6 @@ html .contenedor .arrow {
     opacity: 0;
   }
 }
-.contenedorMatch .bannerMatch .sideStaff .cardStaff {
-  animation: staff 10000ms linear infinite;
-}
 @keyframes staff {
   0% {
     transform: translateY(-750%);
@@ -620,44 +615,44 @@ html .contenedor .arrow {
     opacity: 0;
   }
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .picCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .picStaff {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .picCompany, .contenedorMatch .bannerMatch .sideCompany .cardCompany .picStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .picCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .picStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .picCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .picStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .picCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .picStaff {
   width: 35px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines, .contenedorMatch .bannerMatch .sideCompany .cardStaff .lines, .contenedorMatch .bannerMatch .sideStaff .cardCompany .lines, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines .line, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines .line {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines .line, .contenedorMatch .bannerMatch .sideCompany .cardStaff .lines .line, .contenedorMatch .bannerMatch .sideStaff .cardCompany .lines .line, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines .line {
   width: 100%;
   height: 10px;
-  background-color: #242424;
+  background-color: #232323;
   margin: 2px auto;
   border-radius: 50px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .company, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .company, .contenedorMatch .bannerMatch .sideCompany .cardCompany .staff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .company, .contenedorMatch .bannerMatch .sideCompany .cardStaff .staff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .company, .contenedorMatch .bannerMatch .sideStaff .cardCompany .staff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .company, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .iconStaff {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardCompany .company .iconStaff, .contenedorMatch .bannerMatch .sideCompany .cardCompany .staff .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardCompany .staff .iconStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .company .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .company .iconStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .staff .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .staff .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .company .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .staff .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .staff .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .company .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .iconStaff {
   width: 18px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .company .description {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .descriptionCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .descriptionCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .descriptionCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .descriptionCompany {
   font-size: 0.6rem;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin-top: 30px;
-  color: #EB5A00;
+  color: #eb5a00;
   background-color: rgba(235, 90, 0, 0.2196078431);
   padding: 4px 8px;
   border-radius: 50px;
 }
-.contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .description {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .descriptionStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .descriptionStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .descriptionStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .descriptionStaff {
   font-size: 0.6rem;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin-top: 30px;
   color: #26A4E3;
@@ -668,7 +663,7 @@ html .contenedor .arrow {
 .contenedorMatch .bannerMatch .centerMatch {
   background-color: transparent;
   border-radius: 20px;
-  margin: 0px auto;
+  margin: 0 auto;
   z-index: 10;
 }
 .contenedorMatch .bannerMatch .centerMatch .center {
@@ -793,7 +788,7 @@ html .contenedor .arrow {
 .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
   width: 32%;
   color: #a2a2a2;
-  background-color: #141414;
+  background-color: #101010;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -859,8 +854,7 @@ html .contenedor .arrow {
 .containerTestimony .bundleOpinion .groupLine .opinionBottom .socialMedia .iconLink {
   width: 20px;
 }
-
-.verMas {
+.containerTestimony .verMas {
   width: 20%;
   font-size: 1rem;
   text-align: center;
@@ -876,7 +870,7 @@ html .contenedor .arrow {
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
-.verMas:hover {
+.containerTestimony .verMas:hover {
   background-color: #232323;
   border: 1px solid #232323;
   color: #26A4E3;
