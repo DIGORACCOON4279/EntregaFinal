@@ -456,6 +456,147 @@ html .contenedor .arrow {
   box-shadow: 0 0 21px 7px #010101;
 }
 
+.buscadorServices {
+  width: 50%;
+  margin: 150px auto !important;
+}
+.buscadorServices p {
+  font-size: 1rem;
+  text-align: left;
+  color: #e3e3e3;
+}
+.buscadorServices input {
+  width: 100%;
+  font-size: 0.8rem;
+  border-radius: 50px !important;
+  border: 1px solid #090909;
+  box-shadow: 0 0 10px 2px #090909;
+  background-color: #0f0f0f;
+  color: #a2a2a2;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 35px;
+}
+
+.cards {
+  width: 85%;
+  max-width: 1100px;
+  margin: 150px auto;
+}
+.cards .subtitle {
+  color: #e3e3e3;
+  font-size: 1.87rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+}
+.cards .contenedorDevelopers .cardDev {
+  background-color: #0f0f0f;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 3px 3px;
+  flex-wrap: wrap;
+  border: 1px solid #0f0f0f;
+  transform: scale(100%);
+  box-shadow: 0 0 10px 2px #090909;
+  transition: transform 0.3s;
+}
+.cards .contenedorDevelopers .cardDev:hover {
+  background-color: #2b1000;
+  box-shadow: 0 0 10px #eb5a00;
+  transform: scale(98%);
+  border: 1px solid transparent;
+  text-shadow: 0 0 10px #eb5a00;
+}
+.cards .contenedorDevelopers .cardDev .card {
+  width: 55px;
+  border: 1px solid transparent;
+  object-fit: contain;
+}
+.cards .contenedorDevelopers .cardDev h3 {
+  color: #a2a2a2;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.cards .anuncio {
+  color: #a2a2a2;
+  font-size: 1rem;
+  margin: 40px auto;
+}
+.cards .contactanosDesarrolladores {
+  width: 20%;
+  font-size: 1rem;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: #eb5a00;
+  border: 1px solid #eb5a00;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px 35px;
+  margin: 0px auto 100px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.cards .contactanosDesarrolladores:hover {
+  background-color: #232323;
+  border: 1px solid #232323;
+  color: #eb5a00;
+  box-shadow: 0 0 10px #eb5a00;
+  text-shadow: 0 0 10px #eb5a00;
+}
+.cards .contenedorDesigners .cardDesigners {
+  background-color: #0f0f0f;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 3px 3px;
+  flex-wrap: wrap;
+  border: 1px solid #0f0f0f;
+  transform: scale(100%);
+  box-shadow: 0 0 10px 2px #090909;
+  transition: transform 0.3s;
+}
+.cards .contenedorDesigners .cardDesigners:hover {
+  background-color: #00344e;
+  border: 1px solid transparent;
+  transform: scale(98%);
+  box-shadow: 0 0 10px #26A4E3;
+  text-shadow: 0 0 10px #26A4E3;
+}
+.cards .contenedorDesigners .cardDesigners .card {
+  width: 55px;
+  border: 1px solid transparent;
+  object-fit: contain;
+}
+.cards .contenedorDesigners .cardDesigners h3 {
+  color: #a2a2a2;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.cards .contactanosDiseñadores {
+  width: 20%;
+  font-size: 1rem;
+  text-align: center;
+  color: #e3e3e3;
+  background-color: #26A4E3;
+  border: 1px solid #26A4E3;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px 35px;
+  margin: 0px auto 100px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.cards .contactanosDiseñadores:hover {
+  background-color: #232323;
+  border: 1px solid #232323;
+  color: #26A4E3;
+  box-shadow: 0 0 10px #26A4E3;
+  text-shadow: 0 0 10px #26A4E3;
+}
+
 .bannerPublicidadUno {
   width: 100%;
   height: auto;
