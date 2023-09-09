@@ -1,11 +1,39 @@
 // Testimony
 .containerTestimony{
     width: 85%;
-    margin:$margin;
+    margin: $containerMargin;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    .headline{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin:$categoryMargin;
+        .subtitle{
+            color: white;
+            font-size: 1.87rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        .paragraph{
+            font-size: 1rem;
+            text-align: left;
+            color: white;
+        }
+        .promotion{
+            font-size: 1rem;
+            text-align: left;
+            color: #EB5A00;
+            background-color: #eb5a0038;
+            font-weight: 600;
+            border-radius: 50px;
+            padding:10px 10px;
+        }
+    }
     .subtitulo{
         color:  $whiteColor;
         font-size: $LargeTitle;
@@ -13,11 +41,11 @@
         margin-bottom: 100px;
     }
     .bundleOpinion{
-            .groupLine{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin: 0 auto 80px auto;
+        .groupLine{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: $neutralMargin;
                 .cardOpinionShort{
                     width:32%;
                     color: $tertiaryColor;
@@ -42,7 +70,7 @@
                         .rating{
                             width: 30%;
                             filter: drop-shadow(0px 0px 2px);
-                                opacity: .8;
+                            opacity: .8;
                         }
                     }
                 }
@@ -90,26 +118,26 @@
             }
         }
         .verMas{
-        width:20%;
-        font-size: $regularText;
-        text-align: center;
-        color: $whiteColor;
-        background-color: $primaryColor;
-        border:1px solid $primaryColor;
-        border-radius: 50px;
-        cursor: pointer;
-        margin-top:60px;
-        padding:  $paddingCto;
-        text-decoration: none;
-        font-family: $mainFont;
-        font-weight: $bold;
-        transition: all 0.3s ease-in-out;
-        &:hover{
-            background-color:$hoverColor;
-            border:1px solid $hoverColor;
-            color: $primaryColor;
-            box-shadow: 0 0 10px $primaryColor;
-            text-shadow: 0 0 10px $primaryColor;
+            width:20%;
+            font-size: $regularText;
+            text-align: center;
+            color: $whiteColor;
+            background-color: $primaryColor;
+            border:1px solid $primaryColor;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top:60px;
+            padding:  $paddingCto;
+            text-decoration: none;
+            font-family: $mainFont;
+            font-weight: $bold;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color:$hoverColor;
+                border:1px solid $hoverColor;
+                color: $primaryColor;
+                box-shadow: 0 0 10px $primaryColor;
+                text-shadow: 0 0 10px $primaryColor;
+            }
         }
     }
-}
