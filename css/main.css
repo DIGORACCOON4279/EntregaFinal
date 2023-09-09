@@ -526,10 +526,10 @@ html .contenedor .arrow {
 .accordion {
   width: 80%;
   height: auto;
-  margin: 150px auto 150px auto !important;
+  margin: 150px auto !important;
 }
 .accordion .subtitle {
-  color: white;
+  color: #e3e3e3;
   font-size: 1.87rem;
   font-weight: 600;
   margin: 0px auto 100px;
@@ -540,7 +540,7 @@ html .contenedor .arrow {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .accordion .scrollDownAnswers details {
   padding: 10px 0px;
@@ -551,7 +551,7 @@ html .contenedor .arrow {
   font-size: 1rem;
   font-weight: 400;
   padding: 10px 0px;
-  font-family: poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   border-bottom: 1px solid #2e2e2e;
 }
 .accordion .scrollDownAnswers details p {
@@ -560,7 +560,7 @@ html .contenedor .arrow {
   font-weight: 400;
   margin: 15px auto 0px;
   padding: 20px 20px;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #0f0f0f;
   box-shadow: 0 0 10px 2px #090909;
   border-radius: 10px;
@@ -569,20 +569,20 @@ html .contenedor .arrow {
   width: 20%;
   display: block;
   cursor: pointer;
-  background-color: #26a4e3;
+  background-color: #26A4E3;
   border: 1px solid #26A4E3;
   border-radius: 50px;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1rem;
   color: #ffffff;
   margin: 40px auto;
-  padding: 15px 35px;
+  padding: 20px 35px;
   text-align: center;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
-.accordion .whatsApp :hover {
+.accordion .whatsApp:hover {
   background-color: #232323;
   border: 1px solid #232323;
   color: #26A4E3;
