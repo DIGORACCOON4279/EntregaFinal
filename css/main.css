@@ -523,4 +523,154 @@ html .contenedor .arrow {
   color: #0c0c0c !important;
 }
 
+.footer {
+  width: 100%;
+  border: 1px solid #090909;
+  box-shadow: 0 0 10px 2px #090909;
+  background-color: #0f0f0f;
+  padding-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .mainFooter {
+  width: 75%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer .mainFooter .services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer .mainFooter .services .logo {
+  width: 40px;
+}
+.footer .mainFooter .services .apps {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-top: 1px solid #2e2e2e;
+}
+.footer .mainFooter .services .apps h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 0.7rem;
+  color: #b6b4b4;
+}
+.footer .mainFooter .services .apps .app {
+  width: 100px;
+  filter: contrast(85%);
+  text-align: flex-start;
+}
+.footer .mainFooter .menu ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer .mainFooter .menu ul li {
+  list-style: none;
+  text-align: start;
+}
+.footer .mainFooter .menu ul li a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #b6b4b4;
+}
+.footer .mainFooter .menu ul li a:hover {
+  text-decoration: underline;
+}
+.footer .footerMedium {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .footerMedium .news {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerMedium .news .inscribir {
+  text-align: center;
+  color: #b6b4b4;
+  font-size: 0.8rem;
+}
+.footer .footerMedium .news .accion {
+  margin-top: 10px;
+  display: flex;
+}
+.footer .footerMedium .news .accion input {
+  width: 250px;
+  border-radius: 50px !important;
+  border: 1px solid #090909;
+  box-shadow: 0 0 10px 2px #090909;
+  background-color: #0f0f0f;
+  color: #8a8a8a;
+  font-family: poppins, sans-serif;
+  margin: 0px 5px;
+  text-align: left;
+  padding-left: 20px;
+}
+.footer .footerMedium .news .accion .btnAccion {
+  width: 150px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #26A4E3;
+  border: 1px solid #26A4E3;
+  border-radius: 50px !important;
+  cursor: pointer;
+  padding: 12.5px 5px;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.footer .footerMedium .news .accion .btnAccion:hover {
+  background-color: #232323;
+  border: 1px solid #232323;
+  color: #26A4E3;
+  box-shadow: 0 0 10px #26A4E3;
+  text-shadow: 0 0 10px #26A4E3;
+}
+.footer .containerSocialMedia .socialMedia {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px auto;
+  padding: 0px;
+}
+.footer .containerSocialMedia .socialMedia li {
+  list-style: none;
+}
+.footer .containerSocialMedia .socialMedia li a {
+  text-decoration: none;
+}
+.footer .containerSocialMedia .socialMedia li a .iconLink {
+  width: 20px;
+  transform: scale(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.footer .containerSocialMedia .socialMedia li a .iconLink:hover {
+  filter: drop-shadow(0 0 10px #3a3a3a);
+  transform: scale(112%);
+}
+.footer .containerSocialMedia p {
+  margin: 0px auto;
+  text-align: center;
+  border-top: 1px solid #2e2e2e;
+  padding-top: 5px;
+  font-size: 0.5rem;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
