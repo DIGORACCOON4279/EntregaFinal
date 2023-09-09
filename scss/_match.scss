@@ -1,0 +1,168 @@
+// Match
+.contenedorMatch{
+    width:100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 150px auto;
+    max-height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 300 auto;
+    .bannerMatch{
+        width:90%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin:0 auto;
+        .sideCompany, .sideStaff{
+            width:100%;
+            height: 100%;
+            max-height: 600px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .sideCompany .cardCompany, .sideStaff .cardStaff{
+            width: 85%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #141414;
+            border-radius: 20px;
+            margin: 30px auto;
+            padding: 5px 15px;
+            column-gap:15px;
+        }
+        .sideCompany .cardCompany{
+            animation:company 10000ms linear infinite;
+            @keyframes company{
+                0%{
+                    transform: translateY(50%);
+                    opacity: 0.0;
+                }
+                25%{
+                    transform: translateY(-100%);
+                    opacity: 1;
+                }
+                50%{
+                    transform: translateY(-250%);
+                    opacity: 1;
+                }
+                75%{
+                    transform: translateY(-450%);
+                    opacity: 1;
+                }
+                100%{
+                    transform: translateY(-600%);
+                    opacity: 0.0;
+                }
+            }
+        }
+        .sideStaff .cardStaff{
+            animation: staff 10000ms linear infinite;
+            @keyframes staff{
+                0%{
+                    transform: translateY(-750%);
+                    opacity: 0.0;
+                }
+                25%{
+                    transform: translateY(-600%);
+                    opacity: 1;
+                }
+                50%{
+                    transform: translateY(-450%);
+                    opacity: 1;
+                }
+                75%{
+                    transform: translateY(-300%);
+                    opacity: 1;
+                }
+                100%{
+                    transform: translateY(-150%);
+                    opacity: 0.0;
+                }
+            }
+        }
+        .sideCompany .cardCompany .picCompany, .sideStaff .cardStaff .picStaff{
+            width: 35px ;
+        }
+        .sideCompany .cardCompany .lines, .sideStaff .cardStaff .lines{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .sideCompany .cardCompany .lines .line, .sideStaff .cardStaff .lines .line{
+            width:100%;
+            height: 10px;
+            background-color: #242424;
+            margin: 2px auto;
+            border-radius: 50px;
+        }
+        .sideCompany .cardCompany .company, .sideStaff .cardStaff .staff{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .sideCompany .cardCompany .company .iconCompany, .sideStaff .cardStaff .staff .iconStaff{
+            width: 18px;
+        }
+        .sideCompany .cardCompany .company .description{
+            font-size: 0.6rem;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            margin-top:30px;
+            color: #EB5A00;
+            background-color:#eb5a0038;
+            padding: 4px 8px;
+            border-radius: 50px;
+        }
+        .sideStaff .cardStaff .staff .description{
+            font-size: 0.6rem;
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            margin-top:30px;
+            color: #26A4E3;
+            background-color:#26a4e338;
+            padding: 4px 8px;
+            border-radius: 50px;
+        }
+        .centerMatch{
+            background-color: transparent;
+            border-radius: 20px;
+            margin: 0px auto;
+            z-index: 10;
+            .center{
+                width:300px;
+                height:auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 20px auto;
+                .blockStaff .logo, .blockCompany .logo{
+                    width:55px;
+                }
+                .letterMatch .match{
+                    font-family: 'Press Start 2P', cursive;
+                    filter: drop-shadow(0 0 5px #eb5a00);
+                    font-size: 6rem;
+                    color: #5a5a5a;
+                    margin: 25px auto;
+                }
+            }
+        }
+    }
+}

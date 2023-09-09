@@ -523,6 +523,174 @@ html .contenedor .arrow {
   color: #0c0c0c !important;
 }
 
+.contenedorMatch {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 150px auto;
+  max-height: max-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 300 auto;
+}
+.contenedorMatch .bannerMatch {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.contenedorMatch .bannerMatch .sideCompany, .contenedorMatch .bannerMatch .sideStaff {
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141414;
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 5px 15px;
+  column-gap: 15px;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany {
+  animation: company 10000ms linear infinite;
+}
+@keyframes company {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-250%);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(-450%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-600%);
+    opacity: 0;
+  }
+}
+.contenedorMatch .bannerMatch .sideStaff .cardStaff {
+  animation: staff 10000ms linear infinite;
+}
+@keyframes staff {
+  0% {
+    transform: translateY(-750%);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(-600%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-450%);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(-300%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .picCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .picStaff {
+  width: 35px;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines .line, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines .line {
+  width: 100%;
+  height: 10px;
+  background-color: #242424;
+  margin: 2px auto;
+  border-radius: 50px;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .company, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .iconStaff {
+  width: 18px;
+}
+.contenedorMatch .bannerMatch .sideCompany .cardCompany .company .description {
+  font-size: 0.6rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  color: #EB5A00;
+  background-color: rgba(235, 90, 0, 0.2196078431);
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+.contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .description {
+  font-size: 0.6rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  color: #26A4E3;
+  background-color: rgba(38, 164, 227, 0.2196078431);
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+.contenedorMatch .bannerMatch .centerMatch {
+  background-color: transparent;
+  border-radius: 20px;
+  margin: 0px auto;
+  z-index: 10;
+}
+.contenedorMatch .bannerMatch .centerMatch .center {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.contenedorMatch .bannerMatch .centerMatch .center .blockStaff .logo, .contenedorMatch .bannerMatch .centerMatch .center .blockCompany .logo {
+  width: 55px;
+}
+.contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
+  font-family: "Press Start 2P", cursive;
+  filter: drop-shadow(0 0 5px #eb5a00);
+  font-size: 6rem;
+  color: #5a5a5a;
+  margin: 25px auto;
+}
+
 .patrocinadores {
   width: 80%;
   margin: 150px auto;
