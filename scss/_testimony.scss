@@ -1,6 +1,7 @@
 // Testimony
 .containerTestimony{
-    width: 85%;
+    width: $containerWidth;
+    max-width: $maxWidth;
     margin: $containerMargin;
     display:flex;
     flex-direction: column;

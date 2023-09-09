@@ -1,0 +1,84 @@
+// FormContainer
+.formContainer{
+    width: $containerWidth;
+    max-width: $maxWidth;
+    height: auto;
+    margin:-50px auto 100px !important;
+    text-align: center;
+    .subtitulo{
+        color: $whiteColor;
+        font-size: $LargeTitle;
+        font-weight: $bold;
+        margin-bottom: 100px;
+    }
+    .locationForm{
+        .mapa{
+            border-radius: 20px;
+            filter: drop-shadow(0 0 7px $tertiaryColor);
+            opacity:.2;
+            transform: scale(100%);
+            transition: all .5s ease-in-out;
+            &:hover{
+                border-radius: 30px;
+                filter:drop-shadow(0 0 3px $tertiaryColor);
+                opacity:.4;
+                transform: scale(103%);
+            }
+        }
+        .form{
+            .formControl{
+                border-radius: $ctoBorderRadius !important;
+            }
+            .form-floating{
+                font-size: $smallTitle ;
+                font-weight: $boldMedium;
+                font-family: $mainFont;
+                background-color: $backgroundColor;
+                box-shadow: 0 0 10px 2px $shadowColor;
+                border-radius: $ctoBorderRadius!important;
+                label{
+                    display: block;
+                    font-weight: $boldMedium;
+                    font-size:  $smallTitle;
+                    border-radius: $ctoBorderRadius !important;
+                }
+            }
+            textarea, input{
+                display: block;
+                width:100%;
+                padding:15px;
+                border-radius: 20px !important;
+                font-size:  $smallTitle;
+                font-weight: $boldMedium;
+                border: 1px solid transparent;
+                background-color: $backgroundColor;
+                box-shadow: 0 0 10px 2px $shadowColor;
+                color:  $tertiaryColor;
+            }
+            .btnAccion{
+                width: 46%;
+                display:inline;
+                cursor: pointer;
+                background-color:  $primaryColor;
+                border:1px solid  $primaryColor;
+                border-radius: $ctoBorderRadius !important;
+                font-family: $mainFont;
+                font-weight: $bold;
+                font-size:$regularText;
+                color:  $whiteColor;
+                margin: 0px 5px;
+                padding: $paddingCto;
+                text-align: center;
+                font-family: $mainFont;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    background-color: $hoverColor;
+                    border:1px solid  $hoverColor;
+                    color:  $primaryColor;
+                    box-shadow: 0 0 10px  $primaryColor;
+                    text-shadow: 0 0 10px  $primaryColor;
+                }
+            }
+        }
+    }
+}

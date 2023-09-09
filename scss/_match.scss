@@ -1,7 +1,7 @@
 // Match
 .contenedorMatch{
-    width:100%;
-    max-width: 1200px;
+    width: $containerWidth;
+    max-width: $maxWidth;
     height: auto;
     margin: $sectionMargin;
     max-height: max-content;

@@ -1,6 +1,7 @@
 // Sponsor
 .patrocinadores{
-    width:80%;
+    width: $containerWidth;
+    max-width: $maxWidth;
     margin:  $sectionMargin;
     display:flex;
     flex-direction: column;

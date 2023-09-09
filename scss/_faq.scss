@@ -1,6 +1,7 @@
 // ContactUs
 .accordion{
-    width:80%;
+    width: $containerWidth;
+    max-width: $maxWidth;
     height:auto;
     margin: $sectionMargin !important;
     .subtitle{
