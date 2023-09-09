@@ -604,14 +604,14 @@ html .contenedor .arrow {
 
 .containerTestimony {
   width: 85%;
-  margin: 0px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .containerTestimony .subtitulo {
-  color: white;
+  color: #e3e3e3;
   font-size: 1.87rem;
   font-weight: 600;
   margin-bottom: 100px;
@@ -624,8 +624,8 @@ html .contenedor .arrow {
 }
 .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
   width: 32%;
-  color: aliceblue;
-  background-color: rgb(15, 15, 15);
+  color: #a2a2a2;
+  background-color: #141414;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -657,7 +657,7 @@ html .contenedor .arrow {
   border-bottom: 1px solid #2e2e2e;
 }
 .containerTestimony .bundleOpinion .groupLine .opinionMedium .paragraph {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #a2a2a2;
 }
 .containerTestimony .bundleOpinion .groupLine .opinionBottom {
@@ -679,7 +679,7 @@ html .contenedor .arrow {
 }
 .containerTestimony .bundleOpinion .groupLine .opinionBottom .data p {
   font-size: 0.6rem;
-  color: #d0d0d0;
+  color: #a2a2a2;
   margin-bottom: 0px;
 }
 .containerTestimony .bundleOpinion .groupLine .opinionBottom .socialMedia {
@@ -696,7 +696,7 @@ html .contenedor .arrow {
   width: 20%;
   font-size: 1rem;
   text-align: center;
-  color: white;
+  color: #e3e3e3;
   background-color: #26A4E3;
   border: 1px solid #26A4E3;
   border-radius: 50px;
@@ -711,9 +711,9 @@ html .contenedor .arrow {
 .verMas:hover {
   background-color: #232323;
   border: 1px solid #232323;
-  color: #26a4e3;
-  box-shadow: 0 0 10px #26a4e3;
-  text-shadow: 0 0 10px #26a4e3;
+  color: #26A4E3;
+  box-shadow: 0 0 10px #26A4E3;
+  text-shadow: 0 0 10px #26A4E3;
 }
 
 .accordion {
