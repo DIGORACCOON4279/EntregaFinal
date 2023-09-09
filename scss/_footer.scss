@@ -1,9 +1,9 @@
 // Footer
 .footer{
     width:100%;
-    border: 1px solid #090909;
-    box-shadow: 0 0 10px 2px #090909;
-    background-color: #0f0f0f;
+    border: 1px solid $shadowColor;
+    box-shadow: 0 0 10px 2px $shadowColor;
+    background-color: $backgroundColor;
     padding-bottom: 10px;
     text-align: center;
     display: flex;
@@ -31,12 +31,12 @@
                 flex-direction:column;
                 justify-content: space-around;
                 align-items: flex-start;
-                border-top: 1px solid #2e2e2e;
+                border-top: 1px solid $lineColor;
                 h4{
                     margin-top:5px;
                     margin-bottom: 5px;
-                    font-size:0.7rem;
-                    color: #b6b4b4;
+                    font-size:$smallTitle;
+                    color: $tertiaryColor;
                 }
                 .app{
                     width:100px;
@@ -54,8 +54,8 @@
                     text-align: start;
                     a{
                         text-decoration: none;
-                        font-size:0.7rem;
-                        color: #b6b4b4;
+                        font-size:$smallTitle;
+                        color: $tertiaryColor;
                         &:hover{
                             text-decoration: underline;
                         }
@@ -75,8 +75,8 @@
             flex-direction: column;
             .inscribir{
                 text-align: center;
-                color: #b6b4b4;
-                font-size: 0.8rem;
+                color: $tertiaryColor;
+                font-size: $smallTitle;
             }
             .accion{
                 margin-top:10px;
@@ -84,35 +84,35 @@
                 input{
                     width: 250px;
                     border-radius: 50px !important;
-                    border: 1px solid #090909;
-                    box-shadow: 0 0 10px 2px #090909;
-                    background-color: #0f0f0f;
-                    color: #8a8a8a;
-                    font-family: poppins, sans-serif;
+                    border: 1px solid $shadowColor;
+                    box-shadow: 0 0 10px 2px $shadowColor;
+                    background-color: $backgroundColor;
+                    color: $tertiaryColor;
+                    font-family: $mainFont;
                     margin: 0px 5px;
                     text-align: left;
                     padding-left: 20px;
                 }
                 .btnAccion{
                     width: 150px;
-                    font-size: 1rem;
+                    font-size: $regularText;
                     text-align: center;
-                    color: white;
-                    background-color: #26A4E3;
-                    border:1px solid #26A4E3;
+                    color: $whiteColor;
+                    background-color: $primaryColor;
+                    border:1px solid $primaryColor;
                     border-radius: 50px !important;
                     cursor: pointer;
                     padding: 12.5px 5px;
                     text-decoration: none;
-                    font-family: poppins, sans-serif;
-                    font-weight: 600;
+                    font-family: $mainFont;
+                    font-weight: $bold;
                     transition: all 0.3s ease-in-out;
                     &:hover{
-                        background-color:#232323;
-                        border:1px solid #232323;
-                        color: #26A4E3;
-                        box-shadow: 0 0 10px #26A4E3;
-                        text-shadow: 0 0 10px #26A4E3;
+                        background-color:$hoverColor;
+                        border:1px solid $hoverColor;
+                        color: $primaryColor;
+                        box-shadow: 0 0 10px $primaryColor;
+                        text-shadow: 0 0 10px $primaryColor;
                     }
                 }
             }
@@ -136,7 +136,7 @@
                         transform: scale(100%);
                         transition: transform .3s ease-in-out;
                         &:hover{
-                            filter: drop-shadow(0 0 10px #3a3a3a);
+                            filter: drop-shadow(0 0 10px $dropShadow);
                             transform: scale(112%);
                         }
                     }
@@ -144,12 +144,12 @@
             }
         }
         p{
-            margin: 0px auto;
+            margin:$neutralMargin;
             text-align: center;
-            border-top: 1px solid #2e2e2e;
+            border-top: 1px solid $lineColor;
             padding-top: 5px;
-            font-size: 0.5rem;
-            color: white;
+            font-size:$xSmallParagraphText;
+            color:  $whiteColor;
         }
     }
 }
