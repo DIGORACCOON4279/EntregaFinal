@@ -17,7 +17,7 @@ html {
 html .contenedor {
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 html .contenedor .socialMediaUno {
   display: flex;
@@ -199,7 +199,7 @@ html .contenedor .arrow {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .heroSection .hero .info {
   width: 50%;
@@ -372,7 +372,7 @@ html .contenedor .arrow {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .contenedorEmpleos .subtitulo {
   color: #e3e3e3;
@@ -387,7 +387,7 @@ html .contenedor .arrow {
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .contenedorEmpleos .empleosArticle {
   width: 40%;
@@ -438,7 +438,7 @@ html .contenedor .arrow {
 .contenedorEmpleos .screens {
   width: 60%;
   height: auto;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 .contenedorEmpleos .screens .screen {
   width: 100%;
@@ -506,7 +506,7 @@ html .contenedor .arrow {
   height: 100%;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion {
-  width: 35% !important;
+  width: 40% !important;
   margin: auto auto !important;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header {
@@ -663,7 +663,7 @@ html .contenedor .arrow {
 .contenedorMatch .bannerMatch .centerMatch {
   background-color: transparent;
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 0px auto;
   z-index: 10;
 }
 .contenedorMatch .bannerMatch .centerMatch .center {
@@ -681,8 +681,8 @@ html .contenedor .arrow {
 .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
   font-family: "Press Start 2P", cursive;
   filter: drop-shadow(0 0 5px #eb5a00);
-  font-size: 6rem;
-  color: #5a5a5a;
+  font-size: 5rem;
+  color: #3a3a3a;
   margin: 25px auto;
 }
 
@@ -767,7 +767,7 @@ html .contenedor .arrow {
 
 .containerTestimony {
   width: 85%;
-  margin: 0 auto;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;

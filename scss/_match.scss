@@ -148,15 +148,19 @@
                 justify-content: center;
                 align-items: center;
                 margin: 20px auto;
-                .blockStaff .logo, .blockCompany .logo{
-                    width:55px;
+                .blockStaff, .blockCompany{
+                    .logo{
+                        width:55px;
+                    }
                 }
-                .letterMatch .match{
-                    font-family: 'Press Start 2P', cursive;
-                    filter: drop-shadow(0 0 5px #eb5a00);
-                    font-size: 6rem;
-                    color: #5a5a5a;
-                    margin: 25px auto;
+                .letterMatch{
+                    .match{
+                        font-family: $secondaryFont;
+                        filter: drop-shadow(0 0 5px $secondaryColor);
+                        font-size: $matchLetter;
+                        color: $dropShadow;
+                        margin: 25px auto;
+                    }
                 }
             }
         }
