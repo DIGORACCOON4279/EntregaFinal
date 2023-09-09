@@ -557,7 +557,7 @@ html .contenedor .arrow {
   justify-content: space-between;
   align-items: center;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff {
+.contenedorMatch .bannerMatch .sideCompany .cardCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany {
   width: 85%;
   display: flex;
   flex-direction: row;
@@ -569,7 +569,6 @@ html .contenedor .arrow {
   padding: 5px 15px;
   column-gap: 15px;
   animation: company 10000ms linear infinite;
-  animation: staff 10000ms linear infinite;
 }
 @keyframes company {
   0% {
@@ -593,6 +592,20 @@ html .contenedor .arrow {
     opacity: 0;
   }
 }
+.contenedorMatch .bannerMatch .sideCompany .cardStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101010;
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 5px 15px;
+  column-gap: 15px;
+  animation: company 10000ms linear infinite;
+  animation: staff 10000ms linear infinite;
+}
 @keyframes staff {
   0% {
     transform: translateY(-750%);
@@ -615,32 +628,32 @@ html .contenedor .arrow {
     opacity: 0;
   }
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .picCompany, .contenedorMatch .bannerMatch .sideCompany .cardCompany .picStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .picCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .picStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .picCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .picStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .picCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .picStaff {
+.contenedorMatch .bannerMatch .sideCompany .picCompany, .contenedorMatch .bannerMatch .sideCompany .picStaff, .contenedorMatch .bannerMatch .sideStaff .picCompany, .contenedorMatch .bannerMatch .sideStaff .picStaff {
   width: 35px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines, .contenedorMatch .bannerMatch .sideCompany .cardStaff .lines, .contenedorMatch .bannerMatch .sideStaff .cardCompany .lines, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines {
+.contenedorMatch .bannerMatch .sideCompany .lines, .contenedorMatch .bannerMatch .sideStaff .lines {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .lines .line, .contenedorMatch .bannerMatch .sideCompany .cardStaff .lines .line, .contenedorMatch .bannerMatch .sideStaff .cardCompany .lines .line, .contenedorMatch .bannerMatch .sideStaff .cardStaff .lines .line {
+.contenedorMatch .bannerMatch .sideCompany .lines .line, .contenedorMatch .bannerMatch .sideStaff .lines .line {
   width: 100%;
   height: 10px;
   background-color: #232323;
   margin: 2px auto;
   border-radius: 50px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .company, .contenedorMatch .bannerMatch .sideCompany .cardCompany .staff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .company, .contenedorMatch .bannerMatch .sideCompany .cardStaff .staff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .company, .contenedorMatch .bannerMatch .sideStaff .cardCompany .staff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .company, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff {
+.contenedorMatch .bannerMatch .sideCompany .company, .contenedorMatch .bannerMatch .sideCompany .staff, .contenedorMatch .bannerMatch .sideStaff .company, .contenedorMatch .bannerMatch .sideStaff .staff {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardCompany .company .iconStaff, .contenedorMatch .bannerMatch .sideCompany .cardCompany .staff .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardCompany .staff .iconStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .company .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .company .iconStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .staff .iconCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .staff .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .company .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .staff .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .staff .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .company .iconStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .iconCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .staff .iconStaff {
+.contenedorMatch .bannerMatch .sideCompany .company .iconCompany, .contenedorMatch .bannerMatch .sideCompany .company .iconStaff, .contenedorMatch .bannerMatch .sideCompany .staff .iconCompany, .contenedorMatch .bannerMatch .sideCompany .staff .iconStaff, .contenedorMatch .bannerMatch .sideStaff .company .iconCompany, .contenedorMatch .bannerMatch .sideStaff .company .iconStaff, .contenedorMatch .bannerMatch .sideStaff .staff .iconCompany, .contenedorMatch .bannerMatch .sideStaff .staff .iconStaff {
   width: 18px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .descriptionCompany, .contenedorMatch .bannerMatch .sideCompany .cardStaff .descriptionCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany .descriptionCompany, .contenedorMatch .bannerMatch .sideStaff .cardStaff .descriptionCompany {
+.contenedorMatch .bannerMatch .sideCompany .descriptionCompany, .contenedorMatch .bannerMatch .sideStaff .descriptionCompany {
   font-size: 0.6rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -650,7 +663,7 @@ html .contenedor .arrow {
   padding: 4px 8px;
   border-radius: 50px;
 }
-.contenedorMatch .bannerMatch .sideCompany .cardCompany .descriptionStaff, .contenedorMatch .bannerMatch .sideCompany .cardStaff .descriptionStaff, .contenedorMatch .bannerMatch .sideStaff .cardCompany .descriptionStaff, .contenedorMatch .bannerMatch .sideStaff .cardStaff .descriptionStaff {
+.contenedorMatch .bannerMatch .sideCompany .descriptionStaff, .contenedorMatch .bannerMatch .sideStaff .descriptionStaff {
   font-size: 0.6rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -660,13 +673,13 @@ html .contenedor .arrow {
   padding: 4px 8px;
   border-radius: 50px;
 }
-.contenedorMatch .bannerMatch .centerMatch {
+.contenedorMatch .centerMatch {
   background-color: transparent;
   border-radius: 20px;
   margin: 0px auto;
   z-index: 10;
 }
-.contenedorMatch .bannerMatch .centerMatch .center {
+.contenedorMatch .centerMatch .center {
   width: 300px;
   height: auto;
   display: flex;
@@ -675,10 +688,10 @@ html .contenedor .arrow {
   align-items: center;
   margin: 20px auto;
 }
-.contenedorMatch .bannerMatch .centerMatch .center .blockStaff .logo, .contenedorMatch .bannerMatch .centerMatch .center .blockCompany .logo {
+.contenedorMatch .centerMatch .center .blockStaff .logo, .contenedorMatch .centerMatch .center .blockCompany .logo {
   width: 55px;
 }
-.contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
+.contenedorMatch .centerMatch .center .letterMatch .match {
   font-family: "Press Start 2P", cursive;
   filter: drop-shadow(0 0 5px #eb5a00);
   font-size: 5rem;

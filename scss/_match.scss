@@ -30,7 +30,7 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            .cardCompany, .cardStaff{
+            .cardCompany{
                 width: 85%;
                 display: flex;
                 flex-direction: row;
@@ -43,48 +43,62 @@
                 column-gap:15px;
                 animation:company 10000ms linear infinite;
                 @keyframes company{
-                    0%{
-                        transform: translateY(50%);
-                        opacity: 0.0;
-                    }
-                    25%{
-                        transform: translateY(-100%);
-                        opacity: 1;
-                    }
-                    50%{
-                        transform: translateY(-250%);
-                        opacity: 1;
-                    }
-                    75%{
-                        transform: translateY(-450%);
-                        opacity: 1;
-                    }
-                    100%{
-                        transform: translateY(-600%);
-                        opacity: 0.0;
+                        0%{
+                            transform: translateY(50%);
+                            opacity: 0.0;
+                        }
+                        25%{
+                            transform: translateY(-100%);
+                            opacity: 1;
+                        }
+                        50%{
+                            transform: translateY(-250%);
+                            opacity: 1;
+                        }
+                        75%{
+                            transform: translateY(-450%);
+                            opacity: 1;
+                        }
+                        100%{
+                            transform: translateY(-600%);
+                            opacity: 0.0;
+                        }
                     }
                 }
-                animation: staff 10000ms linear infinite;
-                @keyframes staff{
-                    0%{
-                        transform: translateY(-750%);
-                        opacity: 0.0;
-                    }
-                    25%{
-                        transform: translateY(-600%);
-                        opacity: 1;
-                    }
-                    50%{
-                        transform: translateY(-450%);
-                        opacity: 1;
-                    }
-                    75%{
-                        transform: translateY(-300%);
-                        opacity: 1;
-                    }
-                    100%{
-                        transform: translateY(-150%);
-                        opacity: 0.0;
+                .cardStaff{
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: $cardColor;
+                    border-radius: $cardBorderRadius;
+                    margin: 30px auto;
+                    padding: 5px 15px;
+                    column-gap:15px;
+                    animation:company 10000ms linear infinite;
+                    animation: staff 10000ms linear infinite;
+                    @keyframes staff{
+                        0%{
+                            transform: translateY(-750%);
+                            opacity: 0.0;
+                        }
+                        25%{
+                            transform: translateY(-600%);
+                            opacity: 1;
+                        }
+                        50%{
+                            transform: translateY(-450%);
+                            opacity: 1;
+                        }
+                        75%{
+                            transform: translateY(-300%);
+                            opacity: 1;
+                        }
+                        100%{
+                            transform: translateY(-150%);
+                            opacity: 0.0;
+                        }
                     }
                 }
                 .picCompany, .picStaff{
@@ -109,63 +123,62 @@
                     flex-direction: column;
                     align-items: flex-end;
                     .iconCompany, .iconStaff{
-                        width: 18px;
-                    }
-                }
-
-                .descriptionCompany{
-                    font-size: $xSmallParagraphText;
-                    font-family:  $mainFont;
-                    font-weight:$boldMedium;
-                    margin-top:30px;
-                    color: $secondaryColor;
-                    background-color:$orangeOpacityColor;
-                    padding: 4px 8px;
-                    border-radius: $ctoBorderRadius;
-                }
-                .descriptionStaff{
-                    font-size:$xSmallParagraphText;
-                    font-family: $mainFont;
-                    font-weight: $boldMedium;
-                    margin-top:30px;
-                    color: $primaryColor;
-                    background-color:$blueOpacityColor;
-                    padding: 4px 8px;
-                    border-radius: $ctoBorderRadius;
+                    width: 18px;
                 }
             }
+            .descriptionCompany{
+                font-size: $xSmallParagraphText;
+                font-family:  $mainFont;
+                font-weight:$boldMedium;
+                margin-top:30px;
+                color: $secondaryColor;
+                background-color:$orangeOpacityColor;
+                padding: 4px 8px;
+                border-radius: $ctoBorderRadius;
+            }
+            .descriptionStaff{
+                font-size:$xSmallParagraphText;
+                font-family: $mainFont;
+                font-weight: $boldMedium;
+                margin-top:30px;
+                color: $primaryColor;
+                background-color:$blueOpacityColor;
+                padding: 4px 8px;
+                border-radius: $ctoBorderRadius;
+            }
         }
-        .centerMatch{
-            background-color: transparent;
-            border-radius: 20px;
-            margin: $margin;
-            z-index: 10;
-            .center{
-                width:300px;
-                height:auto;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                margin: 20px auto;
-                .blockStaff, .blockCompany{
-                    .logo{
-                        width:55px;
-                    }
+    }
+    .centerMatch{
+        background-color: transparent;
+        border-radius: 20px;
+        margin: $margin;
+        z-index: 10;
+        .center{
+            width:300px;
+            height:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            .blockStaff, .blockCompany{
+                .logo{
+                    width:55px;
                 }
-                .letterMatch{
-                    .match{
-                        font-family: $secondaryFont;
-                        filter: drop-shadow(0 0 5px $secondaryColor);
-                        font-size: $matchLetter;
-                        color: $dropShadow;
-                        margin: 25px auto;
-                    }
+            }
+            .letterMatch{
+                .match{
+                    font-family: $secondaryFont;
+                    filter: drop-shadow(0 0 5px $secondaryColor);
+                    font-size: $matchLetter;
+                    color: $dropShadow;
+                    margin: 25px auto;
                 }
             }
         }
     }
 }
+
 
 
 
