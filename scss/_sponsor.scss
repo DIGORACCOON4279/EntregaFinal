@@ -1,0 +1,79 @@
+// Sponsor
+.patrocinadores{
+    width:80%;
+    margin:  $sectionMargin;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    .subtitulo{
+        color: white;
+        font-size: $LargeTitle;
+        font-weight: $bold;
+        margin:  0px auto 100px;
+    }
+    .empresasPatrocinadorasUno{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        margin: 30px auto;
+        animation: carouselUno 60s linear infinite;
+        @keyframes carouselUno{
+            0%{
+                transform: translate(0%);
+            }
+            25%{
+                transform: translate(-25%);
+            }
+            50%{
+                transform: translate(-50%);
+            }
+            75%{
+                transform: translate(-75%);
+            }
+            100%{
+                transform: translate(-100%);
+            }
+        }
+        img{
+            width: 100px;
+            margin: 0px 50px;
+            filter: grayscale(100%);
+            object-fit: cover;
+        }
+    }
+    .empresasPatrocinadorasDos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        margin: 30px auto;
+        animation: carouselDos 60s linear infinite;
+        @keyframes carouselDos{
+            0%{
+                transform: translate(-100%);
+            }
+            25%{
+                transform: translate(-75%);
+            }
+            50%{
+                transform: translate(-50%);
+            }
+            75%{
+                transform: translate(-25%);
+            }
+            100%{
+                transform: translate(0%);
+            }
+        }
+        img{
+            width: 100px;
+            margin: 0px 50px;
+            filter: grayscale(100%);
+            object-fit: cover;
+        }
+    }
+}

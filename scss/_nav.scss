@@ -50,7 +50,7 @@
                     cursor: pointer;
                     text-decoration: none;
                     color: $whiteColor;
-                    border-bottom:1px solid transparent;
+                    border-bottom:1.5px solid transparent;
                     transition: all .5s ease;
                     .item{
                         display: none;
@@ -59,7 +59,7 @@
                 &:hover .categoria{
                     color:$secondaryColor;
                     background-color: $opacityBackgroundColor;
-                    border-bottom: 1px solid $secondaryColor;
+                    border-bottom: 1.5px solid $secondaryColor;
                 }
             }
         }

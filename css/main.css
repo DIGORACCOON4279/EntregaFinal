@@ -136,7 +136,7 @@ html .contenedor .arrow {
   cursor: pointer;
   text-decoration: none;
   color: #e3e3e3;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1.5px solid transparent;
   transition: all 0.5s ease;
 }
 .header .menu ul li .categoria .item {
@@ -145,7 +145,7 @@ html .contenedor .arrow {
 .header .menu ul li:hover .categoria {
   color: #eb5a00;
   background-color: rgba(255, 255, 255, 0.2039215686);
-  border-bottom: 1px solid #eb5a00;
+  border-bottom: 1.5px solid #eb5a00;
 }
 .header .menu .socialMedia {
   display: none;
@@ -521,6 +521,85 @@ html .contenedor .arrow {
   font-size: 0.8rem !important;
   font-weight: 400;
   color: #0c0c0c !important;
+}
+
+.patrocinadores {
+  width: 80%;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.patrocinadores .subtitulo {
+  color: white;
+  font-size: 1.87rem;
+  font-weight: 600;
+  margin: 0px auto 100px;
+}
+.patrocinadores .empresasPatrocinadorasUno {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  animation: carouselUno 60s linear infinite;
+}
+@keyframes carouselUno {
+  0% {
+    transform: translate(0%);
+  }
+  25% {
+    transform: translate(-25%);
+  }
+  50% {
+    transform: translate(-50%);
+  }
+  75% {
+    transform: translate(-75%);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+.patrocinadores .empresasPatrocinadorasUno img {
+  width: 100px;
+  margin: 0px 50px;
+  filter: grayscale(100%);
+  object-fit: cover;
+}
+.patrocinadores .empresasPatrocinadorasDos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  animation: carouselDos 60s linear infinite;
+}
+@keyframes carouselDos {
+  0% {
+    transform: translate(-100%);
+  }
+  25% {
+    transform: translate(-75%);
+  }
+  50% {
+    transform: translate(-50%);
+  }
+  75% {
+    transform: translate(-25%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+.patrocinadores .empresasPatrocinadorasDos img {
+  width: 100px;
+  margin: 0px 50px;
+  filter: grayscale(100%);
+  object-fit: cover;
 }
 
 .accordion {
