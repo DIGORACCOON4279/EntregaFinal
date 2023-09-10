@@ -840,6 +840,239 @@ html .contenedor .arrow {
   margin: 25px auto;
 }
 
+.containerDevelopment, .containerDesign {
+  width: 85%;
+  max-width: 1100px;
+  margin: 150px auto;
+}
+
+.containerDevelopment .titleDevelopment {
+  color: #e3e3e3;
+  font-size: 1.87rem;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 100px;
+}
+.containerDevelopment .vacanciesDevelopment {
+  display: flex;
+  flex-direction: column;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  background-color: #0f0f0f;
+  box-shadow: 0 0 10px 2px #090909;
+  border-radius: 16px;
+  position: relative;
+  padding: 0px 50px;
+  transform: scale(100%);
+  transition: all 0.3s;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob:hover {
+  box-shadow: 0 0 10px 1px rgba(235, 90, 0, 0.6588235294);
+  transform: scale(100.5%);
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .job {
+  width: 7%;
+  border-radius: 50%;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position h4 {
+  color: rgb(204, 203, 203);
+  padding: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgb(66, 66, 66);
+  padding: 10px 0;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local .dataLink {
+  width: 7%;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p {
+  align-self: flex-end;
+  justify-content: space-between;
+  color: #bababa;
+  font-size: 0.6rem;
+  border-radius: 50px;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p span {
+  color: #EB5A00;
+  font-size: 0.6rem;
+  background-color: rgba(235, 90, 0, 0.2196078431);
+  border-radius: 50px;
+  padding: 5px 5px;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .links {
+  align-self: flex-end;
+  margin: 10px -20px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .links .iconLink {
+  width: 15%;
+  transform: scale(100%);
+  list-style: none;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .postulate {
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 0.3s;
+  align-self: end;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .postulate:hover {
+  background-color: #EB5A00;
+  box-shadow: 0 0 10px #EB5A00;
+}
+.containerDevelopment .vacanciesDevelopment .cardJob .postulate .check {
+  width: 12%;
+  height: 12%;
+}
+
+.containerDesign .titleDesign {
+  color: #e3e3e3;
+  font-size: 1.87rem;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 100px;
+}
+.containerDesign .vacanciesDesign {
+  display: flex;
+  flex-direction: column;
+}
+.containerDesign .vacanciesDesign .cardJob {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  background-color: #0f0f0f;
+  box-shadow: 0 0 10px 2px #090909;
+  border-radius: 16px;
+  position: relative;
+  padding: 0px 50px;
+  transform: scale(100%);
+  transition: all 0.3s;
+}
+.containerDesign .vacanciesDesign .cardJob:hover {
+  box-shadow: 0 0 10px 1px rgba(38, 164, 227, 0.6588235294);
+  transform: scale(100.5%);
+}
+.containerDesign .vacanciesDesign .cardJob .job {
+  width: 7%;
+  border-radius: 50%;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0px 50px;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position h4 {
+  color: #cccbcb;
+  padding: 10px 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #424242;
+  padding: 10px 0;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local .dataLink {
+  width: 7%;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p {
+  align-self: flex-end;
+  justify-content: space-between;
+  color: rgb(186, 186, 186);
+  font-size: 0.6rem;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p span {
+  color: #26A4E3;
+  font-size: 0.6rem;
+  background-color: rgba(38, 164, 227, 0.2196078431);
+  border-radius: 50px;
+  padding: 5px 5px;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .links {
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin: 10px -20px;
+  position: absolute;
+  top: -5px;
+  right: 0;
+}
+.containerDesign .vacanciesDesign .cardJob .cardVacancy .links .iconLink {
+  width: 15%;
+  transform: scale(100%);
+}
+.containerDesign .vacanciesDesign .cardJob .postulate {
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all 0.3s;
+  align-self: flex-end;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.containerDesign .vacanciesDesign .cardJob .postulate:hover {
+  background-color: #26A4E3;
+  box-shadow: 0 0 10px #26A4E3;
+}
+.containerDesign .vacanciesDesign .cardJob .postulate .check {
+  width: 12%;
+  height: 12%;
+}
+
 .patrocinadores {
   width: 85%;
   max-width: 1100px;

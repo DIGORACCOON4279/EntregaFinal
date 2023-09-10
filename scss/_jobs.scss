@@ -1,0 +1,235 @@
+// Jobs Developers & Designers
+.containerDevelopment, .containerDesign{
+    width: $containerWidth;
+    max-width: $maxWidth;
+    margin:  $sectionMargin;
+}
+.containerDevelopment{
+    .titleDevelopment{
+        color: $whiteColor;
+        font-size: 1.87rem;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 100px;
+    }
+    .vacanciesDevelopment{
+        display: flex;
+        flex-direction: column;
+        .cardJob{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+            background-color: #0f0f0f;
+            box-shadow: 0 0 10px 2px #090909;
+            border-radius: 16px;
+            position:relative;
+            padding: 0px 50px;
+            transform: scale(100%);
+            transition: all .3s;
+            &:hover{
+                box-shadow: 0 0 10px 1px #eb5a00a8;
+                transform: scale(100.5%);
+            }
+            .job{
+                width: 7%;
+                border-radius: 50%;
+            }
+            .cardVacancy{
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0px 50px;
+                    .position{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        h4{
+                            color:rgb(204, 203, 203);
+                            padding: 10px 0;
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                        }
+                    }
+                    .local{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        border-top: 1px solid rgb(66, 66, 66);
+                        padding: 10px 0;
+                        .dataLink{
+                            width:7%;
+                        }
+                        p{
+                            align-self: flex-end;
+                            justify-content: space-between;
+                            color:#bababa;
+                            font-size: 0.6rem;
+                            border-radius: 50px;
+                            span{
+                                color: #EB5A00;
+                                font-size: 0.6rem;
+                                background-color:#eb5a0038;
+                                border-radius: 50px;
+                                padding:5px 5px;
+                            }
+                        }
+                    }
+                }
+                .links{
+                    align-self: flex-end;
+                    margin: 10px -20px;
+                    position:absolute;
+                    top: -5px;
+                    right: 0px;
+                    .iconLink{
+                        width: 15%;
+                        transform:scale(100%);
+                        list-style: none
+                    }
+                }
+            }
+            .postulate{
+                padding: 10px 5px;
+                margin-bottom:20px;
+                background-color: rgb(38, 38, 38);
+                color:white;
+                text-decoration: none;
+                border-radius: 50px;
+                display:flex;
+                justify-content: space-evenly;
+                transition: all .3s;
+                align-self: end;
+                font-size: 0.8rem;
+                font-weight: 600;
+                &:hover{
+                    background-color:#EB5A00;
+                    box-shadow: 0 0 10px #EB5A00;
+                }
+                .check{
+                    width:12%;
+                    height: 12%;
+                }
+            }
+        }
+    }
+}
+.containerDesign{
+    .titleDesign{
+        color: $whiteColor;
+        font-size: 1.87rem;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 100px;
+        }
+    .vacanciesDesign{
+        display: flex;
+        flex-direction: column;
+        .cardJob{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            cursor: pointer;
+            background-color: #0f0f0f;
+            box-shadow: 0 0 10px 2px #090909;
+            border-radius: 16px;
+            position: relative;
+            padding: 0px 50px;
+            transform: scale(100%);
+            transition: all .3s;
+            &:hover{
+                box-shadow: 0 0 10px 1px #26A4E3a8;
+                transform: scale(100.5%);
+            }
+            .job{
+                width:7%;
+                border-radius: 50%;
+            }
+            .cardVacancy{
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    flex-grow: 1;
+                    margin: 0px 50px;
+                    .position{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        h4{
+                            color:#cccbcb;
+                            padding: 10px 0;
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                        }
+                    }
+                    .local{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        border-top: 1px solid #424242;
+                        padding: 10px 0;
+                        .dataLink{
+                            width:7%;
+                        }
+                        p{
+                            align-self: flex-end;
+                            justify-content: space-between;
+                            color:rgb(186, 186, 186);
+                            font-size: 0.6rem;
+                            span{
+                                color: #26A4E3;
+                                font-size: 0.6rem;
+                                background-color:#26a4e338;
+                                border-radius: 50px;
+                                padding:5px 5px;
+                            }
+                        }
+                    }
+                }
+                .links{
+                    align-self: flex-end;
+                    justify-self: flex-end;
+                    margin: 10px -20px;
+                    position:absolute;
+                    top:-5px;
+                    right: 0;
+                    .iconLink{
+                        width: 15%;
+                        transform:scale(100%);
+                    }
+                }
+            }
+            .postulate{
+                padding: 10px 5px;
+                margin-bottom: 20px;
+                background-color: rgb(38, 38, 38);
+                color:white;
+                text-decoration: none;
+                border-radius: 50px;
+                display:flex;
+                justify-content: space-evenly;
+                align-items: center;
+                transition: all .3s;
+                align-self: flex-end;
+                font-size: 0.8rem;
+                font-weight: 600;
+                &:hover{
+                    background-color: #26A4E3;
+                    box-shadow: 0 0 10px #26A4E3;
+                }
+                .check{
+                    width: 12%;
+                    height: 12%;
+                }
+            }
+        }
+    }
+}
