@@ -7,8 +7,8 @@
 .containerDevelopment{
     .titleDevelopment{
         color: $whiteColor;
-        font-size: 1.87rem;
-        font-weight: 600;
+        font-size: $LargeTitle ;
+        font-weight: $bold;
         text-align: left;
         padding-bottom: 100px;
     }
@@ -21,15 +21,15 @@
             justify-content: space-around;
             align-items: center;
             cursor: pointer;
-            background-color: #0f0f0f;
-            box-shadow: 0 0 10px 2px #090909;
+            background-color: $backgroundColor;
+            box-shadow: 0 0 10px 2px $shadowColor;
             border-radius: 16px;
             position:relative;
             padding: 0px 50px;
             transform: scale(100%);
             transition: all .3s;
             &:hover{
-                box-shadow: 0 0 10px 1px #eb5a00a8;
+                box-shadow: 0 0 10px 1px $secondaryColor;
                 transform: scale(100.5%);
             }
             .job{
@@ -49,17 +49,17 @@
                         flex-direction: row;
                         justify-content: space-between;
                         h4{
-                            color:rgb(204, 203, 203);
+                            color: $tertiaryColor;
                             padding: 10px 0;
-                            font-size: 0.8rem;
-                            font-weight: 600;
+                            font-size: $regularText;
+                            font-weight: $bold;
                         }
                     }
                     .local{
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
-                        border-top: 1px solid rgb(66, 66, 66);
+                        border-top: 1px solid $lineColor;
                         padding: 10px 0;
                         .dataLink{
                             width:7%;
@@ -67,14 +67,14 @@
                         p{
                             align-self: flex-end;
                             justify-content: space-between;
-                            color:#bababa;
-                            font-size: 0.6rem;
-                            border-radius: 50px;
+                            color:$tertiaryColor;
+                            font-size: $smallTitle;
+                            border-radius: $ctoBorderRadius;
                             span{
-                                color: #EB5A00;
-                                font-size: 0.6rem;
-                                background-color:#eb5a0038;
-                                border-radius: 50px;
+                                color: $secondaryColor;
+                                font-size: $smallTitle;
+                                background-color:$orangeOpacityColor;
+                                border-radius: $ctoBorderRadius;
                                 padding:5px 5px;
                             }
                         }
@@ -96,19 +96,19 @@
             .postulate{
                 padding: 10px 5px;
                 margin-bottom:20px;
-                background-color: rgb(38, 38, 38);
-                color:white;
+                background-color: $hoverColor;
+                color:$whiteColor;
                 text-decoration: none;
-                border-radius: 50px;
+                border-radius:  $ctoBorderRadius;
                 display:flex;
                 justify-content: space-evenly;
                 transition: all .3s;
                 align-self: end;
-                font-size: 0.8rem;
-                font-weight: 600;
+                font-size:$regularText;
+                font-weight: $bold;
                 &:hover{
-                    background-color:#EB5A00;
-                    box-shadow: 0 0 10px #EB5A00;
+                    background-color:$secondaryColor;
+                    box-shadow: 0 0 10px $secondaryColor;
                 }
                 .check{
                     width:12%;
@@ -121,8 +121,8 @@
 .containerDesign{
     .titleDesign{
         color: $whiteColor;
-        font-size: 1.87rem;
-        font-weight: 600;
+        font-size: $LargeTitle;
+        font-weight: $bold;
         text-align: left;
         padding-bottom: 100px;
         }
@@ -135,20 +135,20 @@
             justify-content: space-around;
             align-items: center;
             cursor: pointer;
-            background-color: #0f0f0f;
-            box-shadow: 0 0 10px 2px #090909;
+            background-color: $backgroundColor;
+            box-shadow: 0 0 10px 2px $shadowColor;
             border-radius: 16px;
             position: relative;
             padding: 0px 50px;
             transform: scale(100%);
             transition: all .3s;
             &:hover{
-                box-shadow: 0 0 10px 1px #26A4E3a8;
+                box-shadow: 0 0 10px 1px $primaryColor;
                 transform: scale(100.5%);
             }
             .job{
                 width:7%;
-                border-radius: 50%;
+                border-radius: $borderRadius;
             }
             .cardVacancy{
                 display: flex;
@@ -164,17 +164,17 @@
                         flex-direction: row;
                         justify-content: space-between;
                         h4{
-                            color:#cccbcb;
+                            color: $tertiaryColor;
                             padding: 10px 0;
-                            font-size: 0.8rem;
-                            font-weight: 600;
+                            font-size: $regularText;
+                            font-weight: $bold;
                         }
                     }
                     .local{
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
-                        border-top: 1px solid #424242;
+                        border-top: 1px solid $lineColor;
                         padding: 10px 0;
                         .dataLink{
                             width:7%;
@@ -182,13 +182,13 @@
                         p{
                             align-self: flex-end;
                             justify-content: space-between;
-                            color:rgb(186, 186, 186);
-                            font-size: 0.6rem;
+                            color:$tertiaryColor;
+                            font-size:  $smallTitle;
                             span{
-                                color: #26A4E3;
-                                font-size: 0.6rem;
-                                background-color:#26a4e338;
-                                border-radius: 50px;
+                                color: $primaryColor;
+                                font-size:  $smallTitle;
+                                background-color:$blueOpacityColor;
+                                border-radius: $ctoBorderRadius;
                                 padding:5px 5px;
                             }
                         }
@@ -210,20 +210,20 @@
             .postulate{
                 padding: 10px 5px;
                 margin-bottom: 20px;
-                background-color: rgb(38, 38, 38);
-                color:white;
+                background-color: $hoverColor;
+                color: $whiteColor;
                 text-decoration: none;
-                border-radius: 50px;
+                border-radius: $ctoBorderRadius;
                 display:flex;
                 justify-content: space-evenly;
                 align-items: center;
                 transition: all .3s;
                 align-self: flex-end;
-                font-size: 0.8rem;
-                font-weight: 600;
+                font-size: $regularText;
+                font-weight: $bold;
                 &:hover{
-                    background-color: #26A4E3;
-                    box-shadow: 0 0 10px #26A4E3;
+                    background-color: $primaryColor;
+                    box-shadow: 0 0 10px $primaryColor;
                 }
                 .check{
                     width: 12%;

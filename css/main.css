@@ -872,7 +872,7 @@ html .contenedor .arrow {
   transition: all 0.3s;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob:hover {
-  box-shadow: 0 0 10px 1px rgba(235, 90, 0, 0.6588235294);
+  box-shadow: 0 0 10px 1px #eb5a00;
   transform: scale(100.5%);
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .job {
@@ -895,16 +895,16 @@ html .contenedor .arrow {
   justify-content: space-between;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position h4 {
-  color: rgb(204, 203, 203);
+  color: #a2a2a2;
   padding: 10px 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: 1px solid rgb(66, 66, 66);
+  border-top: 1px solid #2e2e2e;
   padding: 10px 0;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local .dataLink {
@@ -913,13 +913,13 @@ html .contenedor .arrow {
 .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p {
   align-self: flex-end;
   justify-content: space-between;
-  color: #bababa;
-  font-size: 0.6rem;
+  color: #a2a2a2;
+  font-size: 0.8rem;
   border-radius: 50px;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p span {
-  color: #EB5A00;
-  font-size: 0.6rem;
+  color: #eb5a00;
+  font-size: 0.8rem;
   background-color: rgba(235, 90, 0, 0.2196078431);
   border-radius: 50px;
   padding: 5px 5px;
@@ -939,20 +939,20 @@ html .contenedor .arrow {
 .containerDevelopment .vacanciesDevelopment .cardJob .postulate {
   padding: 10px 5px;
   margin-bottom: 20px;
-  background-color: rgb(38, 38, 38);
-  color: white;
+  background-color: #232323;
+  color: #e3e3e3;
   text-decoration: none;
   border-radius: 50px;
   display: flex;
   justify-content: space-evenly;
   transition: all 0.3s;
   align-self: end;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .postulate:hover {
-  background-color: #EB5A00;
-  box-shadow: 0 0 10px #EB5A00;
+  background-color: #eb5a00;
+  box-shadow: 0 0 10px #eb5a00;
 }
 .containerDevelopment .vacanciesDevelopment .cardJob .postulate .check {
   width: 12%;
@@ -985,7 +985,7 @@ html .contenedor .arrow {
   transition: all 0.3s;
 }
 .containerDesign .vacanciesDesign .cardJob:hover {
-  box-shadow: 0 0 10px 1px rgba(38, 164, 227, 0.6588235294);
+  box-shadow: 0 0 10px 1px #26A4E3;
   transform: scale(100.5%);
 }
 .containerDesign .vacanciesDesign .cardJob .job {
@@ -1009,16 +1009,16 @@ html .contenedor .arrow {
   justify-content: space-between;
 }
 .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position h4 {
-  color: #cccbcb;
+  color: #a2a2a2;
   padding: 10px 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-top: 1px solid #424242;
+  border-top: 1px solid #2e2e2e;
   padding: 10px 0;
 }
 .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local .dataLink {
@@ -1027,12 +1027,12 @@ html .contenedor .arrow {
 .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p {
   align-self: flex-end;
   justify-content: space-between;
-  color: rgb(186, 186, 186);
-  font-size: 0.6rem;
+  color: #a2a2a2;
+  font-size: 0.8rem;
 }
 .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p span {
   color: #26A4E3;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   background-color: rgba(38, 164, 227, 0.2196078431);
   border-radius: 50px;
   padding: 5px 5px;
@@ -1052,8 +1052,8 @@ html .contenedor .arrow {
 .containerDesign .vacanciesDesign .cardJob .postulate {
   padding: 10px 5px;
   margin-bottom: 20px;
-  background-color: rgb(38, 38, 38);
-  color: white;
+  background-color: #232323;
+  color: #e3e3e3;
   text-decoration: none;
   border-radius: 50px;
   display: flex;
@@ -1061,7 +1061,7 @@ html .contenedor .arrow {
   align-items: center;
   transition: all 0.3s;
   align-self: flex-end;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .containerDesign .vacanciesDesign .cardJob .postulate:hover {
