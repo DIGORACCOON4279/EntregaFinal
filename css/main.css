@@ -1596,7 +1596,7 @@ html .contenedor .arrow {
 .mainContainer {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(18, 18, 18);
+  background-color: #0c0c0c;
 }
 .mainContainer .main {
   width: 90%;
@@ -1618,17 +1618,17 @@ html .contenedor .arrow {
   z-index: 1;
   position: fixed;
   bottom: 38%;
-  filter: drop-shadow(4px 4px 10px rgb(255, 255, 255));
+  filter: drop-shadow(4px 4px 10px #e3e3e3);
   animation: motion 3s alternate infinite;
 }
 @keyframes motion {
   0% {
     transform: translateY(0%);
-    filter: drop-shadow(4px 4px 10px #26a4e3);
+    filter: drop-shadow(4px 4px 10px #26A4E3);
   }
   100% {
     transform: translateY(60%);
-    filter: drop-shadow(4px 4px 10px #ff6200);
+    filter: drop-shadow(4px 4px 10px #eb5a00);
   }
 }
 .mainContainer .main .item2 {
@@ -1649,20 +1649,20 @@ html .contenedor .arrow {
   bottom: 5%;
   left: 10%;
   padding: 20px 20px;
-  background-color: rgb(38, 38, 38);
-  color: white;
+  background-color: #101010;
+  color: #e3e3e3;
   text-decoration: none;
   border-radius: 50px;
   display: flex;
   justify-content: space-around;
   align-self: flex-start;
   font-size: 12px;
-  box-shadow: 0 0 10px 5px rgb(31, 31, 31);
+  box-shadow: 0 0 10px 5px #090909;
   transition: all 0.3s;
 }
 .mainContainer .return:hover {
-  background-color: #434343;
-  box-shadow: 0 0 10px #434343;
+  background-color: #3a3a3a;
+  box-shadow: 0 0 10px #3a3a3a;
 }
 
 /*# sourceMappingURL=main.css.map */

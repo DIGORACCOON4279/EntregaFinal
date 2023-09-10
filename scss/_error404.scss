@@ -2,14 +2,14 @@
 .mainContainer{
     width:100vw;
     height:100vh;
-    background-color: rgb(18, 18, 18);
+    background-color: $blackColor;
     .main{
         width:90%;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin:0px auto;
+        margin:$margin;
         position:relative;
         .item{
             width: 50%;
@@ -22,16 +22,16 @@
             z-index: 1;
             position: fixed;
             bottom: 38%;
-            filter: drop-shadow(4px 4px 10px rgb(255, 255, 255));
+            filter: drop-shadow(4px 4px 10px $whiteColor);
             animation: motion 3s alternate infinite;
             @keyframes motion{
                 0%{
                     transform: translateY(0%);
-                    filter: drop-shadow(4px 4px 10px #26a4e3);
+                    filter: drop-shadow(4px 4px 10px $primaryColor);
                 }
                 100%{
                     transform: translateY(60%);
-                    filter: drop-shadow(4px 4px 10px #ff6200);
+                    filter: drop-shadow(4px 4px 10px $secondaryColor);
                 }
             }
         }
@@ -54,19 +54,19 @@
         bottom:5%;
         left:10%;
         padding: 20px 20px;
-        background-color: rgb(38, 38, 38);
-        color:white;
+        background-color: $cardColor;
+        color:$whiteColor;
         text-decoration: none;
-        border-radius: 50px;
+        border-radius: $ctoBorderRadius;
         display:flex;
         justify-content: space-around;
         align-self: flex-start;
         font-size: 12px;
-        box-shadow: 0 0 10px 5px rgb(31, 31, 31) ;
+        box-shadow: 0 0 10px 5px $shadowColor ;
         transition: all .3s;
         &:hover{
-            background-color:#434343;
-            box-shadow: 0 0 10px #434343;
+            background-color: $dropShadow;
+            box-shadow: 0 0 10px $dropShadow;
         }
     }
 }
