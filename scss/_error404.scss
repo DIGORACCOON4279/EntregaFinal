@@ -1,0 +1,72 @@
+// Error404
+.mainContainer{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(18, 18, 18);
+    .main{
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0px auto;
+        position:relative;
+        .item{
+            width: 50%;
+            z-index: 0;
+            position:fixed;
+            top: 15%;
+        }
+        .item1{
+            width: 45vw;
+            z-index: 1;
+            position: fixed;
+            bottom: 38%;
+            filter: drop-shadow(4px 4px 10px rgb(255, 255, 255));
+            animation: motion 3s alternate infinite;
+            @keyframes motion{
+                0%{
+                    transform: translateY(0%);
+                    filter: drop-shadow(4px 4px 10px #26a4e3);
+                }
+                100%{
+                    transform: translateY(60%);
+                    filter: drop-shadow(4px 4px 10px #ff6200);
+                }
+            }
+        }
+        .item2{
+            width: 50vw;
+            z-index: 1;
+            position:fixed;
+            bottom: 30%;
+        }
+        .item3{
+            width: 90vw;
+            z-index: 0;
+            position: fixed;
+            bottom: 25%;
+        }
+    }
+    .return{
+        width:200px;
+        position: fixed;
+        bottom:5%;
+        left:10%;
+        padding: 20px 20px;
+        background-color: rgb(38, 38, 38);
+        color:white;
+        text-decoration: none;
+        border-radius: 50px;
+        display:flex;
+        justify-content: space-around;
+        align-self: flex-start;
+        font-size: 12px;
+        box-shadow: 0 0 10px 5px rgb(31, 31, 31) ;
+        transition: all .3s;
+        &:hover{
+            background-color:#434343;
+            box-shadow: 0 0 10px #434343;
+        }
+    }
+}
