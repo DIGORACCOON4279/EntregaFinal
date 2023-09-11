@@ -647,7 +647,7 @@ html .contenedor .arrow {
   height: 100%;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion {
-  width: 40% !important;
+  width: 100% !important;
   margin: auto auto !important;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion .accordion-Item .accordion-header {
@@ -1665,6 +1665,155 @@ html .contenedor .arrow {
   box-shadow: 0 0 10px #3a3a3a;
 }
 
+@media (max-width: 1250px) {
+  .contenedor .heroSection {
+    width: 100vw;
+    height: 100vh;
+    margin: 400px auto;
+  }
+  .contenedor .heroSection .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contenedor .heroSection .hero .info {
+    width: 90%;
+    margin: 0px auto 100px auto;
+  }
+  .contenedor .heroSection .hero .info .btnAction {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 80px auto 0px;
+  }
+  .contenedor .heroSection .hero .cellphone {
+    width: 43%;
+  }
+  .contenedor .socialMediaUno, .contenedor .arrowUp {
+    display: none !important;
+  }
+  .footer .mainFooter {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .contenedor .nosotros .subtitulo {
+    margin-bottom: 100px;
+  }
+  .contenedor .nosotros .containerInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor .nosotros .containerInfo .info {
+    width: 60%;
+    height: auto;
+    background-color: #0f0f0f;
+    box-shadow: 0 0 10px 2px #090909;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px auto;
+    overflow: hidden;
+  }
+  .contenedor .nosotros .containerInfo .laptop {
+    width: 80%;
+  }
+  .contenedor .contenedorEmpleos {
+    width: 100%;
+  }
+  .contenedor .contenedorEmpleos .jobs {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .contenedor .contenedorEmpleos .screens {
+    width: 80%;
+    height: auto;
+    margin: 100px auto 0px auto;
+  }
+  .contenedor .contenedorMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 60px;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 55%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 10px auto 10px 30px;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones .accordion {
+    gap: 0 !important;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 30%;
+  }
+}
+@media (max-width: 1000px) {
+  .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
+    width: 80%;
+  }
+  .contenedor .heroSection .hero .cellPhone {
+    width: 53%;
+  }
+  .contenedor .nosotros .containerInfo .info {
+    width: 70%;
+  }
+  .contenedor .contenedorEmpleos .empleosArticle {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .contenedor .contenedorEmpleos .verMas {
+    width: 25%;
+  }
+  .contenedor .contenedorMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones {
+    width: 70%;
+  }
+}
 @media (max-width: 850px) {
   .header {
     width: 100vw;
@@ -1689,10 +1838,6 @@ html .contenedor .arrow {
     box-shadow: 0 0 5px #090909;
     transform: translateX(100%);
     transition: transform 0.3s;
-  }
-  .header #menu:checked ~ .menu {
-    transform: translate(0%);
-    z-index: 10;
   }
   .header .menu ul {
     width: inherit;
@@ -1720,14 +1865,14 @@ html .contenedor .arrow {
     border-bottom: 1px solid transparent;
     transition: all 0.5s ease;
   }
-  .header .menu ul li:hover .categoria {
-    background-color: #0f0f0f;
-  }
   .header .menu ul li .categoria .item {
     width: 24px;
     margin-right: 20px;
     display: flex;
     transition: all 0.5s ease;
+  }
+  .header .menu ul li:hover .categoria {
+    background-color: #0f0f0f;
   }
   .header .menu .socialMedia {
     display: flex;
@@ -1742,6 +1887,10 @@ html .contenedor .arrow {
   .header .menu .socialMedia .iconLink:hover {
     filter: drop-shadow(0 0 10px #3a3a3a);
     transform: scale(112%);
+  }
+  .header #menu:checked ~ .menu {
+    transform: translate(0%);
+    z-index: 10;
   }
   .header .drawer {
     display: block;
@@ -1765,6 +1914,79 @@ html .contenedor .arrow {
   }
   .header .close:hover {
     transform: scale(105%) rotate(270deg);
+  }
+  .contenedor .heroSection .hero .cellphone {
+    width: 53%;
+  }
+  .contenedor .nosotros .containerInfo .info {
+    width: 80%;
+  }
+  .contenedor .contenedorMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 65%;
+    margin: 0 auto;
+  }
+  .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
+    font-size: 5rem;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 5px auto 5px 15px;
+  }
+  .contenedor .patrocinadores {
+    width: 85%;
+  }
+  .contenedor .patrocinadores .empresasPatrocinadorasUno img, .contenedor .patrocinadores .empresasPatrocinadorasDos img {
+    width: 85px;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 40%;
+  }
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .mainFooter {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5;
+  }
+  .footer .mainFooter .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    margin-top: 40px;
+  }
+  .footer .mainFooter .footerMedium .news {
+    width: auto;
+  }
+  .footer .mainFooter .footerMedium .news .inscribir {
+    text-align: left;
+  }
+  .footer .mainFooter .footerMedium .news .accion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .mainFooter .footerMedium .news .accion input {
+    margin: 10px -5px;
+  }
+  .footer .mainFooter .footerMedium .news .accion .btnAccion {
+    width: 100%;
+  }
+  .footer .mainFooter .menu ul {
+    margin-left: -32px;
   }
 }
 @media (max-width: 767px) {
@@ -1790,6 +2012,53 @@ html .contenedor .arrow {
     display: flex;
     justify-content: center;
   }
+  .contenedor .heroSection .hero {
+    width: 90%;
+    margin: -100px auto;
+  }
+  .contenedor .heroSection .hero .info .btnAction {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
+    width: 100%;
+  }
+  .contenedor .heroSection .hero .cellphone {
+    width: 53%;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle .contenedorEmpleo .btnDesarrolladorDiseñador {
+    width: 50%;
+  }
+  .contenedor .contenedorMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
+    font-size: 4rem;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 80%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 0px auto 0px 10px;
+  }
+  .contenedor .containerTestimony .verMas {
+    width: 40%;
+  }
+  .contenedor .accordion {
+    width: 100%;
+  }
+  .footer .mainFooter {
+    width: 60%;
+    margin: 40px auto;
+  }
 }
 @media (max-width: 490px) {
   .header .menu {
@@ -1798,6 +2067,191 @@ html .contenedor .arrow {
   }
   .header .menu ul li .categoria {
     font-size: 0.8rem !important;
+  }
+  .contenedor .heroSection .hero .info h1 {
+    font-size: 1.5rem;
+  }
+  .contenedor .heroSection .hero .info h3 {
+    font-size: 1.2rem;
+  }
+  .contenedor .heroSection .hero .info .btnAction {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .contenedor .heroSection .hero .cellphone {
+    width: 83%;
+  }
+  .contenedor .nosotros .subtitulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .contenedor .nosotros .containerInfo .laptop {
+    width: 100%;
+  }
+  .contenedor .nosotros .containerInfo .info {
+    width: 100%;
+  }
+  .contenedor .nosotros .containerInfo .info p {
+    font-size: 0.8rem;
+  }
+  .contenedor .contenedorEmpleos .subtitulo {
+    font-size: 1.2rem;
+  }
+  .contenedor .contenedorEmpleos .jobs {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle .subtitulo {
+    font-size: 1.5rem;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle .contenedorEmpleo p {
+    font-size: 0.8rem;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle .contenedorEmpleo .paragraph {
+    font-size: 0.8rem;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle .contenedorEmpleo .btnDesarrolladorDiseñador {
+    width: 95%;
+    font-size: 0.8rem;
+    margin: 0px auto;
+  }
+  .contenedor .contenedorEmpleos .screens {
+    width: 90%;
+    height: auto;
+    margin: 100px auto;
+  }
+  .contenedor .contenedorMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatc .match {
+    font-size: 3rem;
+  }
+  .contenedor .containerTestimony .subtitulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBotto .data {
+    margin: 0px auto -2px -10px;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBotto .paragraph {
+    font-size: 0.6rem;
+  }
+  .contenedor .containerTestimony .verMas {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .contenedor .patrocinadores .subtitulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .contenedor .patrocinadores .empresasPatrocinadorasUno img, .contenedor .patrocinadores .empresasPatrocinadorasDos img {
+    width: 65px;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones {
+    width: 100%;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .accordion {
+    width: 100%;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .accordion .accordion-item .accordion-header .title {
+    font-size: 0.8rem !important;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .accordion .accordion-item .paragraph {
+    font-size: 0.75rem !important;
+  }
+  .contenedor .accordion .subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .contenedor .accordion .scrollDownAnswers summary {
+    font-size: 0.8rem !important;
+  }
+  .contenedor .accordion .scrollDownAnswers p {
+    font-size: 0.75rem !important;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .footer .mainFooter .footerMedium .news .accion .btnAccion {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .contenedor .contenedorEmpleos .jobs {
+    width: 90%;
+  }
+  .contenedor .contenedorEmpleos .jobs .empleosArticle {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch {
+    width: 100%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
+    font-size: 2.5rem;
+  }
+  .contenedor .containerTestimony {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 100%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 0px 0px 0px -5px;
+  }
+  .footer .footerMedium .news .accion input {
+    width: 100%;
+  }
+  .footer .footerMedium .news .accion .btnAccion {
+    width: 100%;
+  }
+  .footer .mainFooter {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+  }
+}
+@media (max-width: 326px) {
+  .contenedor .contenedorMatch {
+    width: 100%;
+  }
+  .contenedor .contenedorMatch .bannerMatch {
+    width: 90%;
+  }
+  .contenedor .contenedorMatch .bannerMatch .centerMatch .center {
+    width: 100%;
+  }
+  .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
+    font-size: 1.5rem;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 0px 0px 0px -17px;
   }
 }
 
