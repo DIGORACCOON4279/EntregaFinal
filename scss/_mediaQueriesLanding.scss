@@ -1,0 +1,809 @@
+// Media Queries
+@media (max-width:1250px){
+    .contenedor{
+        .heroSection{
+            width:100vw;
+            height:100vh;
+            margin: 400px auto;
+            .hero{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                .info{
+                    width:90%;
+                    margin: 0px auto 100px auto;
+                    .btnAction{
+                        width:60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: flex-start;
+                        gap: 20px;
+                        padding: 80px auto 0px;
+                    }
+                }
+                .cellphone{
+                    width: 43%;
+                }
+            }
+        }
+        .socialMediaUno, .arrowUp{
+            display: none !important;
+        }
+    }
+    .footer{
+        .mainFooter{
+            width: 80%;
+        }
+    }
+}
+@media (max-width:1200px){
+    .contenedor{
+        .nosotros{
+            .subtitulo{
+                margin-bottom: 100px ;
+            }
+            .containerInfo{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                .info{
+                    width: 60%;
+                    height: auto;
+                    background-color: #0f0f0f;
+                    box-shadow: 0 0 10px 2px #090909;
+                    border-radius: 20px;
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    margin:  0px auto;
+                    overflow: hidden;
+                }
+                .laptop{
+                    width: 80%;
+                }
+            }
+        }
+        .contenedorEmpleos {
+            width: 100%;
+            .jobs{
+                width:90%;
+                height:auto;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .empleosArticle{
+                    width: 70%;
+                    margin: 0px auto;
+                }
+            }
+            .screens{
+                width: 80%;
+                height:auto;
+                margin: 100px auto 0px auto;
+            }
+        }
+        .contenedorMatch{
+            width: 90%;
+            .bannerMatch{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0 auto;
+            }
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto 60px;
+                    .cardOpinionShort{
+                        width: 55%;
+                        .opinionBottom{
+                            .data{
+                                margin: 10px auto 10px 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bannerPublicidadDos{
+            .bannerSection{
+                .banner{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: space-around;
+                    align-items: center;
+                    .itemCellphones{
+                        .accordion{
+                            gap:0 !important;
+                        }
+                    }
+                }
+            }
+        }
+        .accordion{
+            .whatsApp{
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media (max-width:1000px){
+    .contenedor{
+        .heroSection{
+            .hero{
+                .info{
+                    .btnAction{
+                        .ctaDeveloper, .ctaDesigner{
+                            width:80%;
+                        }
+                    }
+                }
+                .cellPhone{
+                    width: 53%;
+                }
+            }
+        }
+        .nosotros{
+            .containerInfo{
+                .info{
+                    width: 70%;
+                }
+            }
+        }
+        .contenedorEmpleos{
+            .empleosArticle{
+                width: 70%;
+                margin: 0px auto;
+            }
+            .verMas{
+                width:25%;
+            }
+        }
+        .contenedorMatch{
+            width: 90%;
+            .bannerMatch{
+                width: 60%;
+                margin: 0 auto;
+            }
+        }
+        .bannerPublicidadDos{
+            .bannerSection{
+                .banner{
+                    .itemCellphones{
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width:850px){
+    .header{
+        width:100vw;
+        height: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding :0px 80px;
+        .menu{
+            width:50vw;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            background-color: #0c0c0c;
+            box-shadow: 0 0 5px #090909;
+            transform: translateX(100%);
+            transition: transform .3s;
+            ul{
+                width:inherit;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-start;
+                li{
+                    width:inherit;
+                    padding: 0px 0px 0px 50px;
+                    .categoria{
+                        width:inherit;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 0px auto;
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: #ffffff;
+                        padding: 20px 350px 20px 40px !important;
+                        margin-left: -83px !important;
+                        border-bottom:1px solid transparent;
+                        transition: all .5s ease;
+                        .item{
+                            width: 24px;
+                            margin-right: 20px;
+                            display: flex;
+                            transition: all .5s ease;
+                        }
+                    }
+                    &:hover .categoria{
+                        background-color: #0f0f0f;
+                    }
+                }
+            }
+            .socialMedia{
+                display: flex;
+                justify-content: center;
+                .iconLink{
+                    width: 20px;
+                    transform: scale(100%);
+                    transition: transform .3s ease-in-out;
+                    margin: 0 3px;
+                    &:hover{
+                        filter: drop-shadow(0 0 10px #3a3a3a);
+                        transform: scale(112%);
+                    }
+                }
+            }
+        }
+        #menu{
+            &:checked ~ .menu{
+                transform:translate(0%);
+                z-index: 10;
+            }
+        }
+        .drawer{
+            display: block;
+            width: 32px;
+            cursor: pointer;
+            transform: scale(100%) rotate(0deg);
+            transition: all .3s;
+            &:hover{
+                transform: scale(105%) rotate(270deg);
+            }
+        }
+        .close{
+            width: 32px;
+            display: block;
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            cursor: pointer;
+            transform: scale(100%) rotate(0deg);
+            transition: all .3s;
+            &:hover{
+                transform: scale(105%) rotate(270deg);
+            }
+        }
+    }
+    .contenedor{
+        .heroSection{
+            .hero{
+                .cellphone{
+                    width: 53%;
+                }
+            }
+        }
+        .nosotros{
+            .containerInfo{
+                .info{
+                    width: 80%;
+                }
+            }
+        }
+        .contenedorMatch{
+            width: 90%;
+            .bannerMatch{
+                width: 65%;
+                margin: 0 auto;
+                .centerMatch{
+                    .center{
+                        .letterMatch{
+                            .match{
+                                font-size: 5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        .opinionBottom{
+                            .data{
+                                margin: 5px auto 5px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .patrocinadores{
+            width:85%;
+            .empresasPatrocinadorasUno, .empresasPatrocinadorasDos{
+                img{
+                    width: 85px;
+                }
+            }
+        }
+        .accordion{
+            .whatsApp{
+                width: 40%;
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .mainFooter{
+            width:50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 5;
+            .services{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                order: 2;
+                margin-top: 40px;
+            }
+            .footerMedium{
+                .news{
+                    width:auto;
+                    .inscribir{
+                        text-align: left;
+                    }
+                    .accion{
+                        width:100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        input{
+                            margin: 10px -5px;
+                        }
+                        .btnAccion{
+                            width:100%;
+                        }
+                    }
+                }
+            }
+            .menu{
+                ul{
+                    margin-left: -32px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:767px){
+    .header{
+        padding :0px 40px;
+        .menu{
+            width: 55vw;
+            height: 100%;
+            ul{
+                display: flex;
+                li{
+                    .categoria{
+                        padding: 25px auto !important;
+                        border-radius: 0px !important;
+                        transition: all .5s ease;
+
+                    }
+                    &:hover .categoria{
+                        background-color: #0f0f0f;
+                    }
+                }
+            }
+            .socialMedia{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    .contenedor{
+        .heroSection{
+            .hero{
+                width:90%;
+                margin: -100px auto;
+                .info{
+                    .btnAction{
+                        width:70%;
+                        margin:0px auto;
+                        .ctaDeveloper, .ctaDesigner{
+                            width:100%;
+                        }
+                    }
+                }
+                .cellphone{
+                    width: 53%;
+                }
+            }
+        }
+        .contenedorEmpleos{
+            .jobs{
+                .empleosArticle{
+                    width: 80%;
+                    margin: 0px auto;
+                    .contenedorEmpleo{
+                        .btnDesarrolladorDiseñador{
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+        .contenedorMatch{
+            width:90%;
+            .bannerMatch{
+                width: 80%;
+                margin: 0px auto;
+                .centerMatch{
+                    .center{
+                        .letterMatch{
+                            .match{
+                                font-size: 4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 80%;
+                        .opinionBottom{
+                            .data{
+                                margin: 0px auto 0px 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .verMas{
+                width: 40%;
+            }
+        }
+        .accordion{
+            width: 100%;
+        }
+    }
+    .footer{
+        .mainFooter{
+            width: 60%;
+            margin: 40px auto;
+        }
+    }
+}
+@media (max-width: 490px){
+    .header{
+        .menu{
+            width: 100%;
+            height: 100%;
+            ul{
+                li .categoria{
+                    font-size: 0.8rem !important;
+                }
+            }
+        }
+    }
+    .contenedor{
+        .heroSection{
+            .hero{
+                .info{
+                    h1{
+                        font-size:1.5rem ;
+                    }
+                    h3{
+                        font-size: 1.2rem;
+                    }
+                    .btnAction{
+                        width:100%;
+                        margin:0px auto;
+                        .ctaDeveloper, .ctaDesigner{
+                            width:100%;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+                .cellphone{
+                    width: 83%;
+                }
+            }
+        }
+        .nosotros{
+            .subtitulo{
+                font-size: 1.2rem;
+                font-weight: 600
+            }
+            .containerInfo{
+                .laptop{
+                    width: 100%;
+                }
+                .info{
+                    width: 100%;
+                    p{
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+        .contenedorEmpleos{
+            .subtitulo{
+                font-size: 1.2rem;
+            }
+            .jobs{
+                width:90%;
+                height:auto;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .empleosArticle{
+                    width: 90%;
+                    margin: 0px auto;
+                    .subtitulo{
+                        font-size: 1.5rem ;
+                    }
+                    .contenedorEmpleo{
+                        p{
+                            font-size: 0.8rem ;
+                        }
+                        .paragraph{
+                            font-size: 0.8rem ;
+                        }
+                        .btnDesarrolladorDiseñador{
+                            width: 95%;
+                            font-size: 0.8rem;
+                            margin: 0px auto;
+                        }
+                    }
+                }
+            }
+            .screens{
+                width: 90%;
+                height:auto;
+                margin: 100px auto;
+            }
+        }
+        .contenedorMatch{
+            width: 90%;
+            .bannerMatch{
+                width: 90%;
+                .centerMatch{
+                    .center{
+                        .letterMatc{
+                            .match{
+                                font-size: 3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            .subtitulo{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 90%;
+                        margin: 0px auto;
+                        .opinionBotto{
+                            .data{
+                                margin: 0px auto -2px -10px;
+                            }
+                            .paragraph{
+                                font-size: 0.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .verMas{
+                width:90%;
+                font-size: 0.8rem;
+            }
+        }
+        .patrocinadores{
+            .subtitulo{
+                font-size: 1.2rem;
+                font-weight: 600
+            }
+            .empresasPatrocinadorasUno, .empresasPatrocinadorasDos{
+                img{
+                    width: 65px;
+                }
+            }
+        }
+        .bannerPublicidadDos{
+            .bannerSection{
+                .banner{
+                    .itemCellphones{
+                        width: 100%;
+                    }
+                    .accordion{
+                        width: 100%;
+                        .accordion-item{
+                            .accordion-header{
+                                .title{
+                                    font-size: 0.8rem !important;
+                                }
+
+                            }
+                            .paragraph{
+                                font-size: 0.75rem !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .accordion{
+            .subtitle{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .scrollDownAnswers{
+                summary{
+                    font-size: 0.8rem !important
+                }
+                p{
+                    font-size: 0.75rem !important;
+                }
+            }
+            .whatsApp{
+                width: 100%;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .footer{
+        .mainFooter{
+            .footerMedium{
+                .news{
+                    .accion{
+                        .btnAccion{
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px){
+    .contenedor{
+        .contenedorEmpleos{
+            .jobs{
+                width: 90%;
+                .empleosArticle{
+                    width: 90%;
+                }
+            }
+        }
+        .contenedorMatch{
+            width:100%;
+            .bannerMatch{
+                width: 90%;
+                .centerMatch{
+                    .center{
+                        .letterMatch{
+                            .match{
+                                font-size: 2.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            width: 100%;
+            margin: 0px auto;
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width:100%;
+                        .opinionBottom{
+                            .data{
+                                margin: 0px 0px 0px -5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .footerMedium{
+            .news{
+                .accion{
+                    input{
+                        width: 100%;
+                    }
+                    .btnAccion{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .mainFooter{
+            width:90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 50px auto;
+        }
+    }
+}
+@media (max-width:326px){
+    .contenedor{
+        .contenedorMatch{
+            width:100%;
+            .bannerMatch{
+                width: 90%;
+                .centerMatch{
+                    .center{
+                        width:100%;
+                        .letterMatch{
+                            .match{
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        .opinionBottom{
+                            .data{
+                                margin: 0px 0px 0px -17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2254,5 +2254,59 @@ html .contenedor .arrow {
     margin: 0px 0px 0px -17px;
   }
 }
+@media (max-width: 1250px) {
+  .contenedor .buscadorServices {
+    width: 70%;
+  }
+  .contenedor .card .contenedorDevelopers .cardDev, .contenedor .card .contenedorDevelopers .cardDesigners, .contenedor .card .contenedorDesigners .cardDev, .contenedor .card .contenedorDesigners .cardDesigners {
+    width: 150px;
+  }
+  .contenedor .card .contactanosDesarrolladores, .contenedor .card .contactanosDiseñadores {
+    width: 20%;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 20%;
+  }
+}
+@media (max-width: 1200px) {
+  .contenedor .containerTestimony .headline {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 60%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 10px auto 10px 25px;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 30%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
