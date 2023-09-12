@@ -1978,7 +1978,6 @@ html{
     .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
         width: 55%;
     }
-
     .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 10px auto 10px 30px;
     } */
@@ -2058,16 +2057,16 @@ html{
     /* .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones{
         width: 70%;
     } */
-    .container .cards .contactanosDesarrolladores{
+    /* .container .cards .contactanosDesarrolladores{
         width: 40%;
     }
     .container .cards .contactanosDiseñadores{
         width: 40%;
-    }
-    .containerJob{
+    } */
+    /* .containerJob{
         width: 90%;
-    }
-    .containerJob .containerDevelopment, .containerDesign{
+    } */
+    /* .containerJob .containerDevelopment, .containerDesign{
         width: 90%;
         margin: 0px auto;
     }
@@ -2084,7 +2083,7 @@ html{
     .container .formContainer .mapa{
         display: none;
     }
-}
+} */
 @media (max-width:850px){
     /* .header{
         width:100vw;
@@ -2216,14 +2215,14 @@ html{
     } */
     /* .contenedor .accordion .whatsApp{
         width: 40%;
-    } */
+    }
     .container .buscadorServices{
         width: 80%;
     }
-    .container .contactanosDesarrolladores{
+    .container .cards .contactanosDesarrolladores{
         width: 30%;
     }
-    .container .contactanosDiseñadores{
+    .container .cards .contactanosDiseñadores{
         width: 30%;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
@@ -2235,7 +2234,7 @@ html{
     }
     .container .accordion .whatsApp{
         width: 50%;
-    }
+    } */
     /* .footer{
         width: 100%;
         display: flex;
@@ -2351,7 +2350,7 @@ html{
     /* .contenedor .accordion{
         width: 100%;
     } */
-    .container .cards{
+    /* .container .cards{
         width: 100%;
         margin: 0px auto;
         padding: 0px 30px;
@@ -2375,8 +2374,8 @@ html{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-    }
-    .containerJob .containerDevelopment .vacanciesDevelopment .cardJob{
+    } */
+    /* .containerJob .containerDevelopment .vacanciesDevelopment .cardJob{
         width: 100%;
         display: flex;
         flex-direction:column;
@@ -2385,12 +2384,12 @@ html{
         padding: 0px 10px !important;
         row-gap: 10px;
         overflow: hidden;
-    }
-    .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
+    } */
+    /* .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
         width: 10%;
         margin: 10px 0 0 0;
-    }
-    .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy{
+    } */
+    /* .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy{
         width: 100%;
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local{
@@ -2399,14 +2398,14 @@ html{
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .postulate{
         width: 35%;
-    }
-    .containerJob .containerDesign .vacanciesDesign{
+    } */
+    /* .containerJob .containerDesign .vacanciesDesign{
         width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-    }
-    .containerJob .containerDesign .vacanciesDesign .cardJob{
+    } */
+    /* .containerJob .containerDesign .vacanciesDesign .cardJob{
         width: 100%;
         display: flex;
         flex-direction:column;
@@ -2415,12 +2414,12 @@ html{
         padding: 0px 10px !important;
         row-gap: 10px;
         overflow: hidden;
-    }
-    .containerJob .containerDesign .vacanciesDesign .cardJob img.job{
+    } */
+    /* .containerJob .containerDesign .vacanciesDesign .cardJob img.job{
         width: 10%;
         margin: 10px 0 0 0;
-    }
-    .containerJob .containerDesign .vacanciesDesign .cardJob .cardVacancy{
+    } */
+    /* .containerJob .containerDesign .vacanciesDesign .cardJob .cardVacancy{
         width: 100%;
     }
     .containerJob .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local{
@@ -2429,23 +2428,23 @@ html{
     }
     .containerJob .containerDesign .vacanciesDesign .cardJob .postulate{
         width: 35%;
-    }
-    .container .containerTestimony .headline{
+    } */
+    /* .container .containerTestimony .headline{
         width: 80%;
         text-align: left;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
         width: 80%;
-    }
-    .container .contactanosDesarrolladores{
+    } */
+    /* .container .contactanosDesarrolladores{
         width: 40%;
     }
     .container .contactanosDiseñadores{
         width: 40%;
-    }
-    .container .accordion .whatsApp{
+    } */
+    /* .container .accordion .whatsApp{
         width: 100%;
-    }
+    } */
     /* .footer .mainFooter{
         width: 60%;
         margin: 40px auto;
@@ -2590,7 +2589,7 @@ html{
         width: 100%;
         font-size: 0.8rem;
     } */
-    .container .buscadorServices p{
+    /* .container .buscadorServices p{
         font-size: 0.8rem;
     }
     .container .cards .anuncio{
@@ -2599,8 +2598,8 @@ html{
     .container .cards .subtitle{
         font-size: 1.2rem;
         font-weight: 600;
-    }
-    .container .cards .contactanosDesarrolladores{
+    } */
+    /* .container .cards .contactanosDesarrolladores{
         font-size: 0.8rem;
         width: 80%;
     }
@@ -2611,11 +2610,14 @@ html{
     .containerJob{
         width: 90%;
         margin: 150px auto;
-    }
-    .containerJob .containerDevelopment .titleDevelopment{
+    } */
+    /* .containerJob .containerDevelopment .titleDevelopment{
         font-size: 1.2rem;
     }
     .containerJob .containerDesign .titleDesign{
+        font-size: 1.2rem;
+    } */
+    /* .containerJob .containerDesign .titleDesign{
         font-size: 1.2rem;
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
@@ -2649,8 +2651,8 @@ html{
     .containerJob .containerDesign .vacanciesDesign .cardJob .postulate{
         width: 40%;
         font-size: 0.6rem;
-    }
-    .container .containerTestimony .headline{
+    } */
+    /* .container .containerTestimony .headline{
         width:90%;
         text-align: left;
     }
@@ -2662,8 +2664,8 @@ html{
     }
     .container .containerTestimony .headline .promotion{
         font-size: 0.8rem;
-    }
-    .container .formContainer .subtitulo{
+    } */
+    /* .container .formContainer .subtitulo{
         font-size: 1.2rem;
     }
     .container .accordion .subtitle{
@@ -2674,8 +2676,8 @@ html{
     }
     .container .accordion .scrollDownAnswers p{
         font-size: 0.75rem !important;
-    }
-    .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
+    } */
+    /* .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
         width: 90%;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
@@ -2690,15 +2692,15 @@ html{
     }
     .container .accordion .subtitle{
         font-size: 1.2rem;
-    }
-    .container .accordion .whatsApp{
+    } */
+    /* .container .accordion .whatsApp{
         font-size: 0.8rem;
     }
     .container .formContainer .locationForm .form .btnAccion{
         width: 100%;
         margin: 10px auto;
         font-size: 0.8rem;
-    }
+    } */
     /* .footer .mainFooter .footerMedium .news .accion .btnAccion{
         font-size: 0.8rem;
     } */
@@ -2720,9 +2722,9 @@ html{
         font-size: 2.5rem;
     } */
 
-    .container .cards{
+    /* .container .cards{
         padding: 0px 10px;
-    }
+    } */
     /* .contenedor .containerTestimony{
         width: 100%;
         margin: 0px auto;
@@ -2733,10 +2735,10 @@ html{
     .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 0px 0px 0px -5px;
     } */
-    .containerJob {
+    /* .containerJob {
         width: 90%;
-    }
-    .containerJob .containerDevelopment, .containerDesign{
+    } */
+    /* .containerJob .containerDevelopment, .containerDesign{
         width: 100%;
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
@@ -2750,14 +2752,14 @@ html{
     }
     .containerJob .containerDesign .vacanciesDesign .cardJob .postulate{
         width: 50%;
-    }
-    .container .contactanosDesarrolladores{
+    } */
+    /* .container .cards .contactanosDesarrolladores{
         width: 80%;
     }
-    .container .contactanosDiseñadores{
+    .container .cards .contactanosDiseñadores{
         width: 80%;
-    }
-    .container .containerTestimony{
+    } */
+    /* .container .containerTestimony{
         width:100%;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
@@ -2768,7 +2770,7 @@ html{
     }
     .container .accordion .whatsApp{
         width: 100%;
-    }
+    } */
     /* .footer .footerMedium .news .accion input{
         width: 100%;
     }
@@ -2800,7 +2802,7 @@ html{
     /* .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 0px 0px 0px -17px;
     } */
-    .containerJob{
+    /* .containerJob{
         width: 100%;
         margin: 150px auto;
     }
@@ -2815,4 +2817,4 @@ html{
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 0px 0px 0px -20px;
     }
-}
+} */

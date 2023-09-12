@@ -73,12 +73,307 @@
     }
 }
 @media (max-width:1000px){
+    .contenedor{
+        .cards{
+            .contactanosDesarrolladores, .contactanosDiseñadores{
+                width: 40%;
+            }
+        }
+        .containerDevelopment, .containerDesign{
+            width: 90%;
+            margin: 0px auto;
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 70%;
+                    }
+                }
+            }
+        }
+        .accordion{
+            .whatsApp{
+                width: 50%;
+            }
+        }
+        .formContainer{
+            .mapa{
+                display: none;
+            }
+        }
+    }
 }
 @media (max-width:850px){
+    .contenedor{
+        .buscadorServices{
+            width: 80%;
+        }
+        .cards{
+            .contactanosDesarrolladores, .contactanosDiseñadores{
+                width: 30%;
+            }
+        }
+        .containerTestimony{
+            .headline{
+                width: 80%;
+                text-align: left;
+            }
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 80%;
+                        margin: 10px auto;
+                        .opinionBottom{
+                            .data{
+                                margin: 5px auto 5px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .accordion{
+            .whatsApp{
+                width: 50%;
+            }
+        }
+    }
+}
+@media (max-width:767px){
+    .contenedor{
+        .cards{
+            width: 100%;
+            margin: 0px auto;
+            padding: 0px 30px;
+            .contactanosDesarrolladores, .contactanosDiseñadores{
+                width: 40%;
+            }
+        }
+        .containerDevelopment, .containerDesign{
+            width: 85%;
+            margin: 0px auto;
+            .vacanciesDevelopment, .vacanciesDesign{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                .cardJob{
+                    width: 100%;
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding: 0px 10px !important;
+                    row-gap: 10px;
+                    overflow: hidden;
+                    img.job{
+                        width: 10%;
+                        margin: 10px 0 0 0;
+                    }
+                    .cardVacancy{
+                        width: 100%;
+                        .info{
+                            .local{
+                                width:100%;
+                                border-bottom: 1px solid rgb(66, 66, 66);
+                            }
+                        }
+                    }
+                    .postulate{
+                        width: 35%;
+                    }
+                }
+            }
+        }
+    }
 }
 @media (max-width:490px){
+    .contenedor{
+        .buscadorServices{
+            p{
+                font-size: 0.8rem;
+            }
+        }
+        .cards{
+            .anuncio{
+                font-size: 0.8rem;
+            }
+            .subtitle{
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+        }
+        .containerDevelopment, .containerDesign{
+            .titleDevelopment, .titleDesign{
+                font-size: 1.2rem;
+            }
+            .vacanciesDevelopment, .vacanciesDesign{
+                .cardJob{
+                    img.job{
+                        width: 13%;
+                    }
+                    .cardVacancy{
+                        .info{
+                            .position{
+                                h4{
+                                    font-size: 0.6rem;
+                                }
+                            }
+                            .local{
+                                p{
+                                    span{
+                                        font-size: 0.4rem;
+                                    }
+                                }
+                                .data{
+                                    p{
+                                        font-size: 0.4rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .postulate{
+                        width: 40%;
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            .headline{
+                width:90%;
+                text-align: left;
+                .subtitle{
+                    font-size: 1.2rem;
+                }
+                .paragraph{
+                    font-size: 0.8rem;
+                }
+                .promotion{
+                    font-size: 0.8rem;
+                }
+            }
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 90%;
+                        .opinionBottom{
+                            .data{
+                                margin: 2px auto 15px 5px;
+                            }
+                        }
+                        .opinionMedium{
+                            .paragraph{
+                                font-size: 0.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .verMas{
+                width:90%;
+                font-size: 0.8rem;
+            }
+        }
+        .accordion{
+            .subtitle{
+                font-size: 1.2rem;
+            }
+            .scrollDownAnswers{
+                summary{
+                    font-size: 0.8rem !important
+                }
+                p{
+                    font-size: 0.75rem !important;
+                }
+            }
+            .whatsApp{
+                font-size: 0.8rem;
+            }
+        }
+        .formContainer{
+            .subtitulo{
+                font-size: 1.2rem;
+            }
+            .locationForm{
+                .form{
+                    .btnAccion{
+                        width: 100%;
+                        margin: 10px auto;
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
 }
 @media (max-width:400px){
+    .contenedor{
+        .cards{
+            padding: 0px 10px;
+            .contactanosDesarrolladores, .contactanosDiseñadore{
+                width: 80%;
+            }
+        }
+        .containerDevelopment, .containerDesign{
+            width: 100%;
+            .vacanciesDevelopment, .vacanciesDesign{
+                .cardJob{
+                    img.job{
+                        width: 15%;
+                    }
+                    .postulate{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+        .containerTestimony{
+            width:100%;
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width:100%;
+                        .opinionBottom{
+                            .data{
+                                margin: 0px 0px 0px -10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .accordion{
+            .whatsApp{
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width:326px){
+    .contenedor{
+        .containerDevelopment, .containerDesign{
+            .vacanciesDevelopment, .vacanciesDesig{
+                .cardJob{
+                    width:100%;
+                    margin: auto;
+                }
+            }
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        .opinionBottom{
+                            .data{
+                                margin: 0px 0px 0px -20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

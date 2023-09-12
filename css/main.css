@@ -2308,5 +2308,204 @@ html .contenedor .arrow {
     width: 30%;
   }
 }
+@media (max-width: 1000px) {
+  .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
+    width: 40%;
+  }
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 70%;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 50%;
+  }
+  .contenedor .formContainer .mapa {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .contenedor .buscadorServices {
+    width: 80%;
+  }
+  .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
+    width: 30%;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 80%;
+    text-align: left;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 5px auto 5px 15px;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .contenedor .cards {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 30px;
+  }
+  .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
+    width: 40%;
+  }
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 85%;
+    margin: 0px auto;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment, .contenedor .containerDevelopment .vacanciesDesign, .contenedor .containerDesign .vacanciesDevelopment, .contenedor .containerDesign .vacanciesDesign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob, .contenedor .containerDevelopment .vacanciesDesign .cardJob, .contenedor .containerDesign .vacanciesDevelopment .cardJob, .contenedor .containerDesign .vacanciesDesign .cardJob {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 10px !important;
+    row-gap: 10px;
+    overflow: hidden;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob img.job, .contenedor .containerDevelopment .vacanciesDesign .cardJob img.job, .contenedor .containerDesign .vacanciesDevelopment .cardJob img.job, .contenedor .containerDesign .vacanciesDesign .cardJob img.job {
+    width: 10%;
+    margin: 10px 0 0 0;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy {
+    width: 100%;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local {
+    width: 100%;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
+    width: 35%;
+  }
+}
+@media (max-width: 490px) {
+  .contenedor .buscadorServices p {
+    font-size: 0.8rem;
+  }
+  .contenedor .cards .anuncio {
+    font-size: 0.8rem;
+  }
+  .contenedor .cards .subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .contenedor .containerDevelopment .titleDevelopment, .contenedor .containerDevelopment .titleDesign, .contenedor .containerDesign .titleDevelopment, .contenedor .containerDesign .titleDesign {
+    font-size: 1.2rem;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob img.job, .contenedor .containerDevelopment .vacanciesDesign .cardJob img.job, .contenedor .containerDesign .vacanciesDevelopment .cardJob img.job, .contenedor .containerDesign .vacanciesDesign .cardJob img.job {
+    width: 13%;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position h4, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .position h4, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .position h4, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position h4 {
+    font-size: 0.6rem;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p span, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local p span, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local p span, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p span {
+    font-size: 0.4rem;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local .data p, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local .data p, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local .data p, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local .data p {
+    font-size: 0.4rem;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
+    width: 40%;
+    font-size: 0.6rem;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 90%;
+    text-align: left;
+  }
+  .contenedor .containerTestimony .headline .subtitle {
+    font-size: 1.2rem;
+  }
+  .contenedor .containerTestimony .headline .paragraph {
+    font-size: 0.8rem;
+  }
+  .contenedor .containerTestimony .headline .promotion {
+    font-size: 0.8rem;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 90%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 2px auto 15px 5px;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionMedium .paragraph {
+    font-size: 0.6rem;
+  }
+  .contenedor .containerTestimony .verMas {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .contenedor .accordion .subtitle {
+    font-size: 1.2rem;
+  }
+  .contenedor .accordion .scrollDownAnswers summary {
+    font-size: 0.8rem !important;
+  }
+  .contenedor .accordion .scrollDownAnswers p {
+    font-size: 0.75rem !important;
+  }
+  .contenedor .accordion .whatsApp {
+    font-size: 0.8rem;
+  }
+  .contenedor .formContainer .subtitulo {
+    font-size: 1.2rem;
+  }
+  .contenedor .formContainer .locationForm .form .btnAccion {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .contenedor .cards {
+    padding: 0px 10px;
+  }
+  .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadore {
+    width: 80%;
+  }
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 100%;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob img.job, .contenedor .containerDevelopment .vacanciesDesign .cardJob img.job, .contenedor .containerDesign .vacanciesDevelopment .cardJob img.job, .contenedor .containerDesign .vacanciesDesign .cardJob img.job {
+    width: 15%;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
+    width: 50%;
+  }
+  .contenedor .containerTestimony {
+    width: 100%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 100%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 0px 0px 0px -10px;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 100%;
+  }
+}
+@media (max-width: 326px) {
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob, .contenedor .containerDevelopment .vacanciesDesig .cardJob, .contenedor .containerDesign .vacanciesDevelopment .cardJob, .contenedor .containerDesign .vacanciesDesig .cardJob {
+    width: 100%;
+    margin: auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 0px 0px 0px -20px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
