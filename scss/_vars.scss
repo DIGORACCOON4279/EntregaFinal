@@ -5,10 +5,13 @@
     $mainFont: 'Poppins', sans-serif;
     $secondaryFont:'Press Start 2P', cursive;
     $matchLetter: 5rem;
+    $breakMatch:3rem;
     $mainTitle:2.2rem;
     $LargeTitle :1.87rem;
     $MediumTitle :1.6rem;
+    $breakTitle:1.2rem;
     $regularText:1rem;
+    $breakText:0.9rem;
     $smallTitle:0.8rem;
     $xSmallParagraphText:0.6rem;
 
@@ -57,7 +60,7 @@
     $margin:0px auto;
     $sectionMargin: 150px auto;
     $neutralMargin:0px auto;
-    $categoryMargin: 50px 0px 50px;
+    $categoryMargin: 50px 0px;
     $containerMargin: 100px auto;
 
     // Border - Radius

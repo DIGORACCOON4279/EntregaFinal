@@ -29,12 +29,12 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                margin: 0 auto;
+                margin: $margin;
             }
         }
         .containerDevelopment, .containerDesign{
             width: 70%;
-            margin: 0px auto;
+            margin: $margin;
         }
         .containerTestimony{
             .headline{
@@ -43,7 +43,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-                margin: 0 auto;
+                margin: $margin;
             }
             .bundleOpinion{
                 .groupLine{
@@ -53,7 +53,7 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                    margin: 0 auto;
+                    margin: $margin;
                     .cardOpinionShort{
                         width: 60%;
                         .opinionBottom{
@@ -81,7 +81,7 @@
         }
         .containerDevelopment, .containerDesign{
             width: 90%;
-            margin: 0px auto;
+            margin: $margin;
         }
         .containerTestimony{
             .bundleOpinion{
@@ -144,7 +144,7 @@
     .contenedor{
         .cards{
             width: 100%;
-            margin: 0px auto;
+            margin: $margin;
             padding: 0px 30px;
             .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 40%;
@@ -152,12 +152,12 @@
         }
         .containerDevelopment, .containerDesign{
             width: 85%;
-            margin: 0px auto;
+            margin: $margin;
             .vacanciesDevelopment, .vacanciesDesign{
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                margin: 0 auto;
+                margin: $margin;
                 .cardJob{
                     width: 100%;
                     display: flex;
@@ -176,7 +176,7 @@
                         .info{
                             .local{
                                 width:100%;
-                                border-bottom: 1px solid rgb(66, 66, 66);
+                                border-bottom: 1px solid $lineColor;
                             }
                         }
                     }
@@ -192,21 +192,21 @@
     .contenedor{
         .buscadorServices{
             p{
-                font-size: 0.8rem;
+                font-size: $breakText;
             }
         }
         .cards{
             .anuncio{
-                font-size: 0.8rem;
+                font-size: $breakText;
             }
             .subtitle{
-                font-size: 1.2rem;
-                font-weight: 600;
+                font-size: $breakTitle;
+                font-weight: $bold;
             }
         }
         .containerDevelopment, .containerDesign{
             .titleDevelopment, .titleDesign{
-                font-size: 1.2rem;
+                font-size: $breakTitle;
             }
             .vacanciesDevelopment, .vacanciesDesign{
                 .cardJob{
@@ -217,18 +217,18 @@
                         .info{
                             .position{
                                 h4{
-                                    font-size: 0.6rem;
+                                    font-size:  $smallTitle;
                                 }
                             }
                             .local{
                                 p{
                                     span{
-                                        font-size: 0.4rem;
+                                        font-size: $xSmallParagraphText;
                                     }
                                 }
                                 .data{
                                     p{
-                                        font-size: 0.4rem;
+                                        font-size: $xSmallParagraphText;
                                     }
                                 }
                             }
@@ -236,7 +236,7 @@
                     }
                     .postulate{
                         width: 40%;
-                        font-size: 0.6rem;
+                        font-size: $smallTitle;
                     }
                 }
             }
@@ -246,13 +246,13 @@
                 width:90%;
                 text-align: left;
                 .subtitle{
-                    font-size: 1.2rem;
+                    font-size: $breakTitle;
                 }
                 .paragraph{
-                    font-size: 0.8rem;
+                    font-size: $breakText;
                 }
                 .promotion{
-                    font-size: 0.8rem;
+                    font-size: $breakText;
                 }
             }
             .bundleOpinion{
@@ -266,7 +266,7 @@
                         }
                         .opinionMedium{
                             .paragraph{
-                                font-size: 0.6rem;
+                                font-size: $smallTitle;
                             }
                         }
                     }
@@ -274,35 +274,35 @@
             }
             .verMas{
                 width:90%;
-                font-size: 0.8rem;
+                font-size: $breakText;
             }
         }
         .accordion{
             .subtitle{
-                font-size: 1.2rem;
+                font-size: $breakTitle;
             }
             .scrollDownAnswers{
                 summary{
-                    font-size: 0.8rem !important
+                    font-size: $breakText !important
                 }
                 p{
-                    font-size: 0.75rem !important;
+                    font-size: $breakText !important;
                 }
             }
             .whatsApp{
-                font-size: 0.8rem;
+                font-size: $breakText;
             }
         }
         .formContainer{
             .subtitulo{
-                font-size: 1.2rem;
+                font-size: $breakTitle;
             }
             .locationForm{
                 .form{
                     .btnAccion{
                         width: 100%;
                         margin: 10px auto;
-                        font-size: 0.8rem;
+                        font-size:$breakText;
                     }
                 }
             }
@@ -313,7 +313,7 @@
     .contenedor{
         .cards{
             padding: 0px 10px;
-            .contactanosDesarrolladores, .contactanosDiseñadore{
+            .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 80%;
             }
         }

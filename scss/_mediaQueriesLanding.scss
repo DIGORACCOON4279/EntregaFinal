@@ -12,7 +12,7 @@
                 align-items: center;
                 .info{
                     width:90%;
-                    margin: 0px auto 100px auto;
+                    margin:$margin 100px;
                     .btnAction{
                         width:60%;
                         display: flex;
@@ -52,15 +52,15 @@
                 .info{
                     width: 60%;
                     height: auto;
-                    background-color: #0f0f0f;
-                    box-shadow: 0 0 10px 2px #090909;
-                    border-radius: 20px;
+                    background-color: $backgroundColor;
+                    box-shadow: 0 0 10px 2px $shadowColor;
+                    border-radius:$cardBorderRadius;
                     padding: 20px;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
                     align-items: flex-end;
-                    margin:  0px auto;
+                    margin: $margin;
                     overflow: hidden;
                 }
                 .laptop{
@@ -79,13 +79,13 @@
                 align-items: center;
                 .empleosArticle{
                     width: 70%;
-                    margin: 0px auto;
+                    margin: $margin;
                 }
             }
             .screens{
                 width: 80%;
                 height:auto;
-                margin: 100px auto 0px auto;
+                margin: $containerMargin $margin;
             }
         }
         .contenedorMatch{
@@ -96,7 +96,7 @@
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                margin: 0 auto;
+                margin:$margin;
             }
         }
         .containerTestimony{
@@ -108,7 +108,7 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                    margin: 0 auto 60px;
+                    margin: $margin 60px;
                     .cardOpinionShort{
                         width: 55%;
                         .opinionBottom{
@@ -169,7 +169,7 @@
         .contenedorEmpleos{
             .empleosArticle{
                 width: 70%;
-                margin: 0px auto;
+                margin: $margin;
             }
             .verMas{
                 width:25%;
@@ -179,7 +179,7 @@
             width: 90%;
             .bannerMatch{
                 width: 60%;
-                margin: 0 auto;
+                margin: $margin;
             }
         }
         .bannerPublicidadDos{
@@ -193,10 +193,6 @@
         }
     }
 }
-
-
-
-
 @media (max-width:850px){
     .header{
         width:100vw;
@@ -216,8 +212,8 @@
             position: fixed;
             top: 0px;
             right: 0px;
-            background-color: #0c0c0c;
-            box-shadow: 0 0 5px #090909;
+            background-color: $blackColor;
+            box-shadow: 0 0 5px $shadowColor;
             transform: translateX(100%);
             transition: transform .3s;
             ul{
@@ -235,10 +231,10 @@
                         flex-direction: row;
                         justify-content: space-between;
                         align-items: center;
-                        margin: 0px auto;
+                        margin: $margin;
                         cursor: pointer;
                         text-decoration: none;
-                        color: #ffffff;
+                        color: $whiteColor;
                         padding: 20px 350px 20px 40px !important;
                         margin-left: -83px !important;
                         border-bottom:1px solid transparent;
@@ -251,7 +247,7 @@
                         }
                     }
                     &:hover .categoria{
-                        background-color: #0f0f0f;
+                        background-color:$backgroundColor;
                     }
                 }
             }
@@ -319,7 +315,7 @@
             width: 90%;
             .bannerMatch{
                 width: 65%;
-                margin: 0 auto;
+                margin: $margin;
                 .centerMatch{
                     .center{
                         .letterMatch{
@@ -370,7 +366,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin: 5;
+            margin:$categoryMargin;
             .services{
                 display: flex;
                 flex-direction: column;
@@ -424,7 +420,7 @@
 
                     }
                     &:hover .categoria{
-                        background-color: #0f0f0f;
+                        background-color: $backgroundColor;
                     }
                 }
             }
@@ -457,7 +453,7 @@
             .jobs{
                 .empleosArticle{
                     width: 80%;
-                    margin: 0px auto;
+                    margin: $margin;
                     .contenedorEmpleo{
                         .btnDesarrolladorDiseñador{
                             width: 50%;
@@ -470,7 +466,7 @@
             width:90%;
             .bannerMatch{
                 width: 80%;
-                margin: 0px auto;
+                margin: $margin;
                 .centerMatch{
                     .center{
                         .letterMatch{
@@ -489,7 +485,7 @@
                         width: 80%;
                         .opinionBottom{
                             .data{
-                                margin: 0px auto 0px 10px;
+                                margin: $margin 0px 10px;
                             }
                         }
                     }
@@ -534,7 +530,7 @@
                     }
                     .btnAction{
                         width:100%;
-                        margin:0px auto;
+                        margin: $margin;
                         .ctaDeveloper, .ctaDesigner{
                             width:100%;
                             font-size: 0.8rem;
@@ -548,8 +544,8 @@
         }
         .nosotros{
             .subtitulo{
-                font-size: 1.2rem;
-                font-weight: 600
+                font-size: $breakTitle;
+                font-weight: $bold;
             }
             .containerInfo{
                 .laptop{
@@ -558,14 +554,14 @@
                 .info{
                     width: 100%;
                     p{
-                        font-size: 0.8rem;
+                        font-size:$breakText;
                     }
                 }
             }
         }
         .contenedorEmpleos{
             .subtitulo{
-                font-size: 1.2rem;
+                font-size: $breakTitle;
             }
             .jobs{
                 width:90%;
@@ -576,21 +572,21 @@
                 align-items: center;
                 .empleosArticle{
                     width: 90%;
-                    margin: 0px auto;
+                    margin: $margin;
                     .subtitulo{
-                        font-size: 1.5rem ;
+                        font-size: $breakTitle ;
                     }
                     .contenedorEmpleo{
                         p{
-                            font-size: 0.8rem ;
+                            font-size:$breakText ;
                         }
                         .paragraph{
-                            font-size: 0.8rem ;
+                            font-size: $breakText ;
                         }
                         .btnDesarrolladorDiseñador{
                             width: 95%;
-                            font-size: 0.8rem;
-                            margin: 0px auto;
+                            font-size:$breakText;
+                            margin: $margin;
                         }
                     }
                 }
@@ -598,7 +594,7 @@
             .screens{
                 width: 90%;
                 height:auto;
-                margin: 100px auto;
+                margin: $containerMargin;
             }
         }
         .contenedorMatch{
@@ -609,7 +605,7 @@
                     .center{
                         .letterMatc{
                             .match{
-                                font-size: 3rem;
+                                font-size: $breakMatch;
                             }
                         }
                     }
@@ -618,20 +614,20 @@
         }
         .containerTestimony{
             .subtitulo{
-                font-size: 1.2rem;
-                font-weight: 600;
+                font-size: $breakTitle;
+                font-weight: $bold;
             }
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
                         width: 90%;
-                        margin: 0px auto;
+                        margin: $margin;
                         .opinionBotto{
                             .data{
-                                margin: 0px auto -2px -10px;
+                                margin: $margin -2px -10px;
                             }
                             .paragraph{
-                                font-size: 0.6rem;
+                                font-size: $smallTitle;
                             }
                         }
                     }
@@ -639,13 +635,13 @@
             }
             .verMas{
                 width:90%;
-                font-size: 0.8rem;
+                font-size: $breakText;
             }
         }
         .patrocinadores{
             .subtitulo{
-                font-size: 1.2rem;
-                font-weight: 600
+                font-size: $breakTitle;
+                font-weight: $bold;
             }
             .empresasPatrocinadorasUno, .empresasPatrocinadorasDos{
                 img{
@@ -664,12 +660,12 @@
                         .accordion-item{
                             .accordion-header{
                                 .title{
-                                    font-size: 0.8rem !important;
+                                    font-size: $breakText !important;
                                 }
 
                             }
                             .paragraph{
-                                font-size: 0.75rem !important;
+                                font-size: $smallTitle !important;
                             }
                         }
                     }
@@ -678,12 +674,12 @@
         }
         .accordion{
             .subtitle{
-                font-size: 1.2rem;
-                font-weight: 600;
+                font-size: $breakTitle;
+                font-weight: $bold;
             }
             .scrollDownAnswers{
                 summary{
-                    font-size: 0.8rem !important
+                    font-size: $breakText !important
                 }
                 p{
                     font-size: 0.75rem !important;
@@ -691,7 +687,7 @@
             }
             .whatsApp{
                 width: 100%;
-                font-size: 0.8rem;
+                font-size: $breakText;
             }
         }
     }
@@ -701,7 +697,7 @@
                 .news{
                     .accion{
                         .btnAccion{
-                            font-size: 0.8rem;
+                            font-size: $breakText;
                         }
                     }
                 }
@@ -727,7 +723,7 @@
                     .center{
                         .letterMatch{
                             .match{
-                                font-size: 2.5rem;
+                                font-size: $mainTitle;
                             }
                         }
                     }
@@ -736,7 +732,7 @@
         }
         .containerTestimony{
             width: 100%;
-            margin: 0px auto;
+            margin: $margin;
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
@@ -770,7 +766,7 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            margin: 50px auto;
+            margin: $categoryMargin;
         }
     }
 }
@@ -785,7 +781,7 @@
                         width:100%;
                         .letterMatch{
                             .match{
-                                font-size: 1.5rem;
+                                font-size: $MediumTitle;
                             }
                         }
                     }
