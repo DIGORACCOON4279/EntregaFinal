@@ -53,7 +53,7 @@ html .contenedor .socialMediaUno .iconLink:hover {
 html .contenedor .arrow {
   width: 5%;
   position: fixed;
-  bottom: 10px;
+  bottom: 30px;
   right: 30px;
   z-index: 10;
   animation: arrowUp 1.5s linear;
@@ -1681,7 +1681,7 @@ html .contenedor .arrow {
     margin: 0px auto 100px;
   }
   .contenedor .heroSection .hero .info .btnAction {
-    width: 60%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1690,10 +1690,13 @@ html .contenedor .arrow {
     padding: 80px auto 0px;
   }
   .contenedor .heroSection .hero .cellphone {
-    width: 43%;
+    width: 33%;
   }
   .contenedor .socialMediaUno, .contenedor .arrowUp {
     display: none !important;
+  }
+  .contenedor .nosotros {
+    margin-top: 500px !important;
   }
   .footer .mainFooter {
     width: 85%;
@@ -1757,21 +1760,6 @@ html .contenedor .arrow {
     align-items: center;
     margin: 0px auto;
   }
-  .contenedor .containerTestimony .bundleOpinion .groupLine {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto 60px;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 55%;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
-    margin: 10px auto 10px 30px;
-  }
   .contenedor .bannerPublicidadDos .bannerSection .banner {
     display: flex;
     flex-direction: column-reverse;
@@ -1787,7 +1775,7 @@ html .contenedor .arrow {
 }
 @media (max-width: 1000px) {
   .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
-    width: 80%;
+    width: 70%;
   }
   .contenedor .heroSection .hero .cellPhone {
     width: 53%;
@@ -1930,9 +1918,6 @@ html .contenedor .arrow {
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
     font-size: 5rem;
   }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
-    margin: 5px auto 5px 15px;
-  }
   .contenedor .patrocinadores {
     width: 85%;
   }
@@ -2013,10 +1998,9 @@ html .contenedor .arrow {
   }
   .contenedor .heroSection .hero {
     width: 90%;
-    margin: -100px auto;
   }
   .contenedor .heroSection .hero .info .btnAction {
-    width: 70%;
+    width: 60%;
     margin: 0px auto;
   }
   .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
@@ -2042,15 +2026,6 @@ html .contenedor .arrow {
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
     font-size: 4rem;
   }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 80%;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
-    margin: 0px auto 0px 10px;
-  }
-  .contenedor .containerTestimony .verMas {
-    width: 40%;
-  }
   .contenedor .accordion {
     width: 100%;
   }
@@ -2067,6 +2042,13 @@ html .contenedor .arrow {
   .header .menu ul li .categoria {
     font-size: 0.9rem !important;
   }
+  .contenedor {
+    max-width: 100%;
+    margin: 0px auto;
+  }
+  .contenedor .heroSection {
+    margin-top: 300px;
+  }
   .contenedor .heroSection .hero .info h1 {
     font-size: 1.6rem;
   }
@@ -2082,7 +2064,11 @@ html .contenedor .arrow {
     font-size: 0.9rem;
   }
   .contenedor .heroSection .hero .cellphone {
-    width: 83%;
+    width: 73%;
+  }
+  .contenedor .nosotros {
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .nosotros .subtitulo {
     font-size: 1.2rem;
@@ -2096,6 +2082,10 @@ html .contenedor .arrow {
   }
   .contenedor .nosotros .containerInfo .info p {
     font-size: 0.9rem;
+  }
+  .contenedor .contenedorEmpleos {
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .contenedorEmpleos .subtitulo {
     font-size: 1.2rem;
@@ -2132,7 +2122,8 @@ html .contenedor .arrow {
     margin: 100px auto;
   }
   .contenedor .contenedorMatch {
-    width: 90%;
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .contenedorMatch .bannerMatch {
     width: 90%;
@@ -2140,23 +2131,9 @@ html .contenedor .arrow {
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatc .match {
     font-size: 3rem;
   }
-  .contenedor .containerTestimony .subtitulo {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 90%;
-    margin: 0px auto;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBotto .data {
-    margin: 0px auto -2px -10px;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBotto .paragraph {
-    font-size: 0.8rem;
-  }
-  .contenedor .containerTestimony .verMas {
-    width: 90%;
-    font-size: 0.9rem;
+  .contenedor .patrocinadores {
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .patrocinadores .subtitulo {
     font-size: 1.2rem;
@@ -2164,6 +2141,10 @@ html .contenedor .arrow {
   }
   .contenedor .patrocinadores .empresasPatrocinadorasUno img, .contenedor .patrocinadores .empresasPatrocinadorasDos img {
     width: 65px;
+  }
+  .contenedor .bannerPublicidadDos {
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones {
     width: 100%;
@@ -2176,6 +2157,10 @@ html .contenedor .arrow {
   }
   .contenedor .bannerPublicidadDos .bannerSection .banner .accordion .accordion-item .paragraph {
     font-size: 0.8rem !important;
+  }
+  .contenedor .accordion {
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .accordion .subtitle {
     font-size: 1.2rem;
@@ -2196,6 +2181,10 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 400px) {
+  .contenedor {
+    max-width: 100%;
+    margin: 0px auto;
+  }
   .contenedor .contenedorEmpleos .jobs {
     width: 90%;
   }
@@ -2203,23 +2192,14 @@ html .contenedor .arrow {
     width: 90%;
   }
   .contenedor .contenedorMatch {
-    width: 100%;
+    max-width: 90%;
+    margin: 150px auto;
   }
   .contenedor .contenedorMatch .bannerMatch {
     width: 90%;
   }
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
     font-size: 2.2rem;
-  }
-  .contenedor .containerTestimony {
-    width: 100%;
-    margin: 0px auto;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 100%;
-  }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
-    margin: 0px 0px 0px -5px;
   }
   .footer .footerMedium .news .accion input {
     width: 100%;
@@ -2249,9 +2229,6 @@ html .contenedor .arrow {
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
     font-size: 1.6rem;
   }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
-    margin: 0px 0px 0px -17px;
-  }
 }
 @media (max-width: 1250px) {
   .contenedor .buscadorServices {
@@ -2268,14 +2245,6 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 1200px) {
-  .contenedor .containerTestimony .headline {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0px auto;
-  }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 70%;
     margin: 0px auto;
@@ -2390,6 +2359,15 @@ html .contenedor .arrow {
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
     width: 35%;
   }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 80%;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
+    margin: 0px auto 0px 10px;
+  }
+  .contenedor .containerTestimony .verMas {
+    width: 40%;
+  }
 }
 @media (max-width: 490px) {
   .contenedor .buscadorServices p {
@@ -2485,13 +2463,14 @@ html .contenedor .arrow {
     width: 50%;
   }
   .contenedor .containerTestimony {
-    width: 100%;
+    width: 85% !important;
+    margin: 150px auto !important;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 100%;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
-    margin: 0px 0px 0px -10px;
+    margin: 0px 0px 0px -5px;
   }
   .contenedor .accordion .whatsApp {
     width: 100%;

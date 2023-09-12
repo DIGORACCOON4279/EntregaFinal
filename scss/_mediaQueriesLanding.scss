@@ -14,7 +14,7 @@
                     width:$breakPointMax;
                     margin:$margin 100px;
                     .btnAction{
-                        width:60%;
+                        width:75%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-around;
@@ -24,12 +24,15 @@
                     }
                 }
                 .cellphone{
-                    width: 43%;
+                    width: 33%;
                 }
             }
         }
         .socialMediaUno, .arrowUp{
             display: none !important;
+        }
+        .nosotros{
+            margin-top: 500px !important;
         }
     }
     .footer{
@@ -99,27 +102,6 @@
                 margin:$margin;
             }
         }
-        .containerTestimony{
-            .bundleOpinion{
-                .groupLine{
-                    width: $widthTotal;
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    margin: $margin 60px;
-                    .cardOpinionShort{
-                        width: 55%;
-                        .opinionBottom{
-                            .data{
-                                margin: 10px auto 10px 30px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
         .bannerPublicidadDos{
             .bannerSection{
                 .banner{
@@ -142,7 +124,6 @@
         }
     }
 }
-
 @media (max-width:1000px){
     .contenedor{
         .heroSection{
@@ -150,7 +131,7 @@
                 .info{
                     .btnAction{
                         .ctaDeveloper, .ctaDesigner{
-                            width:80%;
+                            width:70%;
                         }
                     }
                 }
@@ -327,19 +308,6 @@
                 }
             }
         }
-        .containerTestimony{
-            .bundleOpinion{
-                .groupLine{
-                    .cardOpinionShort{
-                        .opinionBottom{
-                            .data{
-                                margin: 5px auto 5px 15px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
         .patrocinadores{
             width:85%;
             .empresasPatrocinadorasUno, .empresasPatrocinadorasDos{
@@ -434,10 +402,9 @@
         .heroSection{
             .hero{
                 width:$breakPointMax;
-                margin: -100px auto;
                 .info{
                     .btnAction{
-                        width:70%;
+                        width:60%;
                         margin:0px auto;
                         .ctaDeveloper, .ctaDesigner{
                             width:$widthTotal;
@@ -478,23 +445,6 @@
                 }
             }
         }
-        .containerTestimony{
-            .bundleOpinion{
-                .groupLine{
-                    .cardOpinionShort{
-                        width: 80%;
-                        .opinionBottom{
-                            .data{
-                                margin: $margin 0px 10px;
-                            }
-                        }
-                    }
-                }
-            }
-            .verMas{
-                width: 40%;
-            }
-        }
         .accordion{
             width: $widthTotal;
         }
@@ -519,7 +469,10 @@
         }
     }
     .contenedor{
+        max-width:$widthTotal;
+        margin: $margin;
         .heroSection{
+            margin-top: 300px;
             .hero{
                 .info{
                     h1{
@@ -538,11 +491,13 @@
                     }
                 }
                 .cellphone{
-                    width: 83%;
+                    width: 73%;
                 }
             }
         }
         .nosotros{
+            max-width:$breakPointMax;
+            margin:$sectionMargin;
             .subtitulo{
                 font-size: $breakTitle;
                 font-weight: $bold;
@@ -560,11 +515,13 @@
             }
         }
         .contenedorEmpleos{
+            max-width:$breakPointMax;
+            margin:$sectionMargin;
             .subtitulo{
                 font-size: $breakTitle;
             }
             .jobs{
-                width:90%;
+                width:$breakPointMax;
                 height:auto;
                 display: flex;
                 flex-direction: column-reverse;
@@ -598,7 +555,8 @@
             }
         }
         .contenedorMatch{
-            width: $breakPointMax;
+            max-width:$breakPointMax;
+            margin:$sectionMargin;
             .bannerMatch{
                 width:  $breakPointMax;
                 .centerMatch{
@@ -612,33 +570,9 @@
                 }
             }
         }
-        .containerTestimony{
-            .subtitulo{
-                font-size: $breakTitle;
-                font-weight: $bold;
-            }
-            .bundleOpinion{
-                .groupLine{
-                    .cardOpinionShort{
-                        width: $breakPointMax;
-                        margin: $margin;
-                        .opinionBotto{
-                            .data{
-                                margin: $margin -2px -10px;
-                            }
-                            .paragraph{
-                                font-size: $smallTitle;
-                            }
-                        }
-                    }
-                }
-            }
-            .verMas{
-                width: $breakPointMax;
-                font-size: $breakText;
-            }
-        }
         .patrocinadores{
+            max-width:$breakPointMax;
+            margin:$sectionMargin;
             .subtitulo{
                 font-size: $breakTitle;
                 font-weight: $bold;
@@ -650,6 +584,8 @@
             }
         }
         .bannerPublicidadDos{
+            max-width:$breakPointMax;
+            margin:$sectionMargin;
             .bannerSection{
                 .banner{
                     .itemCellphones{
@@ -672,6 +608,8 @@
             }
         }
         .accordion{
+            max-width:$breakPointMax;
+            margin:$sectionMargin;
             .subtitle{
                 font-size: $breakTitle;
                 font-weight: $bold;
@@ -706,6 +644,8 @@
 }
 @media (max-width:400px){
     .contenedor{
+        max-width:$widthTotal;
+        margin: $margin;
         .contenedorEmpleos{
             .jobs{
                 width: $breakPointMax;
@@ -715,7 +655,8 @@
             }
         }
         .contenedorMatch{
-            width:$widthTotal;
+            max-width:$breakPointMax;
+            margin: $sectionMargin;
             .bannerMatch{
                 width: $breakPointMax;
                 .centerMatch{
@@ -723,22 +664,6 @@
                         .letterMatch{
                             .match{
                                 font-size: $mainTitle;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .containerTestimony{
-            width:$widthTotal;
-            margin: $margin;
-            .bundleOpinion{
-                .groupLine{
-                    .cardOpinionShort{
-                        width:$widthTotal;
-                        .opinionBottom{
-                            .data{
-                                margin: 0px 0px 0px -5px;
                             }
                         }
                     }
@@ -781,19 +706,6 @@
                         .letterMatch{
                             .match{
                                 font-size: $MediumTitle;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .containerTestimony{
-            .bundleOpinion{
-                .groupLine{
-                    .cardOpinionShort{
-                        .opinionBottom{
-                            .data{
-                                margin: 0px 0px 0px -17px;
                             }
                         }
                     }

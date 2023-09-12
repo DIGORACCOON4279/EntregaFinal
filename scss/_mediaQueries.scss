@@ -1,3 +1,4 @@
+// Media Queries
 @media (max-width:1250px){
     .contenedor{
         .buscadorServices{
@@ -22,16 +23,6 @@
 }
 @media (max-width:1200px){
     .contenedor{
-        .containerTestimony{
-            .headline{
-                width: 60%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-                margin: $margin;
-            }
-        }
         .containerDevelopment, .containerDesign{
             width: 70%;
             margin: $margin;
@@ -186,6 +177,23 @@
                 }
             }
         }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 80%;
+                        .opinionBottom{
+                            .data{
+                                margin: $margin 0px 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .verMas{
+                width: 40%;
+            }
+        }
     }
 }
 @media (max-width:490px){
@@ -331,14 +339,15 @@
             }
         }
         .containerTestimony{
-            width:$widthTotal;
+            width:$containerWidth !important;
+            margin: $sectionMargin !important;
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
                         width:$widthTotal;
                         .opinionBottom{
                             .data{
-                                margin: 0px 0px 0px -10px;
+                                margin: 0px 0px 0px -5px;
                             }
                         }
                     }
