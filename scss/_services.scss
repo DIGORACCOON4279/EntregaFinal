@@ -15,7 +15,7 @@
         margin-bottom: 100px;
     }
     .jobs{
-        width:100%;
+        width: $widthTotal;
         height:auto;
         display: flex;
         flex-direction: row-reverse;
@@ -76,7 +76,7 @@
         height:auto;
         margin: $margin;
         .screen{
-            width:100%;
+            width: $widthTotal;
             height:auto;
             filter:grayscale(100%);
             object-fit: cover;
@@ -101,7 +101,7 @@
         color: $whiteColor;
     }
     input{
-        width:100%;
+        width: $widthTotal;
         font-size: $smallTitle;
         border-radius: $ctoBorderRadius !important;
         border: 1px solid  $shadowColor;
@@ -168,7 +168,7 @@
         border-radius:  $ctoBorderRadius;
         cursor: pointer;
         padding: $paddingCto;
-        margin: 0px auto 100px;
+        margin:  $neutralMargin 100px;
         text-decoration: none;
         font-family: $mainFont;
         font-weight: $bold;
@@ -221,7 +221,7 @@
         border-radius: $ctoBorderRadius;
         cursor: pointer;
         padding:  $paddingCto;
-        margin: 0px auto 100px;
+        margin: $neutralMargin 100px;
         text-decoration: none;
         font-family: $mainFont;
         font-weight: $bold;

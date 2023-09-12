@@ -1,10 +1,10 @@
 // Error404
 .mainContainer{
-    width:100vw;
-    height:100vh;
+    width: $screenWidth;
+    height:$screenHeight;
     background-color: $blackColor;
     .main{
-        width:90%;
+        width:$breakPointMax;
         display:flex;
         flex-direction: column;
         justify-content: center;

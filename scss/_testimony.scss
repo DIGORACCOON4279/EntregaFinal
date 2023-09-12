@@ -8,30 +8,30 @@
     justify-content: center;
     align-items: center;
     .headline{
-        width:100%;
+        width:$widthTotal;
         display:flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: flex-start;
         margin:$categoryMargin;
         .subtitle{
-            color: white;
-            font-size: 1.87rem;
-            font-weight: 600;
+            color: $whiteColor;
+            font-size: $LargeTitle;
+            font-weight: $bold;
             text-align: center;
         }
         .paragraph{
-            font-size: 1rem;
+            font-size: $regularText;
             text-align: left;
-            color: white;
+            color: $whiteColor;
         }
         .promotion{
-            font-size: 1rem;
+            font-size: $regularText;
             text-align: left;
-            color: #EB5A00;
-            background-color: #eb5a0038;
-            font-weight: 600;
-            border-radius: 50px;
+            color: $secondaryColor;
+            background-color: $orangeOpacityColor;
+            font-weight: $bold;
+            border-radius: $ctoBorderRadius;
             padding:10px 10px;
         }
     }
@@ -59,7 +59,7 @@
                     margin: 7px;
                     text-align: left;
                     .opinionTop{
-                        width: 90%;
+                        width: $breakPointMax;
                         display: flex;
                         flex-direction: row;
                         justify-content: space-between;
@@ -76,7 +76,7 @@
                     }
                 }
                 .opinionMedium{
-                    width: 90%;
+                    width: $breakPointMax;
                     padding: 10px 10px;
                     border-top: 1px solid $lineColor;
                     border-bottom: 1px solid $lineColor;
@@ -86,7 +86,7 @@
                     }
                 }
                 .opinionBottom{
-                    width:90%;
+                    width:$breakPointMax;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;

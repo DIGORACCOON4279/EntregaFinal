@@ -2,8 +2,8 @@
 @media (max-width:1250px){
     .contenedor{
         .heroSection{
-            width:100vw;
-            height:100vh;
+            width: $screenWidth;
+            height:$screenHeight;
             margin: 400px auto;
             .hero{
                 display: flex;
@@ -11,7 +11,7 @@
                 justify-content: space-around;
                 align-items: center;
                 .info{
-                    width:90%;
+                    width:$breakPointMax;
                     margin:$margin 100px;
                     .btnAction{
                         width:60%;
@@ -34,7 +34,7 @@
     }
     .footer{
         .mainFooter{
-            width: 80%;
+            width:$containerWidth;
         }
     }
 }
@@ -64,14 +64,14 @@
                     overflow: hidden;
                 }
                 .laptop{
-                    width: 80%;
+                    width: $breakPointMax;
                 }
             }
         }
         .contenedorEmpleos {
-            width: 100%;
+            width: $widthTotal;
             .jobs{
-                width:90%;
+                width: $breakPointMax;
                 height:auto;
                 display: flex;
                 flex-direction: column-reverse;
@@ -89,7 +89,7 @@
             }
         }
         .contenedorMatch{
-            width: 90%;
+            width:$breakPointMax;
             .bannerMatch{
                 width: 50%;
                 display: flex;
@@ -102,7 +102,7 @@
         .containerTestimony{
             .bundleOpinion{
                 .groupLine{
-                    width: 100%;
+                    width: $widthTotal;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
@@ -176,7 +176,7 @@
             }
         }
         .contenedorMatch{
-            width: 90%;
+            width: $breakPointMax;
             .bannerMatch{
                 width: 60%;
                 margin: $margin;
@@ -195,7 +195,7 @@
 }
 @media (max-width:850px){
     .header{
-        width:100vw;
+        width: $screenWidth;
         height: 65px;
         display: flex;
         flex-direction: row;
@@ -312,7 +312,7 @@
             }
         }
         .contenedorMatch{
-            width: 90%;
+            width: $breakPointMax;
             .bannerMatch{
                 width: 65%;
                 margin: $margin;
@@ -355,7 +355,7 @@
         }
     }
     .footer{
-        width: 100%;
+        width: $widthTotal;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -382,7 +382,7 @@
                         text-align: left;
                     }
                     .accion{
-                        width:100%;
+                        width:$widthTotal;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -433,14 +433,14 @@
     .contenedor{
         .heroSection{
             .hero{
-                width:90%;
+                width:$breakPointMax;
                 margin: -100px auto;
                 .info{
                     .btnAction{
                         width:70%;
                         margin:0px auto;
                         .ctaDeveloper, .ctaDesigner{
-                            width:100%;
+                            width:$widthTotal;
                         }
                     }
                 }
@@ -463,7 +463,7 @@
             }
         }
         .contenedorMatch{
-            width:90%;
+            width:$breakPointMax;
             .bannerMatch{
                 width: 80%;
                 margin: $margin;
@@ -496,7 +496,7 @@
             }
         }
         .accordion{
-            width: 100%;
+            width: $widthTotal;
         }
     }
     .footer{
@@ -509,11 +509,11 @@
 @media (max-width: 490px){
     .header{
         .menu{
-            width: 100%;
+            width: $widthTotal;
             height: 100%;
             ul{
                 li .categoria{
-                    font-size: 0.8rem !important;
+                    font-size: $breakText !important;
                 }
             }
         }
@@ -523,17 +523,17 @@
             .hero{
                 .info{
                     h1{
-                        font-size:1.5rem ;
+                        font-size:$MediumTitle ;
                     }
                     h3{
-                        font-size: 1.2rem;
+                        font-size: $breakTitle;
                     }
                     .btnAction{
-                        width:100%;
+                        width: $widthTotal;
                         margin: $margin;
                         .ctaDeveloper, .ctaDesigner{
-                            width:100%;
-                            font-size: 0.8rem;
+                            width: $widthTotal;
+                            font-size: $breakText;
                         }
                     }
                 }
@@ -549,10 +549,10 @@
             }
             .containerInfo{
                 .laptop{
-                    width: 100%;
+                    width: $widthTotal;
                 }
                 .info{
-                    width: 100%;
+                    width: $widthTotal;
                     p{
                         font-size:$breakText;
                     }
@@ -571,7 +571,7 @@
                 justify-content: space-around;
                 align-items: center;
                 .empleosArticle{
-                    width: 90%;
+                    width: $breakPointMax;
                     margin: $margin;
                     .subtitulo{
                         font-size: $breakTitle ;
@@ -592,15 +592,15 @@
                 }
             }
             .screens{
-                width: 90%;
+                width:  $breakPointMax;
                 height:auto;
                 margin: $containerMargin;
             }
         }
         .contenedorMatch{
-            width: 90%;
+            width: $breakPointMax;
             .bannerMatch{
-                width: 90%;
+                width:  $breakPointMax;
                 .centerMatch{
                     .center{
                         .letterMatc{
@@ -620,7 +620,7 @@
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
-                        width: 90%;
+                        width: $breakPointMax;
                         margin: $margin;
                         .opinionBotto{
                             .data{
@@ -634,7 +634,7 @@
                 }
             }
             .verMas{
-                width:90%;
+                width: $breakPointMax;
                 font-size: $breakText;
             }
         }
@@ -653,16 +653,15 @@
             .bannerSection{
                 .banner{
                     .itemCellphones{
-                        width: 100%;
+                        width: $widthTotal;
                     }
                     .accordion{
-                        width: 100%;
+                        width: $widthTotal;
                         .accordion-item{
                             .accordion-header{
                                 .title{
                                     font-size: $breakText !important;
                                 }
-
                             }
                             .paragraph{
                                 font-size: $smallTitle !important;
@@ -682,7 +681,7 @@
                     font-size: $breakText !important
                 }
                 p{
-                    font-size: 0.75rem !important;
+                    font-size: $breakText !important;
                 }
             }
             .whatsApp{
@@ -709,16 +708,16 @@
     .contenedor{
         .contenedorEmpleos{
             .jobs{
-                width: 90%;
+                width: $breakPointMax;
                 .empleosArticle{
-                    width: 90%;
+                    width: $breakPointMax;
                 }
             }
         }
         .contenedorMatch{
-            width:100%;
+            width:$widthTotal;
             .bannerMatch{
-                width: 90%;
+                width: $breakPointMax;
                 .centerMatch{
                     .center{
                         .letterMatch{
@@ -731,12 +730,12 @@
             }
         }
         .containerTestimony{
-            width: 100%;
+            width:$widthTotal;
             margin: $margin;
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
-                        width:100%;
+                        width:$widthTotal;
                         .opinionBottom{
                             .data{
                                 margin: 0px 0px 0px -5px;
@@ -752,16 +751,16 @@
             .news{
                 .accion{
                     input{
-                        width: 100%;
+                        width: $widthTotal;
                     }
                     .btnAccion{
-                        width: 100%;
+                        width: $widthTotal;
                     }
                 }
             }
         }
         .mainFooter{
-            width:90%;
+            width:$breakPointMax;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -773,12 +772,12 @@
 @media (max-width:326px){
     .contenedor{
         .contenedorMatch{
-            width:100%;
+            width:$widthTotal;
             .bannerMatch{
-                width: 90%;
+                width: $breakPointMax;
                 .centerMatch{
                     .center{
-                        width:100%;
+                        width:$widthTotal;
                         .letterMatch{
                             .match{
                                 font-size: $MediumTitle;

@@ -1083,7 +1083,7 @@ html .contenedor .arrow {
   overflow: hidden;
 }
 .patrocinadores .subtitulo {
-  color: white;
+  color: #e3e3e3;
   font-size: 1.87rem;
   font-weight: 600;
   margin: 0px auto 100px;
@@ -1171,7 +1171,7 @@ html .contenedor .arrow {
   margin: 50px 0px;
 }
 .containerTestimony .headline .subtitle {
-  color: white;
+  color: #e3e3e3;
   font-size: 1.87rem;
   font-weight: 600;
   text-align: center;
@@ -1179,12 +1179,12 @@ html .contenedor .arrow {
 .containerTestimony .headline .paragraph {
   font-size: 1rem;
   text-align: left;
-  color: white;
+  color: #e3e3e3;
 }
 .containerTestimony .headline .promotion {
   font-size: 1rem;
   text-align: left;
-  color: #EB5A00;
+  color: #eb5a00;
   background-color: rgba(235, 90, 0, 0.2196078431);
   font-weight: 600;
   border-radius: 50px;
@@ -1535,8 +1535,7 @@ html .contenedor .arrow {
   color: #a2a2a2;
   font-family: "Poppins", sans-serif;
   margin: 0px 5px;
-  text-align: left;
-  padding-left: 20px;
+  padding: 12.5px 20px;
 }
 .footer .footerMedium .news .accion .btnAccion {
   width: 150px;
@@ -1697,7 +1696,7 @@ html .contenedor .arrow {
     display: none !important;
   }
   .footer .mainFooter {
-    width: 80%;
+    width: 85%;
   }
 }
 @media (max-width: 1200px) {
@@ -1725,7 +1724,7 @@ html .contenedor .arrow {
     overflow: hidden;
   }
   .contenedor .nosotros .containerInfo .laptop {
-    width: 80%;
+    width: 90%;
   }
   .contenedor .contenedorEmpleos {
     width: 100%;
@@ -2066,10 +2065,10 @@ html .contenedor .arrow {
     height: 100%;
   }
   .header .menu ul li .categoria {
-    font-size: 0.8rem !important;
+    font-size: 0.9rem !important;
   }
   .contenedor .heroSection .hero .info h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .contenedor .heroSection .hero .info h3 {
     font-size: 1.2rem;
@@ -2080,7 +2079,7 @@ html .contenedor .arrow {
   }
   .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .contenedor .heroSection .hero .cellphone {
     width: 83%;
@@ -2186,7 +2185,7 @@ html .contenedor .arrow {
     font-size: 0.9rem !important;
   }
   .contenedor .accordion .scrollDownAnswers p {
-    font-size: 0.75rem !important;
+    font-size: 0.9rem !important;
   }
   .contenedor .accordion .whatsApp {
     width: 100%;

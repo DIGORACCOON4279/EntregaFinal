@@ -8,13 +8,13 @@
     align-items: center;
     overflow: hidden;
     .subtitulo{
-        color: white;
+        color: $whiteColor;
         font-size: $LargeTitle;
         font-weight: $bold;
-        margin:  0px auto 100px;
+        margin: $margin 100px;
     }
     .empresasPatrocinadorasUno{
-        width: 100%;
+        width:$widthTotal;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -46,7 +46,7 @@
         }
     }
     .empresasPatrocinadorasDos{
-        width: 100%;
+        width:  $widthTotal;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

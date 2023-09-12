@@ -10,7 +10,7 @@ body{
 html{
     scroll-behavior: smooth;
     .contenedor{
-        width: 100%;
+        width: $widthTotal;
         height: auto;
         margin: $margin;
         .socialMediaUno{
@@ -30,7 +30,7 @@ html{
                 }
             }
             .iconLink{
-                width: 100%;
+                width:$widthTotal;
                 padding: 7px 7px;
                 border-radius: $borderRadius;
                 background-color: $opacityBackgroundColor;

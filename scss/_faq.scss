@@ -8,12 +8,12 @@
         color: $whiteColor;
         font-size: $LargeTitle;
         font-weight: $bold;
-        margin:  0px auto 100px;
+        margin: $margin 100px;
         text-align: center;
         font-family: $mainFont;
     }
     .scrollDownAnswers{
-        width: 100%;
+        width: $widthTotal;
         height: auto;
         display: block;
         margin:$neutralMargin;

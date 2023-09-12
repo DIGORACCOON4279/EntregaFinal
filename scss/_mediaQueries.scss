@@ -318,7 +318,7 @@
             }
         }
         .containerDevelopment, .containerDesign{
-            width: 100%;
+            width:$widthTotal;
             .vacanciesDevelopment, .vacanciesDesign{
                 .cardJob{
                     img.job{
@@ -331,11 +331,11 @@
             }
         }
         .containerTestimony{
-            width:100%;
+            width:$widthTotal;
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
-                        width:100%;
+                        width:$widthTotal;
                         .opinionBottom{
                             .data{
                                 margin: 0px 0px 0px -10px;
@@ -347,7 +347,7 @@
         }
         .accordion{
             .whatsApp{
-                width: 100%;
+                width: $widthTotal;
             }
         }
     }
@@ -357,7 +357,7 @@
         .containerDevelopment, .containerDesign{
             .vacanciesDevelopment, .vacanciesDesig{
                 .cardJob{
-                    width:100%;
+                    width:$widthTotal;
                     margin: auto;
                 }
             }

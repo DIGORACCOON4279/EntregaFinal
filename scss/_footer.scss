@@ -1,6 +1,6 @@
 // Footer
 .footer{
-    width:100%;
+    width:$widthTotal;
     border: 1px solid $shadowColor;
     box-shadow: 0 0 10px 2px $shadowColor;
     background-color: $backgroundColor;
@@ -90,8 +90,7 @@
                     color: $tertiaryColor;
                     font-family: $mainFont;
                     margin: 0px 5px;
-                    text-align: left;
-                    padding-left: 20px;
+                    padding: 12.5px 20px;
                 }
                 .btnAccion{
                     width: 150px;

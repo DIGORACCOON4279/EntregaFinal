@@ -1,12 +1,12 @@
 // Banner Advertising
 .bannerPublicidadUno{
-    width: 100%;
+    width:$widthTotal;
     height: auto;
     box-shadow: 0 0 10px 2px $shadowColor;
     background-color: $backgroundColor;
     margin: $sectionMargin;
     .banner{
-        width: 100%;
+        width: $widthTotal;
         max-width: 1000px;
         display: flex;
         justify-content: center;
@@ -18,7 +18,7 @@
     }
 }
 .bannerPublicidadDos{
-    width:100%;
+    width:$widthTotal;
     height: auto;
     background-image:url("../img/backgroundSteps2.png");
     background-attachment: fixed;
@@ -45,7 +45,7 @@
                 height: 100%;
             }
             .accordion{
-                width: 100% !important;
+                width: $widthTotal !important;
                 margin: auto auto !important;
                 .accordion-Item{
                     .accordion-header{
