@@ -34,8 +34,8 @@
         }
     }
     .hero{
-        width: 80%;
-        max-width: 1100px;
+        width: 100%;
+        max-width: 1150px;
         height: 800px;
         display: flex;
         flex-direction: row;
@@ -126,7 +126,7 @@
             }
         }
         .cellphone{
-            width: 33%;
+            width: 30%;
             object-fit: cover;
             animation: cellphone 1.5s linear;
             @keyframes cellphone{

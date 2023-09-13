@@ -24,7 +24,7 @@ html .contenedor .socialMediaUno {
   flex-direction: column;
   position: fixed;
   top: 200px;
-  left: 40px;
+  left: 25px;
   z-index: 10;
   animation: socialMedia 1.5s linear;
 }
@@ -53,8 +53,8 @@ html .contenedor .socialMediaUno .iconLink:hover {
 html .contenedor .arrow {
   width: 5%;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 40px;
+  right: 15px;
   z-index: 10;
   animation: arrowUp 1.5s linear;
 }
@@ -192,8 +192,8 @@ html .contenedor .arrow {
   }
 }
 .heroSection .hero {
-  width: 80%;
-  max-width: 1100px;
+  width: 100%;
+  max-width: 1150px;
   height: 800px;
   display: flex;
   flex-direction: row;
@@ -285,7 +285,7 @@ html .contenedor .arrow {
   text-shadow: 0 0 10px #26A4E3;
 }
 .heroSection .hero .cellphone {
-  width: 33%;
+  width: 30%;
   object-fit: cover;
   animation: cellphone 1.5s linear;
 }
@@ -314,7 +314,7 @@ html .contenedor .arrow {
 
 .nosotros {
   width: 90%;
-  max-width: 1100px;
+  max-width: 1150px;
   margin: 150px auto;
   display: flex;
   flex-direction: column;
@@ -366,7 +366,7 @@ html .contenedor .arrow {
 
 .contenedorEmpleos {
   width: 85%;
-  max-width: 1100px;
+  max-width: 1050px;
   margin: 150px auto !important;
   display: flex;
   flex-direction: column;
@@ -842,7 +842,7 @@ html .contenedor .arrow {
 
 .containerDevelopment, .containerDesign {
   width: 85%;
-  max-width: 1100px;
+  max-width: 1050px;
   margin: 150px auto;
 }
 
@@ -1075,7 +1075,7 @@ html .contenedor .arrow {
 
 .patrocinadores {
   width: 85%;
-  max-width: 1100px;
+  max-width: 1050px;
   margin: 150px auto;
   display: flex;
   flex-direction: column;
@@ -1297,7 +1297,7 @@ html .contenedor .arrow {
 
 .accordion {
   width: 85%;
-  max-width: 1100px;
+  max-width: 1300px;
   height: auto;
   margin: 150px auto !important;
 }
@@ -1365,7 +1365,7 @@ html .contenedor .arrow {
 
 .formContainer {
   width: 85%;
-  max-width: 1100px;
+  max-width: 1300px;
   height: auto;
   margin: -50px auto 100px !important;
   text-align: center;
@@ -2225,6 +2225,11 @@ html .contenedor .arrow {
 @media (max-width: 1250px) {
   .contenedor .buscadorServices {
     width: 70%;
+    margin: 0px auto;
+  }
+  .contenedor .card {
+    width: 78%;
+    margin: 0px auto;
   }
   .contenedor .card .contenedorDevelopers .cardDev, .contenedor .card .contenedorDevelopers .cardDesigners, .contenedor .card .contenedorDesigners .cardDev, .contenedor .card .contenedorDesigners .cardDesigners {
     width: 150px;
@@ -2232,20 +2237,38 @@ html .contenedor .arrow {
   .contenedor .card .contactanosDesarrolladores, .contenedor .card .contactanosDiseñadores {
     width: 20%;
   }
-  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 50%;
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 82%;
+    margin: 0px auto;
   }
-  .contenedor .accordion .whatsApp {
+  .contenedor .containerTestimony {
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 92%;
+    margin: 150px auto 100px;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
+    width: 30%;
+  }
+  .contenedor .accordion, .contenedor .formContainer {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .contenedor .accordion .whatsApp, .contenedor .formContainer .whatsApp {
     width: 20%;
   }
 }
 @media (max-width: 1200px) {
   .contenedor .containerDevelopment, .contenedor .containerDesign {
-    width: 70%;
+    width: 80%;
     margin: 0px auto;
   }
   .contenedor .containerTestimony {
-    width: 100%;
+    width: 93%;
+    margin: 0px auto;
   }
   .contenedor .containerTestimony .headline {
     width: 60%;
@@ -2265,7 +2288,7 @@ html .contenedor .arrow {
     margin: 0px auto;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 60%;
+    width: 88%;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
     top: 30%;
@@ -2275,43 +2298,56 @@ html .contenedor .arrow {
     width: 25%;
     padding: 20px 35px;
   }
-  .contenedor .accordion .whatsApp {
+  .contenedor .accordion, .contenedor .formContainer {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .contenedor .accordion .whatsApp, .contenedor .formContainer .whatsApp {
     width: 30%;
     padding: 20px 35px;
   }
 }
 @media (max-width: 1000px) {
   .contenedor .cards {
-    width: 90%;
-    background-color: aliceblue;
+    width: 80%;
   }
   .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
     width: 40%;
   }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
-    width: 90%;
+    width: 75%;
+    margin: 0px auto;
+  }
+  .contenedor .containerTestimony {
+    width: 88%;
     margin: 0px auto;
   }
   .contenedor .containerTestimony .verMas {
     width: 25%;
   }
+  .contenedor .accordion {
+    width: 88%;
+    margin: 0px auto;
+  }
   .contenedor .accordion .whatsApp {
     width: 30%;
+  }
+  .contenedor .formContainer {
+    width: 88%;
+    margin: 0px auto;
   }
   .contenedor .formContainer .mapa {
     display: none;
   }
 }
 @media (max-width: 850px) {
-  .contenedor {
-    background-color: aliceblue;
-  }
   .contenedor .buscadorServices {
-    width: 90%;
+    width: 80%;
+    margin: 0px auto;
   }
   .contenedor .cards {
     width: 100%;
-    background-color: aliceblue;
+    margin: 0px auto;
   }
   .contenedor .cards .contenedorDevelopers, .contenedor .cards .contenedorDesigners {
     width: 100%;
@@ -2319,29 +2355,41 @@ html .contenedor .arrow {
   }
   .contenedor .cards .contenedorDevelopers .cardDev, .contenedor .cards .contenedorDevelopers .cardDesigners, .contenedor .cards .contenedorDesigners .cardDev, .contenedor .cards .contenedorDesigners .cardDesigners {
     width: 100%;
-    margin: 5px;
+    gap: 2px;
   }
   .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
     width: 30%;
+  }
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 88%;
+    margin: 0px auto;
+  }
+  .contenedor .containerTestimony {
+    width: 100%;
+    margin: 0px auto;
   }
   .contenedor .containerTestimony .headline {
     width: 80%;
     text-align: left;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
   }
   .contenedor .containerTestimony .verMas {
     width: 30%;
   }
-  .contenedor .accordion .whatsApp {
+  .contenedor .accordion, .contenedor .formContainer {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .contenedor .accordion .whatsApp, .contenedor .formContainer .whatsApp {
     width: 40%;
   }
 }
 @media (max-width: 767px) {
   .contenedor .cards {
-    width: 100%;
+    width: 95%;
     margin: 0px auto;
   }
   .contenedor .cards .contenedorDevelopers, .contenedor .cards .contenedorDesigners {
@@ -2355,7 +2403,7 @@ html .contenedor .arrow {
     width: 40%;
   }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
-    width: 85%;
+    width: 90%;
     margin: 0px auto;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment, .contenedor .containerDevelopment .vacanciesDesign, .contenedor .containerDesign .vacanciesDevelopment, .contenedor .containerDesign .vacanciesDesign {
@@ -2386,10 +2434,20 @@ html .contenedor .arrow {
     border-bottom: 1px solid #2e2e2e;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
-    width: 35%;
+    width: 40%;
+    margin: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate .check, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate .check, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate .check, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate .check {
+    width: 12%;
+    height: 12%;
+  }
+  .contenedor .containerTestimony {
+    width: 90%;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
-    width: 80%;
+    width: 100%;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
     top: 25%;
@@ -2398,13 +2456,17 @@ html .contenedor .arrow {
   .contenedor .containerTestimony .verMas {
     width: 35%;
   }
+  .contenedor .accordion, .contenedor .formContainer {
+    width: 100%;
+    margin: 0px auto;
+  }
 }
 @media (max-width: 490px) {
   .contenedor .buscadorServices p {
     font-size: 0.9rem;
   }
   .contenedor .cards {
-    width: 90%;
+    width: 93%;
     margin: 0px auto;
   }
   .contenedor .cards .contenedorDevelopers, .contenedor .cards .contenedorDesigners {
@@ -2422,8 +2484,16 @@ html .contenedor .arrow {
   .contenedor .cards .anuncio {
     font-size: 0.9rem;
   }
+  .contenedor .containerDevelopment, .contenedor .containerDesign {
+    width: 85%;
+    margin: auto;
+  }
   .contenedor .containerDevelopment .titleDevelopment, .contenedor .containerDevelopment .titleDesign, .contenedor .containerDesign .titleDevelopment, .contenedor .containerDesign .titleDesign {
     font-size: 1.2rem;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment, .contenedor .containerDevelopment .vacanciesDesign, .contenedor .containerDesign .vacanciesDevelopment, .contenedor .containerDesign .vacanciesDesign {
+    width: 100%;
+    margin: auto;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob img.job, .contenedor .containerDevelopment .vacanciesDesign .cardJob img.job, .contenedor .containerDesign .vacanciesDevelopment .cardJob img.job, .contenedor .containerDesign .vacanciesDesign .cardJob img.job {
     width: 13%;
@@ -2438,11 +2508,13 @@ html .contenedor .arrow {
     font-size: 0.6rem;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
-    width: 100% !important;
+    width: 50% !important;
+    margin: 20px 0px;
     font-size: 0.8rem;
+    justify-content: space-around;
   }
   .contenedor .containerTestimony {
-    width: 90%;
+    width: 95%;
   }
   .contenedor .containerTestimony .headline {
     width: 90%;
@@ -2474,6 +2546,10 @@ html .contenedor .arrow {
     width: 90%;
     font-size: 0.9rem;
   }
+  .contenedor .accordion {
+    width: 100%;
+    margin: 0px auto;
+  }
   .contenedor .formContainer .subtitulo {
     font-size: 1.2rem;
   }
@@ -2485,12 +2561,9 @@ html .contenedor .arrow {
 }
 @media (max-width: 400px) {
   .contenedor .cards {
-    width: 100%;
+    width: 94%;
   }
   .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
-    width: 100%;
-  }
-  .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 100%;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob img.job, .contenedor .containerDevelopment .vacanciesDesign .cardJob img.job, .contenedor .containerDesign .vacanciesDevelopment .cardJob img.job, .contenedor .containerDesign .vacanciesDesign .cardJob img.job {
@@ -2500,7 +2573,7 @@ html .contenedor .arrow {
     width: 50%;
   }
   .contenedor .containerTestimony {
-    width: 90% !important;
+    width: 85% !important;
     margin: 150px auto !important;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
@@ -2510,7 +2583,10 @@ html .contenedor .arrow {
     top: 25%;
     left: 20%;
   }
-  .contenedor .accordion .whatsApp {
+  .contenedor .accordion, .contenedor .formContainer {
+    width: 100%;
+  }
+  .contenedor .accordion .whatsApp, .contenedor .formContainer .whatsApp {
     width: 100%;
   }
 }

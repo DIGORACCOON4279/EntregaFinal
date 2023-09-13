@@ -18,7 +18,7 @@ html{
             flex-direction: column;
             position: fixed;
             top: 200px;
-            left: 40px;
+            left: 25px;
             z-index:10;
             animation: socialMedia 1.5s linear;
             @keyframes socialMedia{
@@ -47,8 +47,8 @@ html{
         .arrow{
             width: 5%;
             position: fixed;
-            bottom: 30px;
-            right: 30px;
+            bottom: 40px;
+            right: 15px;
             z-index:10;
             animation: arrowUp 1.5s linear;
             @keyframes arrowUp{
