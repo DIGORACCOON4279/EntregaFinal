@@ -1856,7 +1856,7 @@ html{
 /* Media Queries */
 
 @media (max-width:1250px){
-    /* .contenedor .heroSection{
+    .contenedor .heroSection{
         width:100vw;
         height:100vh;
         margin: 400px auto;
@@ -1882,14 +1882,14 @@ html{
     }
     .contenedor .heroSection .hero .cellphone{
         width: 43%;
-    } */
-    /* .contenedor .socialMediaUno{
+    }
+    .contenedor .socialMediaUno{
         display: none;
     }
     .contenedor .arrowUp{
         display:none
-    } */
-    /* .container .buscadorServices{
+    }
+    .container .buscadorServices{
         width: 70%;
     }
     .container .cards .contenedorDevelopers .cardDev, .contenedorDesigners .cardDesigners{
@@ -1903,13 +1903,13 @@ html{
     }
     .container .accordion .whatsApp{
         width: 20%;
-    } */
-    /* .footer .mainFooter{
+    }
+    .footer .mainFooter{
         width: 80%;
-    } */
+    }
 }
 @media (max-width: 1200px){
-    /* .contenedor .nosotros .subtitulo{
+    .contenedor .nosotros .subtitulo{
         margin-bottom: 100px ;
     }
     .contenedor .nosotros .containerInfo{
@@ -1934,8 +1934,8 @@ html{
     }
     .contenedor .nosotros .containerInfo .laptop{
         width: 80%;
-    } */
-    /* .contenedor .contenedorEmpleos {
+    }
+    .contenedor .contenedorEmpleos {
         width: 100%;
     }
     .contenedor .contenedorEmpleos .jobs{
@@ -1954,8 +1954,8 @@ html{
         width: 80%;
         height:auto;
         margin: 100px auto 0px auto;
-    } */
-    /* .contenedor .contenedorMatch{
+    }
+    .contenedor .contenedorMatch{
         width: 90%;
     }
     .contenedor .contenedorMatch .bannerMatch{
@@ -1965,8 +1965,8 @@ html{
         justify-content: space-around;
         align-items: center;
         margin: 0 auto;
-    } */
-    /* .contenedor .containerTestimony .bundleOpinion .groupLine{
+    }
+    .contenedor .containerTestimony .bundleOpinion .groupLine{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1980,11 +1980,11 @@ html{
     }
     .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 10px auto 10px 30px;
-    } */
-    /* .contenedor .accordion .whatsApp{
+    }
+    .contenedor .accordion .whatsApp{
         width: 30%;
-    } */
-    /* .container .containerTestimony .headline{
+    }
+    .container .containerTestimony .headline{
         width: 60%;
         display: flex;
         flex-direction: column;
@@ -2016,8 +2016,8 @@ html{
     }
     .container .accordion .whatsApp{
         width: 30%;
-    } */
-    /* .bannerPublicidadDos .bannerSection .banner{
+    }
+    .bannerPublicidadDos .bannerSection .banner{
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
@@ -2025,10 +2025,10 @@ html{
     }
     .bannerPublicidadDos .bannerSection .banner .itemCellphones .accordion{
         gap:0 !important;
-    } */
+    }
 }
 @media (max-width:1000px){
-    /* .contenedor .heroSection .hero .info .btnAction .ctaDeveloper{
+    .contenedor .heroSection .hero .info .btnAction .ctaDeveloper{
         width:80%;
     }
     .contenedor .heroSection .hero .info .btnAction .ctaDesigner{
@@ -2036,37 +2036,37 @@ html{
     }
     .contenedor  .heroSection .hero .cellPhone{
         width: 53%;
-    } */
-    /* .contenedor .nosotros .containerInfo .info{
+    }
+    .contenedor .nosotros .containerInfo .info{
         width: 70%;
-    } */
-    /* .contenedor .contenedorEmpleos .empleosArticle{
+    }
+    .contenedor .contenedorEmpleos .empleosArticle{
         width: 70%;
         margin: 0px auto;
     }
     .contenedor .containerTestimony .verMas{
         width:25%;
-    } */
-    /* .contenedor .contenedorMatch{
+    }
+    .contenedor .contenedorMatch{
         width: 90%;
     }
     .contenedor .contenedorMatch .bannerMatch{
         width: 60%;
         margin: 0 auto;
-    } */
-    /* .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones{
+    }
+    .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones{
         width: 70%;
-    } */
-    /* .container .cards .contactanosDesarrolladores{
+    }
+    .container .cards .contactanosDesarrolladores{
         width: 40%;
     }
     .container .cards .contactanosDiseñadores{
         width: 40%;
-    } */
-    /* .containerJob{
+    }
+    .containerJob{
         width: 90%;
-    } */
-    /* .containerJob .containerDevelopment, .containerDesign{
+    }
+    .containerJob .containerDevelopment, .containerDesign{
         width: 90%;
         margin: 0px auto;
     }
@@ -2083,9 +2083,9 @@ html{
     .container .formContainer .mapa{
         display: none;
     }
-} */
+}
 @media (max-width:850px){
-    /* .header{
+    .header{
         width:100vw;
         height: 65px;
         display: flex;
@@ -2184,14 +2184,14 @@ html{
     }
     .header .close:hover{
         transform: scale(105%) rotate(270deg);
-    } */
-    /* .contenedor .heroSection .hero .cellphone{
+    }
+    .contenedor .heroSection .hero .cellphone{
         width: 53%;
-    } */
-    /* .contenedor .nosotros .containerInfo .info{
+    }
+    .contenedor .nosotros .containerInfo .info{
         width: 80%;
-    } */
-    /* .contenedor .contenedorMatch{
+    }
+    .contenedor .contenedorMatch{
         width: 90%;
     }
     .contenedor .contenedorMatch .bannerMatch{
@@ -2200,11 +2200,11 @@ html{
     }
     .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match{
         font-size: 5rem;
-    } */
-    /* .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
+    }
+    .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 5px auto 5px 15px;
-    } */
-    /* .contenedor .patrocinadores{
+    }
+    .contenedor .patrocinadores{
         width:85%;
     }
     .contenedor .patrocinadores .empresasPatrocinadorasUno img{
@@ -2212,8 +2212,8 @@ html{
     }
     .contenedor .patrocinadores .empresasPatrocinadorasDos img{
         width: 85px;
-    } */
-    /* .contenedor .accordion .whatsApp{
+    }
+    .contenedor .accordion .whatsApp{
         width: 40%;
     }
     .container .buscadorServices{
@@ -2234,8 +2234,8 @@ html{
     }
     .container .accordion .whatsApp{
         width: 50%;
-    } */
-    /* .footer{
+    }
+    .footer{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -2279,10 +2279,10 @@ html{
     }
     .footer .mainFooter .menu ul{
         margin-left: -32px;
-    } */
+    }
 }
 @media (max-width:767px){
-    /* .header{
+    .header{
         padding :0px 40px;
     }
     .header .menu{
@@ -2303,8 +2303,8 @@ html{
     .header .menu .socialMedia{
         display: flex;
         justify-content: center;
-    } */
-    /* .contenedor .heroSection .hero{
+    }
+    .contenedor .heroSection .hero{
         width:90%;
         margin: -100px auto;
     }
@@ -2320,15 +2320,15 @@ html{
     }
     .contenedor .heroSection .hero .cellphone{
         width: 53%;
-    } */
-    /* .contenedor .contenedorEmpleos .jobs .empleosArticle{
+    }
+    .contenedor .contenedorEmpleos .jobs .empleosArticle{
         width: 80%;
         margin: 0px auto;
     }
     .contenedor .contenedorEmpleos .jobs .empleosArticle .contenedorEmpleo .btnDesarrolladorDiseñador{
         width: 50%;
-    } */
-    /* .contenedor .contenedorMatch{
+    }
+    .contenedor .contenedorMatch{
         width:90%;
     }
     .contenedor .contenedorMatch .bannerMatch{
@@ -2337,8 +2337,8 @@ html{
     }
     .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match{
         font-size: 4rem;
-    } */
-    /* .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
+    }
+    .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
         width: 80%;
     }
     .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
@@ -2346,11 +2346,11 @@ html{
     }
     .contenedor .containerTestimony .verMas{
         width: 40%;
-    } */
-    /* .contenedor .accordion{
+    }
+    .contenedor .accordion{
         width: 100%;
-    } */
-    /* .container .cards{
+    }
+    .container .cards{
         width: 100%;
         margin: 0px auto;
         padding: 0px 30px;
@@ -2374,8 +2374,8 @@ html{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-    } */
-    /* .containerJob .containerDevelopment .vacanciesDevelopment .cardJob{
+    }
+    .containerJob .containerDevelopment .vacanciesDevelopment .cardJob{
         width: 100%;
         display: flex;
         flex-direction:column;
@@ -2384,12 +2384,12 @@ html{
         padding: 0px 10px !important;
         row-gap: 10px;
         overflow: hidden;
-    } */
-    /* .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
+    }
+    .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
         width: 10%;
         margin: 10px 0 0 0;
-    } */
-    /* .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy{
+    }
+    .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy{
         width: 100%;
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local{
@@ -2398,14 +2398,14 @@ html{
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob .postulate{
         width: 35%;
-    } */
-    /* .containerJob .containerDesign .vacanciesDesign{
+    }
+    .containerJob .containerDesign .vacanciesDesign{
         width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-    } */
-    /* .containerJob .containerDesign .vacanciesDesign .cardJob{
+    }
+    .containerJob .containerDesign .vacanciesDesign .cardJob{
         width: 100%;
         display: flex;
         flex-direction:column;
@@ -2414,12 +2414,12 @@ html{
         padding: 0px 10px !important;
         row-gap: 10px;
         overflow: hidden;
-    } */
-    /* .containerJob .containerDesign .vacanciesDesign .cardJob img.job{
+    }
+    .containerJob .containerDesign .vacanciesDesign .cardJob img.job{
         width: 10%;
         margin: 10px 0 0 0;
-    } */
-    /* .containerJob .containerDesign .vacanciesDesign .cardJob .cardVacancy{
+    }
+    .containerJob .containerDesign .vacanciesDesign .cardJob .cardVacancy{
         width: 100%;
     }
     .containerJob .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local{
@@ -2428,37 +2428,37 @@ html{
     }
     .containerJob .containerDesign .vacanciesDesign .cardJob .postulate{
         width: 35%;
-    } */
-    /* .container .containerTestimony .headline{
+    }
+    .container .containerTestimony .headline{
         width: 80%;
         text-align: left;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
         width: 80%;
-    } */
-    /* .container .contactanosDesarrolladores{
+    }
+    .container .contactanosDesarrolladores{
         width: 40%;
     }
     .container .contactanosDiseñadores{
         width: 40%;
-    } */
-    /* .container .accordion .whatsApp{
+    }
+    .container .accordion .whatsApp{
         width: 100%;
-    } */
-    /* .footer .mainFooter{
+    }
+    .footer .mainFooter{
         width: 60%;
         margin: 40px auto;
-    } */
+    }
 }
 @media (max-width: 490px){
-    /* .header .menu{
+    .header .menu{
         width: 100vw;
         height: 100%;
     }
     .header .menu ul li .categoria{
         font-size: 0.8rem !important;
-    } */
-    /* .contenedor .heroSection .hero .info h3{
+    }
+    .contenedor .heroSection .hero .info h3{
         font-size: 1.2rem;
     }
     .contenedor .heroSection .hero .info h1{
@@ -2478,8 +2478,8 @@ html{
     }
     .contenedor .heroSection .hero .cellphone{
         width: 83%;
-    } */
-    /* .contenedor .nosotros .containerInfo .laptop{
+    }
+    .contenedor .nosotros .containerInfo .laptop{
         width: 100%;
     }
     .contenedor .nosotros .subtitulo{
@@ -2491,8 +2491,8 @@ html{
     }
     .contenedor .nosotros .containerInfo .info p{
         font-size: 0.8rem;
-    } */
-    /* .contenedor .contenedorEmpleos .subtitulo{
+    }
+    .contenedor .contenedorEmpleos .subtitulo{
         font-size: 1.2rem;
     }
     .contenedor .contenedorEmpleos .jobs{
@@ -2525,8 +2525,8 @@ html{
         width: 95%;
         font-size: 0.8rem;
         margin: 0px auto;
-    } */
-    /* .contenedor .contenedorMatch{
+    }
+    .contenedor .contenedorMatch{
         width: 90%;
     }
     .contenedor .contenedorMatch .bannerMatch{
@@ -2534,8 +2534,8 @@ html{
     }
     .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match{
         font-size: 3rem;
-    } */
-    /* .contenedor .containerTestimony .subtitulo{
+    }
+    .contenedor .containerTestimony .subtitulo{
         font-size: 1.2rem;
         font-weight: 600;
     }
@@ -2552,8 +2552,8 @@ html{
     .contenedor .containerTestimony .verMas{
         width:90%;
         font-size: 0.8rem;
-    } */
-    /* .contenedor .patrocinadores .empresasPatrocinadorasUno img{
+    }
+    .contenedor .patrocinadores .empresasPatrocinadorasUno img{
         width: 65px;
     }
     .contenedor .patrocinadores .subtitulo{
@@ -2562,8 +2562,8 @@ html{
     }
     .contenedor .patrocinadores .empresasPatrocinadorasDos img{
         width: 65px;
-    } */
-    /* .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones{
+    }
+    .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones{
         width: 100%;
     }
     .contenedor .bannerPublicidadDos .bannerSection .banner .accordion{
@@ -2574,8 +2574,8 @@ html{
     }
     .contenedor .bannerPublicidadDos .bannerSection .banner .accordion .accordion-item .paragraph{
         font-size: 0.75rem !important;
-    } */
-    /* .contenedor .accordion .subtitle{
+    }
+    .contenedor .accordion .subtitle{
         font-size: 1.2rem;
         font-weight: 600;
     }
@@ -2588,8 +2588,8 @@ html{
     .contenedor .accordion .whatsApp{
         width: 100%;
         font-size: 0.8rem;
-    } */
-    /* .container .buscadorServices p{
+    }
+    .container .buscadorServices p{
         font-size: 0.8rem;
     }
     .container .cards .anuncio{
@@ -2598,8 +2598,8 @@ html{
     .container .cards .subtitle{
         font-size: 1.2rem;
         font-weight: 600;
-    } */
-    /* .container .cards .contactanosDesarrolladores{
+    }
+    .container .cards .contactanosDesarrolladores{
         font-size: 0.8rem;
         width: 80%;
     }
@@ -2610,14 +2610,14 @@ html{
     .containerJob{
         width: 90%;
         margin: 150px auto;
-    } */
-    /* .containerJob .containerDevelopment .titleDevelopment{
+    }
+    .containerJob .containerDevelopment .titleDevelopment{
         font-size: 1.2rem;
     }
     .containerJob .containerDesign .titleDesign{
         font-size: 1.2rem;
-    } */
-    /* .containerJob .containerDesign .titleDesign{
+    }
+    .containerJob .containerDesign .titleDesign{
         font-size: 1.2rem;
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
@@ -2651,8 +2651,8 @@ html{
     .containerJob .containerDesign .vacanciesDesign .cardJob .postulate{
         width: 40%;
         font-size: 0.6rem;
-    } */
-    /* .container .containerTestimony .headline{
+    }
+    .container .containerTestimony .headline{
         width:90%;
         text-align: left;
     }
@@ -2664,8 +2664,8 @@ html{
     }
     .container .containerTestimony .headline .promotion{
         font-size: 0.8rem;
-    } */
-    /* .container .formContainer .subtitulo{
+    }
+    .container .formContainer .subtitulo{
         font-size: 1.2rem;
     }
     .container .accordion .subtitle{
@@ -2676,8 +2676,8 @@ html{
     }
     .container .accordion .scrollDownAnswers p{
         font-size: 0.75rem !important;
-    } */
-    /* .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
+    }
+    .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
         width: 90%;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
@@ -2692,27 +2692,27 @@ html{
     }
     .container .accordion .subtitle{
         font-size: 1.2rem;
-    } */
-    /* .container .accordion .whatsApp{
+    }
+    .container .accordion .whatsApp{
         font-size: 0.8rem;
     }
     .container .formContainer .locationForm .form .btnAccion{
         width: 100%;
         margin: 10px auto;
         font-size: 0.8rem;
-    } */
-    /* .footer .mainFooter .footerMedium .news .accion .btnAccion{
+    }
+    .footer .mainFooter .footerMedium .news .accion .btnAccion{
         font-size: 0.8rem;
-    } */
+    }
 }
 @media (max-width:400px){
-    /* .contenedor .contenedorEmpleos .jobs{
+    .contenedor .contenedorEmpleos .jobs{
         width: 90%;
     }
     .contenedor .contenedorEmpleos .jobs .empleosArticle{
         width: 90%;
-    } */
-    /* .contenedor .contenedorMatch{
+    }
+    .contenedor .contenedorMatch{
         width:100%;
     }
     .contenedor .contenedorMatch .bannerMatch{
@@ -2720,12 +2720,11 @@ html{
     }
     .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match{
         font-size: 2.5rem;
-    } */
-
-    /* .container .cards{
+    }
+    .container .cards{
         padding: 0px 10px;
-    } */
-    /* .contenedor .containerTestimony{
+    }
+    .contenedor .containerTestimony{
         width: 100%;
         margin: 0px auto;
     }
@@ -2734,11 +2733,11 @@ html{
     }
     .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 0px 0px 0px -5px;
-    } */
-    /* .containerJob {
+    }
+    .containerJob {
         width: 90%;
-    } */
-    /* .containerJob .containerDevelopment, .containerDesign{
+    }
+    .containerJob .containerDevelopment, .containerDesign{
         width: 100%;
     }
     .containerJob .containerDevelopment .vacanciesDevelopment .cardJob img.job{
@@ -2752,14 +2751,14 @@ html{
     }
     .containerJob .containerDesign .vacanciesDesign .cardJob .postulate{
         width: 50%;
-    } */
-    /* .container .cards .contactanosDesarrolladores{
+    }
+    .container .cards .contactanosDesarrolladores{
         width: 80%;
     }
     .container .cards .contactanosDiseñadores{
         width: 80%;
-    } */
-    /* .container .containerTestimony{
+    }
+    .container .containerTestimony{
         width:100%;
     }
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort{
@@ -2770,8 +2769,8 @@ html{
     }
     .container .accordion .whatsApp{
         width: 100%;
-    } */
-    /* .footer .footerMedium .news .accion input{
+    }
+    .footer .footerMedium .news .accion input{
         width: 100%;
     }
     .footer .footerMedium .news .accion .btnAccion{
@@ -2784,10 +2783,10 @@ html{
         justify-content: space-evenly;
         align-items: center;
         margin: 50px auto;
-    } */
+    }
 }
 @media (max-width:326px){
-    /* .contenedor .contenedorMatch{
+    .contenedor .contenedorMatch{
         width:100%;
     }
     .contenedor .contenedorMatch .bannerMatch{
@@ -2798,11 +2797,11 @@ html{
     }
     .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match{
         font-size: 1.5rem;
-    } */
-    /* .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
+    }
+    .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 0px 0px 0px -17px;
-    } */
-    /* .containerJob{
+    }
+    .containerJob{
         width: 100%;
         margin: 150px auto;
     }
@@ -2817,4 +2816,4 @@ html{
     .container .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data{
         margin: 0px 0px 0px -20px;
     }
-} */
+}
