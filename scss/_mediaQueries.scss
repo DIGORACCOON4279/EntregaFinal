@@ -7,11 +7,20 @@
         .card{
             .contenedorDevelopers, .contenedorDesigners{
                 .cardDev, .cardDesigners{
-                    width: 150px;
+                    width: 150px;;
                 }
             }
             .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 20%;
+            }
+        }
+        .containerTestimony{
+            .bundleOpinion{
+                .groupLine{
+                    .cardOpinionShort{
+                        width: 50%;
+                    }
+                }
             }
         }
         .accordion{
@@ -28,6 +37,7 @@
             margin: $margin;
         }
         .containerTestimony{
+            width:100%;
             .headline{
                 width: 60%;
                 display: flex;
@@ -49,16 +59,22 @@
                         width: 60%;
                         .opinionBottom{
                             .data{
-                                margin: 10px auto 10px 25px;
+                                top: 30%;
+                                left: 20%;
                             }
                         }
                     }
                 }
             }
+            .verMas{
+                width:25%;
+                padding:$paddingCto;
+            }
         }
         .accordion{
             .whatsApp{
                 width: 30%;
+                padding:$paddingCto;
             }
         }
     }
@@ -66,6 +82,8 @@
 @media (max-width:1000px){
     .contenedor{
         .cards{
+            width:90%;
+            background-color: aliceblue;
             .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 40%;
             }
@@ -75,17 +93,13 @@
             margin: $margin;
         }
         .containerTestimony{
-            .bundleOpinion{
-                .groupLine{
-                    .cardOpinionShort{
-                        width: 70%;
-                    }
-                }
+            .verMas{
+                width:25%;
             }
         }
         .accordion{
             .whatsApp{
-                width: 50%;
+                width: 30%;
             }
         }
         .formContainer{
@@ -97,10 +111,22 @@
 }
 @media (max-width:850px){
     .contenedor{
+        background-color: aliceblue;
+
         .buscadorServices{
-            width: 80%;
+            width: 90%;
         }
         .cards{
+            width:100%;
+            background-color: aliceblue;
+            .contenedorDevelopers, .contenedorDesigners{
+                width:100%;
+                margin: auto;
+                .cardDev, .cardDesigners{
+                    width:100%;
+                    margin: 5px;
+                }
+            }
             .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 30%;
             }
@@ -115,18 +141,16 @@
                     .cardOpinionShort{
                         width: 80%;
                         margin: 10px auto;
-                        .opinionBottom{
-                            .data{
-                                margin: 5px auto 5px 15px;
-                            }
-                        }
                     }
                 }
+            }
+            .verMas{
+                width:30%;
             }
         }
         .accordion{
             .whatsApp{
-                width: 50%;
+                width: 40%;
             }
         }
     }
@@ -136,7 +160,13 @@
         .cards{
             width: 100%;
             margin: $margin;
-            padding: 0px 30px;
+            .contenedorDevelopers, .contenedorDesigners{
+                width:100%;
+                display: flex;
+                .cardDev, .cardDesigners{
+                    min-width:240px !important;
+                }
+            }
             .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 40%;
             }
@@ -184,14 +214,15 @@
                         width: 80%;
                         .opinionBottom{
                             .data{
-                                margin: $margin 0px 10px;
+                                top: 25%;
+                                left: 20%;
                             }
                         }
                     }
                 }
             }
             .verMas{
-                width: 40%;
+                width: 35%;
             }
         }
     }
@@ -204,12 +235,22 @@
             }
         }
         .cards{
-            .anuncio{
-                font-size: $breakText;
+            width: 90%;
+            margin: $margin;
+            .contenedorDevelopers, .contenedorDesigners{
+                width:100%;
+                margin:auto;
+                .cardDev, .cardDesigners{
+                    width: 100% !important;
+                    row-gap: 5px ;
+                }
             }
             .subtitle{
                 font-size: $breakTitle;
                 font-weight: $bold;
+            }
+            .anuncio{
+                font-size: $breakText;
             }
         }
         .containerDevelopment, .containerDesign{
@@ -243,13 +284,14 @@
                         }
                     }
                     .postulate{
-                        width: 40%;
+                        width: 100% !important;
                         font-size: $smallTitle;
                     }
                 }
             }
         }
         .containerTestimony{
+            width:90%;
             .headline{
                 width:90%;
                 text-align: left;
@@ -269,7 +311,11 @@
                         width: 90%;
                         .opinionBottom{
                             .data{
-                                margin: 2px auto 15px 5px;
+                                top: 25%;
+                                left: 20%;
+                                p{
+                                    font-size:$breakSmallText ;
+                                }
                             }
                         }
                         .opinionMedium{
@@ -282,22 +328,6 @@
             }
             .verMas{
                 width:90%;
-                font-size: $breakText;
-            }
-        }
-        .accordion{
-            .subtitle{
-                font-size: $breakTitle;
-            }
-            .scrollDownAnswers{
-                summary{
-                    font-size: $breakText !important
-                }
-                p{
-                    font-size: $breakText !important;
-                }
-            }
-            .whatsApp{
                 font-size: $breakText;
             }
         }
@@ -320,9 +350,9 @@
 @media (max-width:400px){
     .contenedor{
         .cards{
-            padding: 0px 10px;
+            width:100%;
             .contactanosDesarrolladores, .contactanosDiseñadores{
-                width: 80%;
+                width: 100%;
             }
         }
         .containerDevelopment, .containerDesign{
@@ -339,7 +369,7 @@
             }
         }
         .containerTestimony{
-            width:$containerWidth !important;
+            width:90% !important;
             margin: $sectionMargin !important;
             .bundleOpinion{
                 .groupLine{
@@ -347,7 +377,8 @@
                         width:$widthTotal;
                         .opinionBottom{
                             .data{
-                                margin: 0px 0px 0px -5px;
+                                top: 25%;
+                                left: 20%;
                             }
                         }
                     }
@@ -364,7 +395,7 @@
 @media (max-width:326px){
     .contenedor{
         .containerDevelopment, .containerDesign{
-            .vacanciesDevelopment, .vacanciesDesig{
+            .vacanciesDevelopment, .vacanciesDesign{
                 .cardJob{
                     width:$widthTotal;
                     margin: auto;
@@ -377,7 +408,8 @@
                     .cardOpinionShort{
                         .opinionBottom{
                             .data{
-                                margin: 0px 0px 0px -20px;
+                                top: 25%;
+                                left: 20%;
                             }
                         }
                     }

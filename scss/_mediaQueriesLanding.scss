@@ -147,15 +147,6 @@
                 }
             }
         }
-        .contenedorEmpleos{
-            .empleosArticle{
-                width: 70%;
-                margin: $margin;
-            }
-            .verMas{
-                width:25%;
-            }
-        }
         .contenedorMatch{
             width: $breakPointMax;
             .bannerMatch{
@@ -301,7 +292,7 @@
                     .center{
                         .letterMatch{
                             .match{
-                                font-size: 5rem;
+                                font-size: $matchLetter;
                             }
                         }
                     }
@@ -309,7 +300,7 @@
             }
         }
         .patrocinadores{
-            width:85%;
+            width:80%;
             .empresasPatrocinadorasUno, .empresasPatrocinadorasDos{
                 img{
                     width: 85px;
@@ -496,7 +487,7 @@
             }
         }
         .nosotros{
-            max-width:$breakPointMax;
+            max-width: $widthTotal;
             margin:$sectionMargin;
             .subtitulo{
                 font-size: $breakTitle;
@@ -515,7 +506,7 @@
             }
         }
         .contenedorEmpleos{
-            max-width:$breakPointMax;
+            max-width: $widthTotal;
             margin:$sectionMargin;
             .subtitulo{
                 font-size: $breakTitle;
@@ -541,7 +532,7 @@
                             font-size: $breakText ;
                         }
                         .btnDesarrolladorDiseñador{
-                            width: 95%;
+                            width: 100%;
                             font-size:$breakText;
                             margin: $margin;
                         }
@@ -584,8 +575,7 @@
             }
         }
         .bannerPublicidadDos{
-            max-width:$breakPointMax;
-            margin:$sectionMargin;
+            width:$widthTotal;
             .bannerSection{
                 .banner{
                     .itemCellphones{
@@ -608,7 +598,7 @@
             }
         }
         .accordion{
-            max-width:$breakPointMax;
+            max-width: $widthTotal;
             margin:$sectionMargin;
             .subtitle{
                 font-size: $breakTitle;
@@ -619,11 +609,11 @@
                     font-size: $breakText !important
                 }
                 p{
-                    font-size: $breakText !important;
+                    font-size: $smallTitle !important;
                 }
             }
             .whatsApp{
-                width: 100%;
+                width: 100% !important;
                 font-size: $breakText;
             }
         }
@@ -663,7 +653,7 @@
                     .center{
                         .letterMatch{
                             .match{
-                                font-size: $mainTitle;
+                                font-size: $breakMatch;
                             }
                         }
                     }
@@ -705,7 +695,7 @@
                         width:$widthTotal;
                         .letterMatch{
                             .match{
-                                font-size: $MediumTitle;
+                                font-size: $LargeTitle;
                             }
                         }
                     }
