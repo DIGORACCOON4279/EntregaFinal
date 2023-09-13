@@ -19,11 +19,9 @@
         }
         .containerDevelopment, .containerDesign{
             width: 82%;
-            margin: $margin;
         }
         .containerTestimony{
             width:100%;
-            margin: $margin;
             text-align: left;
 
             .headline{
@@ -51,13 +49,11 @@
     .contenedor{
         .containerDevelopment, .containerDesign{
             width: 80%;
-            margin: $margin;
         }
         .containerTestimony{
             width:93%;
-            margin: $margin;
             .headline{
-                width: 60%;
+                width: 88%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -102,18 +98,34 @@
 @media (max-width:1000px){
     .contenedor{
         .cards{
-            width:80%;
+            width:90%;
             .contactanosDesarrolladores, .contactanosDiseñadores{
                 width: 40%;
             }
         }
         .containerDevelopment, .containerDesign{
             width: 75%;
-            margin: $margin;
+            .vacanciesDevelopment, .vacanciesDesign{
+                .cardJob{
+                    .cardVacancy{
+                        .info{
+                            .local{
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                            }
+
+                        }
+                    }
+                }
+            }
         }
         .containerTestimony{
             width: 88%;
-            margin: $margin;
+            .headline{
+                width:88%;
+                text-align: left;
+            }
             .verMas{
                 width:25%;
             }
@@ -148,7 +160,7 @@
                 margin: auto;
                 .cardDev, .cardDesigners{
                     width:100%;
-                    gap: 2px;
+                    gap: 10px;
                 }
             }
             .contactanosDesarrolladores, .contactanosDiseñadores{
@@ -157,13 +169,11 @@
         }
         .containerDevelopment, .containerDesign{
             width: 88%;
-            margin: $margin;
         }
         .containerTestimony{
             width:100%;
-            margin: $margin;
             .headline{
-                width: 80%;
+                width: 90%;
                 text-align: left;
             }
             .bundleOpinion{
@@ -205,7 +215,6 @@
         }
         .containerDevelopment, .containerDesign{
             width: 90%;
-            margin: $margin;
             .vacanciesDevelopment, .vacanciesDesign{
                 width: 100%;
                 display: flex;
@@ -234,7 +243,7 @@
                         }
                     }
                     .postulate{
-                        width: 40%;
+                        width: 30%;
                         margin:20px 0px;
                         justify-content: space-around;
                         align-items: center;
@@ -248,6 +257,10 @@
         }
         .containerTestimony{
             width: 90%;
+            .headline{
+                width:100%;
+                text-align: left;
+            }
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{
@@ -287,6 +300,9 @@
                 .cardDev, .cardDesigners{
                     width: 100% !important;
                     row-gap: 5px ;
+                    h3{
+                        font-size:$breakText;
+                    }
                 }
             }
             .subtitle{
@@ -296,10 +312,12 @@
             .anuncio{
                 font-size: $breakText;
             }
+            .contactanosDesarrolladores, .contactanosDiseñadores{
+                width: 90%;
+            }
         }
         .containerDevelopment, .containerDesign{
             width: 85%;
-            margin: auto;
             .titleDevelopment, .titleDesign{
                 font-size: $breakTitle;
             }
@@ -314,18 +332,18 @@
                         .info{
                             .position{
                                 h4{
-                                    font-size:  $smallTitle;
+                                    font-size:  $breakText;
                                 }
                             }
                             .local{
                                 p{
                                     span{
-                                        font-size: $xSmallParagraphText;
+                                        font-size: $breakSmallText;
                                     }
                                 }
                                 .data{
                                     p{
-                                        font-size: $xSmallParagraphText;
+                                        font-size: $breakSmallText;
                                     }
                                 }
                             }
@@ -405,7 +423,7 @@
         .cards{
             width:94%;
             .contactanosDesarrolladores, .contactanosDiseñadores{
-                width: 100%;
+                width: 90%;
             }
         }
         .containerDevelopment, .containerDesign{
@@ -422,7 +440,10 @@
         }
         .containerTestimony{
             width:85% !important;
-            margin: $sectionMargin !important;
+            .headline{
+                width:100%;
+                text-align: left;
+            }
             .bundleOpinion{
                 .groupLine{
                     .cardOpinionShort{

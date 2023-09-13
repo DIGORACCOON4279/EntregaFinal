@@ -1226,7 +1226,7 @@ html .contenedor .arrow {
   opacity: 0.1;
 }
 .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionTop .rating {
-  width: 30%;
+  width: 100px;
   filter: drop-shadow(0px 0px 2px);
   opacity: 0.8;
 }
@@ -2239,11 +2239,9 @@ html .contenedor .arrow {
   }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 82%;
-    margin: 0px auto;
   }
   .contenedor .containerTestimony {
     width: 100%;
-    margin: 0px auto;
     text-align: left;
   }
   .contenedor .containerTestimony .headline {
@@ -2264,14 +2262,12 @@ html .contenedor .arrow {
 @media (max-width: 1200px) {
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 80%;
-    margin: 0px auto;
   }
   .contenedor .containerTestimony {
     width: 93%;
-    margin: 0px auto;
   }
   .contenedor .containerTestimony .headline {
-    width: 60%;
+    width: 88%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2309,18 +2305,25 @@ html .contenedor .arrow {
 }
 @media (max-width: 1000px) {
   .contenedor .cards {
-    width: 80%;
+    width: 90%;
   }
   .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
     width: 40%;
   }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 75%;
-    margin: 0px auto;
+  }
+  .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .contenedor .containerTestimony {
     width: 88%;
-    margin: 0px auto;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 88%;
+    text-align: left;
   }
   .contenedor .containerTestimony .verMas {
     width: 25%;
@@ -2355,21 +2358,19 @@ html .contenedor .arrow {
   }
   .contenedor .cards .contenedorDevelopers .cardDev, .contenedor .cards .contenedorDevelopers .cardDesigners, .contenedor .cards .contenedorDesigners .cardDev, .contenedor .cards .contenedorDesigners .cardDesigners {
     width: 100%;
-    gap: 2px;
+    gap: 10px;
   }
   .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
     width: 30%;
   }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 88%;
-    margin: 0px auto;
   }
   .contenedor .containerTestimony {
     width: 100%;
-    margin: 0px auto;
   }
   .contenedor .containerTestimony .headline {
-    width: 80%;
+    width: 90%;
     text-align: left;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
@@ -2404,7 +2405,6 @@ html .contenedor .arrow {
   }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 90%;
-    margin: 0px auto;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment, .contenedor .containerDevelopment .vacanciesDesign, .contenedor .containerDesign .vacanciesDevelopment, .contenedor .containerDesign .vacanciesDesign {
     width: 100%;
@@ -2434,7 +2434,7 @@ html .contenedor .arrow {
     border-bottom: 1px solid #2e2e2e;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
-    width: 40%;
+    width: 30%;
     margin: 20px 0px;
     justify-content: space-around;
     align-items: center;
@@ -2445,6 +2445,10 @@ html .contenedor .arrow {
   }
   .contenedor .containerTestimony {
     width: 90%;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 100%;
+    text-align: left;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 100%;
@@ -2477,6 +2481,9 @@ html .contenedor .arrow {
     width: 100% !important;
     row-gap: 5px;
   }
+  .contenedor .cards .contenedorDevelopers .cardDev h3, .contenedor .cards .contenedorDevelopers .cardDesigners h3, .contenedor .cards .contenedorDesigners .cardDev h3, .contenedor .cards .contenedorDesigners .cardDesigners h3 {
+    font-size: 0.9rem;
+  }
   .contenedor .cards .subtitle {
     font-size: 1.2rem;
     font-weight: 600;
@@ -2484,9 +2491,11 @@ html .contenedor .arrow {
   .contenedor .cards .anuncio {
     font-size: 0.9rem;
   }
+  .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
+    width: 90%;
+  }
   .contenedor .containerDevelopment, .contenedor .containerDesign {
     width: 85%;
-    margin: auto;
   }
   .contenedor .containerDevelopment .titleDevelopment, .contenedor .containerDevelopment .titleDesign, .contenedor .containerDesign .titleDevelopment, .contenedor .containerDesign .titleDesign {
     font-size: 1.2rem;
@@ -2499,13 +2508,13 @@ html .contenedor .arrow {
     width: 13%;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position h4, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .position h4, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .position h4, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position h4 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p span, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local p span, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local p span, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p span {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local .data p, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local .data p, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local .data p, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local .data p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDevelopment .vacanciesDesign .cardJob .postulate, .contenedor .containerDesign .vacanciesDevelopment .cardJob .postulate, .contenedor .containerDesign .vacanciesDesign .cardJob .postulate {
     width: 50% !important;
@@ -2564,7 +2573,7 @@ html .contenedor .arrow {
     width: 94%;
   }
   .contenedor .cards .contactanosDesarrolladores, .contenedor .cards .contactanosDiseñadores {
-    width: 100%;
+    width: 90%;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob img.job, .contenedor .containerDevelopment .vacanciesDesign .cardJob img.job, .contenedor .containerDesign .vacanciesDevelopment .cardJob img.job, .contenedor .containerDesign .vacanciesDesign .cardJob img.job {
     width: 15%;
@@ -2574,7 +2583,10 @@ html .contenedor .arrow {
   }
   .contenedor .containerTestimony {
     width: 85% !important;
-    margin: 150px auto !important;
+  }
+  .contenedor .containerTestimony .headline {
+    width: 100%;
+    text-align: left;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 100%;
