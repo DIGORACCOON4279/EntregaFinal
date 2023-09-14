@@ -1,4 +1,5 @@
 // Jobs Developers & Designers
+
 .containerDevelopment, .containerDesign{
     width: $containerWidth;
     max-width: 1050px;
@@ -13,214 +14,108 @@
     .vacanciesDevelopment, .vacanciesDesign{
         display: flex;
         flex-direction: column;
-    }
-}
-.containerDevelopment{
-        .cardJob{
+        .job{
+            width:7%;
+            border-radius: $borderRadius;
+        }
+        .cardVacancy{
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            cursor: pointer;
-            background-color: $backgroundColor;
-            box-shadow: 0 0 10px 2px $shadowColor;
-            border-radius: 16px;
-            position:relative;
-            padding: 0px 50px;
-            transform: scale(100%);
-            transition: all .3s;
+            flex-direction: column;
+            flex-grow: 1;
+            .info{
+                display: flex;
+                flex-direction: column;
+                margin: 0px 50px;
+                .position{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    h4{
+                        color: $tertiaryColor;
+                        padding: 10px 0;
+                        font-size: $regularText;
+                        font-weight: $bold;
+                    }
+                }
+                .local{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    border-top: 1px solid $lineColor;
+                    padding: 10px 0;
+                    .dataLink{
+                        width:7%;
+                    }
+                    p{
+                        align-self: flex-end;
+                        justify-content: space-between;
+                        color:$tertiaryColor;
+                        font-size: $smallTitle;
+                        border-radius: $ctoBorderRadius;
+                    }
+                    .publicar{
+                        @include publish($background-color: $orangeOpacityColor);
+                    }
+                    p span{
+                        @include publish($background-color:$blueOpacityColor, $color: $primaryColor);
+                    }
+                }
+            }
+        }
+        .links{
+            align-self: flex-end;
+            justify-self: flex-end;
+            margin: 10px -20px;
+            position:absolute;
+            top:-5px;
+            right: 0;
+            .iconLink{
+                width: 15%;
+                transform:scale(100%);
+            }
+        }
+            .check{
+                width:12%;
+                height: 12%;
+            }
+        }
+    }
+
+.containerDevelopment{
+    .vacanciesDevelopment{
+        .cardJob{
+            @include card_job();
             &:hover{
                 box-shadow: 0 0 10px 1px $secondaryColor;
                 transform: scale(100.5%);
             }
-            .job{
-                width: 7%;
-                border-radius: 50%;
-            }
-            .cardVacancy{
-                display: flex;
-                flex-direction: column;
-                flex-grow: 1;
-                .info{
-                    display: flex;
-                    flex-direction: column;
-                    margin: 0px 50px;
-                    .position{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        h4{
-                            color: $tertiaryColor;
-                            padding: 10px 0;
-                            font-size: $regularText;
-                            font-weight: $bold;
-                        }
-                    }
-                    .local{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        border-top: 1px solid $lineColor;
-                        padding: 10px 0;
-                        .dataLink{
-                            width:7%;
-                        }
-                        p{
-                            align-self: flex-end;
-                            justify-content: space-between;
-                            color:$tertiaryColor;
-                            font-size: $smallTitle;
-                            border-radius: $ctoBorderRadius;
-                            span{
-                                color: $secondaryColor;
-                                font-size: $smallTitle;
-                                background-color:$orangeOpacityColor;
-                                border-radius: $ctoBorderRadius;
-                                padding:5px 5px;
-                            }
-                        }
-                    }
-                }
-                .links{
-                    align-self: flex-end;
-                    margin: 10px -20px;
-                    position:absolute;
-                    top: -5px;
-                    right: 0px;
-                    .iconLink{
-                        width: 15%;
-                        transform:scale(100%);
-                        list-style: none
-                    }
-                }
-            }
-            .postulate{
-                padding: 10px 5px;
-                margin-bottom:20px;
-                background-color: $hoverColor;
-                color:$whiteColor;
-                text-decoration: none;
-                border-radius:  $ctoBorderRadius;
-                display:flex;
-                justify-content: space-evenly;
-                transition: all .3s;
-                align-self: end;
-                font-size:$regularText;
-                font-weight: $bold;
+            a.postulate{
+                @include postulation($background-color:$secondaryColor, $box-shadow: 0 0 10px $secondaryColor);
                 &:hover{
-                    background-color:$secondaryColor;
+                    color:$whiteColor;
+                    background-color: $secondaryColor;
                     box-shadow: 0 0 10px $secondaryColor;
-                }
-                .check{
-                    width:12%;
-                    height: 12%;
                 }
             }
         }
     }
-
+}
 .containerDesign{
+    .vacanciesDesign{
         .cardJob{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            cursor: pointer;
-            background-color: $backgroundColor;
-            box-shadow: 0 0 10px 2px $shadowColor;
-            border-radius: 16px;
-            position: relative;
-            padding: 0px 50px;
-            transform: scale(100%);
-            transition: all .3s;
+            @include card_job();
             &:hover{
                 box-shadow: 0 0 10px 1px $primaryColor;
                 transform: scale(100.5%);
             }
-            .job{
-                width:7%;
-                border-radius: $borderRadius;
-            }
-            .cardVacancy{
-                display: flex;
-                flex-direction: column;
-                flex-grow: 1;
-                .info{
-                    display: flex;
-                    flex-direction: column;
-                    flex-grow: 1;
-                    margin: 0px 50px;
-                    .position{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        h4{
-                            color: $tertiaryColor;
-                            padding: 10px 0;
-                            font-size: $regularText;
-                            font-weight: $bold;
-                        }
-                    }
-                    .local{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        border-top: 1px solid $lineColor;
-                        padding: 10px 0;
-                        .dataLink{
-                            width:7%;
-                        }
-                        p{
-                            align-self: flex-end;
-                            justify-content: space-between;
-                            color:$tertiaryColor;
-                            font-size:  $smallTitle;
-                            span{
-                                color: $primaryColor;
-                                font-size:  $smallTitle;
-                                background-color:$blueOpacityColor;
-                                border-radius: $ctoBorderRadius;
-                                padding:5px 5px;
-                            }
-                        }
-                    }
-                }
-                .links{
-                    align-self: flex-end;
-                    justify-self: flex-end;
-                    margin: 10px -20px;
-                    position:absolute;
-                    top:-5px;
-                    right: 0;
-                    .iconLink{
-                        width: 15%;
-                        transform:scale(100%);
-                    }
-                }
-            }
-            .postulate{
-                padding: 10px 5px;
-                margin-bottom: 20px;
-                background-color: $hoverColor;
-                color: $whiteColor;
-                text-decoration: none;
-                border-radius: $ctoBorderRadius;
-                display:flex;
-                justify-content: space-evenly;
-                align-items: center;
-                transition: all .3s;
-                align-self: flex-end;
-                font-size: $regularText;
-                font-weight: $bold;
+            a.postulateDesign{
+                @include postulation($background-color:$primaryColor, $box-shadow: 0 0 10px $primaryColor);
                 &:hover{
+                    color:$whiteColor;
                     background-color: $primaryColor;
                     box-shadow: 0 0 10px $primaryColor;
-                }
-                .check{
-                    width: 12%;
-                    height: 12%;
                 }
             }
         }
     }
-
+}

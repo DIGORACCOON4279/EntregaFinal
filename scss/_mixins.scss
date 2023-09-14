@@ -53,11 +53,47 @@
 
 // Jobs{
 
-
-@mixin title_jobs(){
-
+@mixin card_job(){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: $backgroundColor;
+    box-shadow: 0 0 10px 2px $shadowColor;
+    border-radius: 16px;
+    position:relative;
+    padding: 0px 50px;
+    transform: scale(100%);
+    transition: all .3s;
+}
+@mixin publish($background-color: $orangeOpacityColor, $color: $secondaryColor ){
+    color: $color;
+    font-size: $smallTitle;
+    background-color:$background-color;
+    border-radius: $ctoBorderRadius;
+    padding:5px 5px;
 }
 
+
+@mixin postulation($background-color:$secondaryColor, $box-shadow: 0 0 10px $secondaryColor){
+    padding: 10px 5px;
+    margin-bottom:20px;
+    background-color: $hoverColor;
+    color:$whiteColor;
+    text-decoration: none;
+    border-radius:  $ctoBorderRadius;
+    display:flex;
+    justify-content: space-evenly;
+    transition: all .3s;
+    align-self: end;
+    font-size:$regularText;
+    font-weight: $bold;
+    &:hover{
+        background-color:$background-color;
+        box-shadow:$box-shadow;
+    }
+}
 
 // Landing - Page
 

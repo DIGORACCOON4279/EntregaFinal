@@ -242,7 +242,7 @@
                             }
                         }
                     }
-                    .postulate{
+                    .postulate, .postulateDesign{
                         width: 30%;
                         margin:20px 0px;
                         justify-content: space-around;
@@ -349,7 +349,7 @@
                             }
                         }
                     }
-                    .postulate{
+                    .postulate, .postulateDesign{
                         width: 50% !important;margin: 20px 0px;
                         font-size: $smallTitle;
                         justify-content: space-around;
@@ -432,7 +432,7 @@
                     img.job{
                         width: 15%;
                     }
-                    .postulate{
+                    .postulate, .postulateDesign{
                         width: 50%;
                     }
                 }
