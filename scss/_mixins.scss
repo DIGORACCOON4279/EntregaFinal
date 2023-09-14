@@ -1,5 +1,8 @@
 // Mixins
-@mixin  contenedor_services(){
+
+// Services
+
+@mixin contenedor_services(){
     background-color:  $backgroundColor;
     border-radius: 5px;
     cursor:pointer;
@@ -47,3 +50,26 @@
         text-shadow: 0 0 10px  $secondaryColor;
     }
 }
+
+// Landing - Page
+
+@mixin empresas_patrocinadoras(){
+    width:$widthTotal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin: 30px auto;
+    img{
+        width: 100px;
+        margin: 0px 50px;
+        filter: grayscale(100%);
+        object-fit: cover;
+    }
+}
+// .empresasPatrocinadoraUno{
+//     @include empresas_patrocinadoras();
+// }
+// .empresasPatrocinadorasDos{
+//     @include empresas_patrocinadoras();
+// }
