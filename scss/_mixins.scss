@@ -31,7 +31,6 @@
     margin: 30px auto;
     padding: 5px 15px;
     column-gap:15px;
-    animation:company 10000ms linear infinite;
 }
 
 // Sponsor
@@ -127,8 +126,6 @@
     border-radius: $ctoBorderRadius;
     padding:5px 5px;
 }
-
-
 @mixin postulation($background-color:$secondaryColor, $box-shadow: 0 0 10px $secondaryColor){
     padding: 10px 5px;
     margin-bottom:20px;
