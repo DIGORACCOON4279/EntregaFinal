@@ -854,19 +854,19 @@ html .contenedor .arrow {
   max-width: 1050px;
   margin: 150px auto;
 }
-
-.containerDevelopment .titleDevelopment {
+.containerDevelopment .titleDevelopment, .containerDevelopment .titleDesign, .containerDesign .titleDevelopment, .containerDesign .titleDesign {
   color: #e3e3e3;
   font-size: 1.87rem;
   font-weight: 600;
   text-align: left;
   padding-bottom: 100px;
 }
-.containerDevelopment .vacanciesDevelopment {
+.containerDevelopment .vacanciesDevelopment, .containerDevelopment .vacanciesDesign, .containerDesign .vacanciesDevelopment, .containerDesign .vacanciesDesign {
   display: flex;
   flex-direction: column;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob {
+
+.containerDevelopment .cardJob {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -880,72 +880,72 @@ html .contenedor .arrow {
   transform: scale(100%);
   transition: all 0.3s;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob:hover {
+.containerDevelopment .cardJob:hover {
   box-shadow: 0 0 10px 1px #eb5a00;
   transform: scale(100.5%);
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .job {
+.containerDevelopment .cardJob .job {
   width: 7%;
   border-radius: 50%;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy {
+.containerDevelopment .cardJob .cardVacancy {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info {
+.containerDevelopment .cardJob .cardVacancy .info {
   display: flex;
   flex-direction: column;
   margin: 0px 50px;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position {
+.containerDevelopment .cardJob .cardVacancy .info .position {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position h4 {
+.containerDevelopment .cardJob .cardVacancy .info .position h4 {
   color: #a2a2a2;
   padding: 10px 0;
   font-size: 1rem;
   font-weight: 600;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local {
+.containerDevelopment .cardJob .cardVacancy .info .local {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-top: 1px solid #2e2e2e;
   padding: 10px 0;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local .dataLink {
+.containerDevelopment .cardJob .cardVacancy .info .local .dataLink {
   width: 7%;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p {
+.containerDevelopment .cardJob .cardVacancy .info .local p {
   align-self: flex-end;
   justify-content: space-between;
   color: #a2a2a2;
   font-size: 0.8rem;
   border-radius: 50px;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p span {
+.containerDevelopment .cardJob .cardVacancy .info .local p span {
   color: #eb5a00;
   font-size: 0.8rem;
   background-color: rgba(235, 90, 0, 0.2196078431);
   border-radius: 50px;
   padding: 5px 5px;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .links {
+.containerDevelopment .cardJob .cardVacancy .links {
   align-self: flex-end;
   margin: 10px -20px;
   position: absolute;
   top: -5px;
   right: 0px;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .links .iconLink {
+.containerDevelopment .cardJob .cardVacancy .links .iconLink {
   width: 15%;
   transform: scale(100%);
   list-style: none;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .postulate {
+.containerDevelopment .cardJob .postulate {
   padding: 10px 5px;
   margin-bottom: 20px;
   background-color: #232323;
@@ -959,27 +959,16 @@ html .contenedor .arrow {
   font-size: 1rem;
   font-weight: 600;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .postulate:hover {
+.containerDevelopment .cardJob .postulate:hover {
   background-color: #eb5a00;
   box-shadow: 0 0 10px #eb5a00;
 }
-.containerDevelopment .vacanciesDevelopment .cardJob .postulate .check {
+.containerDevelopment .cardJob .postulate .check {
   width: 12%;
   height: 12%;
 }
 
-.containerDesign .titleDesign {
-  color: #e3e3e3;
-  font-size: 1.87rem;
-  font-weight: 600;
-  text-align: left;
-  padding-bottom: 100px;
-}
-.containerDesign .vacanciesDesign {
-  display: flex;
-  flex-direction: column;
-}
-.containerDesign .vacanciesDesign .cardJob {
+.containerDesign .cardJob {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -993,60 +982,60 @@ html .contenedor .arrow {
   transform: scale(100%);
   transition: all 0.3s;
 }
-.containerDesign .vacanciesDesign .cardJob:hover {
+.containerDesign .cardJob:hover {
   box-shadow: 0 0 10px 1px #26A4E3;
   transform: scale(100.5%);
 }
-.containerDesign .vacanciesDesign .cardJob .job {
+.containerDesign .cardJob .job {
   width: 7%;
   border-radius: 50%;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy {
+.containerDesign .cardJob .cardVacancy {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info {
+.containerDesign .cardJob .cardVacancy .info {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   margin: 0px 50px;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position {
+.containerDesign .cardJob .cardVacancy .info .position {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position h4 {
+.containerDesign .cardJob .cardVacancy .info .position h4 {
   color: #a2a2a2;
   padding: 10px 0;
   font-size: 1rem;
   font-weight: 600;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local {
+.containerDesign .cardJob .cardVacancy .info .local {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-top: 1px solid #2e2e2e;
   padding: 10px 0;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local .dataLink {
+.containerDesign .cardJob .cardVacancy .info .local .dataLink {
   width: 7%;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p {
+.containerDesign .cardJob .cardVacancy .info .local p {
   align-self: flex-end;
   justify-content: space-between;
   color: #a2a2a2;
   font-size: 0.8rem;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p span {
+.containerDesign .cardJob .cardVacancy .info .local p span {
   color: #26A4E3;
   font-size: 0.8rem;
   background-color: rgba(38, 164, 227, 0.2196078431);
   border-radius: 50px;
   padding: 5px 5px;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .links {
+.containerDesign .cardJob .cardVacancy .links {
   align-self: flex-end;
   justify-self: flex-end;
   margin: 10px -20px;
@@ -1054,11 +1043,11 @@ html .contenedor .arrow {
   top: -5px;
   right: 0;
 }
-.containerDesign .vacanciesDesign .cardJob .cardVacancy .links .iconLink {
+.containerDesign .cardJob .cardVacancy .links .iconLink {
   width: 15%;
   transform: scale(100%);
 }
-.containerDesign .vacanciesDesign .cardJob .postulate {
+.containerDesign .cardJob .postulate {
   padding: 10px 5px;
   margin-bottom: 20px;
   background-color: #232323;
@@ -1073,11 +1062,11 @@ html .contenedor .arrow {
   font-size: 1rem;
   font-weight: 600;
 }
-.containerDesign .vacanciesDesign .cardJob .postulate:hover {
+.containerDesign .cardJob .postulate:hover {
   background-color: #26A4E3;
   box-shadow: 0 0 10px #26A4E3;
 }
-.containerDesign .vacanciesDesign .cardJob .postulate .check {
+.containerDesign .cardJob .postulate .check {
   width: 12%;
   height: 12%;
 }

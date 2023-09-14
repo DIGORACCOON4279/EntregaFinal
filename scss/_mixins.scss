@@ -51,7 +51,17 @@
     }
 }
 
+// Jobs{
+
+
+@mixin title_jobs(){
+
+}
+
+
 // Landing - Page
+
+// Sponsor
 
 @mixin empresas_patrocinadoras(){
     width:$widthTotal;
@@ -67,9 +77,4 @@
         object-fit: cover;
     }
 }
-// .empresasPatrocinadoraUno{
-//     @include empresas_patrocinadoras();
-// }
-// .empresasPatrocinadorasDos{
-//     @include empresas_patrocinadoras();
-// }
+
