@@ -9,33 +9,41 @@
     transform: scale(100%);
     box-shadow: 0 0 10px 2px $shadowColor;
     transition: transform .3s;
-
+    &:hover{
+        transform: scale(98%);
+        border: 1px solid transparent;
+    }
+    .card{
+        width: 55px;
+        border:1px solid transparent;
+        object-fit: contain;
+    }
+    h3{
+        color: $tertiaryColor;
+        font-size: $regularText;
+        font-family:  $mainFont;
+    }
 }
-// .cardDev{
-//     @include  contenedor_services();
-// }
-// .cardDesigners{
-//     @include  contenedor_services();
-// }
-// .cardDev{
-//     background-color:  $backgroundColor;
-//     border-radius: 5px;
-//     cursor:pointer;
-//     margin: 3px 3px;
-//     flex-wrap: wrap;
-//     border: 1px solid  $backgroundColor;
-//     transform: scale(100%);
-//     box-shadow: 0 0 10px 2px $shadowColor;
-//     transition: transform .3s;
-// }
-// .cardDesigners{
-//     background-color: $backgroundColor;
-//     border-radius: 5px;
-//     cursor:pointer;
-//     margin: 3px 3px;
-//     flex-wrap: wrap;
-//     border: 1px solid $backgroundColor;
-//     transform: scale(100%);
-//     box-shadow: 0 0 10px 2px $shadowColor;
-//     transition: transform .3s;
-// }
+@mixin contactanos_services($background-color: $secondaryColor, $border:1px solid $secondaryColor){
+    width: 20%;
+    font-size: $regularText;
+    text-align: center;
+    color: $whiteColor;
+    background-color: $background-color;
+    border:$border;
+    border-radius:  $ctoBorderRadius;
+    cursor: pointer;
+    padding: $paddingCto;
+    margin:  $neutralMargin 100px;
+    text-decoration: none;
+    font-family: $mainFont;
+    font-weight: $bold;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color:$hoverColor;
+        border:1px solid $hoverColor;
+        color: $secondaryColor;
+        box-shadow: 0 0 10px  $secondaryColor;
+        text-shadow: 0 0 10px  $secondaryColor;
+    }
+}

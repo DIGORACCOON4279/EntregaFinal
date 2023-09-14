@@ -129,19 +129,7 @@
             &:hover{
                 background-color: $orangeBackgroundColor;
                 box-shadow: 0 0 10px  $secondaryColor;
-                transform: scale(98%);
-                border: 1px solid transparent;
                 text-shadow: 0 0 10px  $secondaryColor;
-            }
-            .card{
-                width: 55px;
-                border:1px solid transparent;
-                object-fit: contain;
-            }
-            h3{
-                color: $tertiaryColor;
-                font-size: $regularText;
-                font-family:  $mainFont;
             }
         }
     }
@@ -151,71 +139,24 @@
         margin: 40px auto;
     }
     .contactanosDesarrolladores{
-        width: 20%;
-        font-size: $regularText;
-        text-align: center;
-        color: $whiteColor;
-        background-color: $secondaryColor;
-        border:1px solid $secondaryColor;
-        border-radius:  $ctoBorderRadius;
-        cursor: pointer;
-        padding: $paddingCto;
-        margin:  $neutralMargin 100px;
-        text-decoration: none;
-        font-family: $mainFont;
-        font-weight: $bold;
-        transition: all 0.3s ease-in-out;
-        &:hover{
-            background-color:$hoverColor;
-            border:1px solid $hoverColor;
-            color: $secondaryColor;
-            box-shadow: 0 0 10px  $secondaryColor;
-            text-shadow: 0 0 10px  $secondaryColor;
-        }
+        @include contactanos_services();
     }
     .contenedorDesigners{
         .cardDesigners{
             @include  contenedor_services();
             &:hover{
                 background-color: $blueBackgroundColor;
-                border:1px solid transparent;
-                transform: scale(98%);
                 box-shadow: 0 0 10px $primaryColor;
                 text-shadow: 0 0 10px $primaryColor;
-            }
-            .card{
-                width: 55px;
-                border:1px solid transparent;
-                object-fit: contain;
-            }
-            h3{
-                color: $tertiaryColor;
-                font-size:$regularText;
-                font-family: $mainFont;
             }
         }
     }
     .contactanosDiseñadores{
-        width: 20%;
-        font-size: $regularText;
-        text-align: center;
-        color: $whiteColor;
-        background-color: $primaryColor;
-        border:1px solid $primaryColor;
-        border-radius: $ctoBorderRadius;
-        cursor: pointer;
-        padding:  $paddingCto;
-        margin: $neutralMargin 100px;
-        text-decoration: none;
-        font-family: $mainFont;
-        font-weight: $bold;
-        transition: all 0.3s ease-in-out;
+        @include contactanos_services($background-color: $primaryColor, $border:1px solid $primaryColor);
         &:hover{
-            background-color:$hoverColor;
-            border:1px solid $hoverColor;
             color: $primaryColor;
-            box-shadow: 0 0 10px $primaryColor;
-            text-shadow: 0 0 10px $primaryColor;
+            box-shadow: 0 0 10px  $primaryColor;
+            text-shadow: 0 0 10px  $primaryColor;
         }
     }
 }

@@ -501,11 +501,8 @@ html .contenedor .arrow {
   transition: transform 0.3s;
 }
 .cards .contenedorDevelopers .cardDev:hover {
-  background-color: #2b1000;
-  box-shadow: 0 0 10px #eb5a00;
   transform: scale(98%);
   border: 1px solid transparent;
-  text-shadow: 0 0 10px #eb5a00;
 }
 .cards .contenedorDevelopers .cardDev .card {
   width: 55px;
@@ -516,6 +513,11 @@ html .contenedor .arrow {
   color: #a2a2a2;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+}
+.cards .contenedorDevelopers .cardDev:hover {
+  background-color: #2b1000;
+  box-shadow: 0 0 10px #eb5a00;
+  text-shadow: 0 0 10px #eb5a00;
 }
 .cards .anuncio {
   color: #a2a2a2;
@@ -557,11 +559,8 @@ html .contenedor .arrow {
   transition: transform 0.3s;
 }
 .cards .contenedorDesigners .cardDesigners:hover {
-  background-color: #00344e;
-  border: 1px solid transparent;
   transform: scale(98%);
-  box-shadow: 0 0 10px #26A4E3;
-  text-shadow: 0 0 10px #26A4E3;
+  border: 1px solid transparent;
 }
 .cards .contenedorDesigners .cardDesigners .card {
   width: 55px;
@@ -572,6 +571,11 @@ html .contenedor .arrow {
   color: #a2a2a2;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+}
+.cards .contenedorDesigners .cardDesigners:hover {
+  background-color: #00344e;
+  box-shadow: 0 0 10px #26A4E3;
+  text-shadow: 0 0 10px #26A4E3;
 }
 .cards .contactanosDiseñadores {
   width: 20%;
@@ -592,6 +596,11 @@ html .contenedor .arrow {
 .cards .contactanosDiseñadores:hover {
   background-color: #232323;
   border: 1px solid #232323;
+  color: #eb5a00;
+  box-shadow: 0 0 10px #eb5a00;
+  text-shadow: 0 0 10px #eb5a00;
+}
+.cards .contactanosDiseñadores:hover {
   color: #26A4E3;
   box-shadow: 0 0 10px #26A4E3;
   text-shadow: 0 0 10px #26A4E3;
