@@ -1,1 +1,41 @@
 // Mixins
+@mixin  contenedor_services(){
+    background-color:  $backgroundColor;
+    border-radius: 5px;
+    cursor:pointer;
+    margin: 3px 3px;
+    flex-wrap: wrap;
+    border: 1px solid  $backgroundColor;
+    transform: scale(100%);
+    box-shadow: 0 0 10px 2px $shadowColor;
+    transition: transform .3s;
+
+}
+// .cardDev{
+//     @include  contenedor_services();
+// }
+// .cardDesigners{
+//     @include  contenedor_services();
+// }
+// .cardDev{
+//     background-color:  $backgroundColor;
+//     border-radius: 5px;
+//     cursor:pointer;
+//     margin: 3px 3px;
+//     flex-wrap: wrap;
+//     border: 1px solid  $backgroundColor;
+//     transform: scale(100%);
+//     box-shadow: 0 0 10px 2px $shadowColor;
+//     transition: transform .3s;
+// }
+// .cardDesigners{
+//     background-color: $backgroundColor;
+//     border-radius: 5px;
+//     cursor:pointer;
+//     margin: 3px 3px;
+//     flex-wrap: wrap;
+//     border: 1px solid $backgroundColor;
+//     transform: scale(100%);
+//     box-shadow: 0 0 10px 2px $shadowColor;
+//     transition: transform .3s;
+// }

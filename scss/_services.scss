@@ -125,15 +125,7 @@
     }
     .contenedorDevelopers{
         .cardDev{
-            background-color:  $backgroundColor;
-            border-radius: 5px;
-            cursor:pointer;
-            margin: 3px 3px;
-            flex-wrap: wrap;
-            border: 1px solid  $backgroundColor;
-            transform: scale(100%);
-            box-shadow: 0 0 10px 2px $shadowColor;
-            transition: transform .3s;
+            @include  contenedor_services();
             &:hover{
                 background-color: $orangeBackgroundColor;
                 box-shadow: 0 0 10px  $secondaryColor;
@@ -183,15 +175,7 @@
     }
     .contenedorDesigners{
         .cardDesigners{
-            background-color: $backgroundColor;
-            border-radius: 5px;
-            cursor:pointer;
-            margin: 3px 3px;
-            flex-wrap: wrap;
-            border: 1px solid $backgroundColor;
-            transform: scale(100%);
-            box-shadow: 0 0 10px 2px $shadowColor;
-            transition: transform .3s;
+            @include  contenedor_services();
             &:hover{
                 background-color: $blueBackgroundColor;
                 border:1px solid transparent;
