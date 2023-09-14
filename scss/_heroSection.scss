@@ -86,39 +86,19 @@
                 justify-content: center;
                 align-items: center;
                 .ctaDeveloper{
-                    width:50%;
-                    font-size:$regularText;
-                    margin: 0px 2px;
-                    text-align: center;
-                    padding: $paddingMainCto;
-                    text-decoration: none;
-                    background-color:$secondaryColor;
-                    color:$whiteColor;
-                    border-radius: $ctoBorderRadius;
-                    font-weight: $bold;
-                    transition: all .3s ease-in;
+                    @include main_cta($background-color: $secondaryColor);
                     &:hover{
                         background-color:$hoverColor;
-                        color: $secondaryColor ;
+                        color: $secondaryColor;
                         box-shadow: 0 0 10px $secondaryColor;
                         text-shadow: 0 0 10px $secondaryColor;
                     }
                 }
                 .ctaDesigner{
-                    width:50%;
-                    font-size: $regularText;
-                    margin: 0px 2px;
-                    text-align: center;
-                    padding: $paddingMainCto;
-                    text-decoration: none;
-                    background-color:$primaryColor;
-                    color:$whiteColor;
-                    border-radius: $ctoBorderRadius;
-                    font-weight: $bold;
-                    transition: all .3s ease-in;
+                    @include main_cta($background-color: $primaryColor);
                     &:hover{
                         background-color:$hoverColor;
-                        color: $primaryColor ;
+                        color: $primaryColor;
                         box-shadow: 0 0 10px $primaryColor;
                         text-shadow: 0 0 10px $primaryColor;
                     }

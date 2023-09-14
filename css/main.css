@@ -754,7 +754,6 @@ html .contenedor .arrow {
   padding: 5px 15px;
   column-gap: 15px;
   animation: company 10000ms linear infinite;
-  animation: staff 10000ms linear infinite;
 }
 @keyframes staff {
   0% {
@@ -2457,7 +2456,7 @@ html .contenedor .arrow {
     width: 13%;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .position h4, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .position h4, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .position h4, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .position h4 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob .cardVacancy .info .local p span, .contenedor .containerDevelopment .vacanciesDesign .cardJob .cardVacancy .info .local p span, .contenedor .containerDesign .vacanciesDevelopment .cardJob .cardVacancy .info .local p span, .contenedor .containerDesign .vacanciesDesign .cardJob .cardVacancy .info .local p span {
     font-size: 0.7rem;
