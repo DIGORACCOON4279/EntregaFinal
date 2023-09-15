@@ -72,6 +72,9 @@
                     .cardOpinionShort{
                         width: 88%;
                         .opinionBottom{
+                            .user{
+                                width:64px;
+                            }
                             .data{
                                 top: 30%;
                                 left: 20%;
@@ -377,6 +380,9 @@
                     .cardOpinionShort{
                         width: 90%;
                         .opinionBottom{
+                            .user{
+                                width:45px;
+                            }
                             .data{
                                 top: 25%;
                                 left: 20%;
@@ -449,6 +455,9 @@
                     .cardOpinionShort{
                         width:$widthTotal;
                         .opinionBottom{
+                            .user{
+                                width:40px;
+                            }
                             .data{
                                 top: 25%;
                                 left: 20%;
@@ -481,6 +490,9 @@
                 .groupLine{
                     .cardOpinionShort{
                         .opinionBottom{
+                            .user{
+                                width:35px;
+                            }
                             .data{
                                 top: 25%;
                                 left: 20%;

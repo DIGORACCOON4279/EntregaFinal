@@ -2229,6 +2229,9 @@ html .contenedor .arrow {
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 88%;
   }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .user {
+    width: 64px;
+  }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
     top: 30%;
     left: 20%;
@@ -2484,6 +2487,9 @@ html .contenedor .arrow {
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 90%;
   }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .user {
+    width: 45px;
+  }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
     top: 25%;
     left: 20%;
@@ -2534,6 +2540,9 @@ html .contenedor .arrow {
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 100%;
   }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .user {
+    width: 40px;
+  }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
     top: 25%;
     left: 20%;
@@ -2549,6 +2558,9 @@ html .contenedor .arrow {
   .contenedor .containerDevelopment .vacanciesDevelopment .cardJob, .contenedor .containerDevelopment .vacanciesDesign .cardJob, .contenedor .containerDesign .vacanciesDevelopment .cardJob, .contenedor .containerDesign .vacanciesDesign .cardJob {
     width: 100%;
     margin: auto;
+  }
+  .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .user {
+    width: 35px;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort .opinionBottom .data {
     top: 25%;
