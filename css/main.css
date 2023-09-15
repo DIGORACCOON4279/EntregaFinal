@@ -196,7 +196,7 @@ html .contenedor .arrow {
   width: 100%;
   height: auto;
   max-height: max-content;
-  background-image: url("../img/pic1.png");
+  background-image: url("../img/pic1.webp");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -432,7 +432,7 @@ html .contenedor .arrow {
   margin-bottom: 40px;
 }
 .contenedorEmpleos .empleosArticle .btnDesarrolladorDiseñador {
-  width: 40%;
+  width: 45%;
   display: block;
   cursor: pointer;
   background-color: #26A4E3;
@@ -647,7 +647,7 @@ html .contenedor .arrow {
 .bannerPublicidadDos {
   width: 100%;
   height: auto;
-  background-image: url("../img/backgroundSteps2.png");
+  background-image: url("../img/backgroundSteps2.webp");
   background-attachment: fixed;
   background-position: 100%;
   background-repeat: no-repeat;
