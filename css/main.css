@@ -81,6 +81,41 @@ html .contenedor .arrow {
   }
 }
 
+.containerInfo, .containerTestimony, .contenedorEmpleos, .contenedorMatch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedorMatch {
+  width: 85%;
+  max-width: 1100px;
+  height: auto;
+  margin: 150px auto;
+  max-height: max-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.contenedorEmpleos {
+  width: 85%;
+  max-width: 1050px;
+  margin: 150px auto !important;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.containerTestimony {
+  width: 85%;
+  max-width: 1100px;
+  margin: 100px auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header {
   width: 100%;
   position: fixed;
@@ -327,16 +362,10 @@ html .contenedor .arrow {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.nosotros .containerInfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.nosotros .containerInfo .laptop {
+.nosotros .containerInfo .laptop, .nosotros .contenedorMatch .laptop, .nosotros .contenedorEmpleos .laptop, .nosotros .containerTestimony .laptop {
   width: 65%;
 }
-.nosotros .containerInfo .info {
+.nosotros .containerInfo .info, .nosotros .contenedorMatch .info, .nosotros .contenedorEmpleos .info, .nosotros .containerTestimony .info {
   width: 35%;
   height: auto;
   background-color: #0f0f0f;
@@ -349,31 +378,21 @@ html .contenedor .arrow {
   align-items: flex-end;
   overflow: hidden;
 }
-.nosotros .containerInfo .info p {
+.nosotros .containerInfo .info p, .nosotros .contenedorMatch .info p, .nosotros .contenedorEmpleos .info p, .nosotros .containerTestimony .info p {
   font-size: 1rem;
   color: #a2a2a2;
   border-bottom: 1px solid #2e2e2e;
   padding-bottom: 10px;
   font-family: "Poppins", sans-serif;
 }
-.nosotros .containerInfo .info p span {
+.nosotros .containerInfo .info p span, .nosotros .contenedorMatch .info p span, .nosotros .contenedorEmpleos .info p span, .nosotros .containerTestimony .info p span {
   color: #26a4e3;
 }
-.nosotros .containerInfo .info .grupos {
+.nosotros .containerInfo .info .grupos, .nosotros .contenedorMatch .info .grupos, .nosotros .contenedorEmpleos .info .grupos, .nosotros .containerTestimony .info .grupos {
   margin-top: 10px;
   width: 30%;
 }
 
-.contenedorEmpleos {
-  width: 85%;
-  max-width: 1050px;
-  margin: 150px auto !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0px auto;
-}
 .contenedorEmpleos .subtitulo {
   color: #e3e3e3;
   font-size: 1.87rem;
@@ -673,21 +692,6 @@ html .contenedor .arrow {
   color: #0c0c0c !important;
 }
 
-.contenedorMatch {
-  width: 85%;
-  max-width: 1100px;
-  height: auto;
-  margin: 150px auto;
-  max-height: max-content;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
 .contenedorMatch .bannerMatch {
   width: 90%;
   max-width: 1200px;
@@ -1101,15 +1105,6 @@ html .contenedor .arrow {
   }
 }
 
-.containerTestimony {
-  width: 85%;
-  max-width: 1100px;
-  margin: 100px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .containerTestimony .headline {
   width: 100%;
   display: flex;
@@ -1654,13 +1649,13 @@ html .contenedor .arrow {
   .contenedor .nosotros .subtitulo {
     margin-bottom: 100px;
   }
-  .contenedor .nosotros .containerInfo {
+  .contenedor .nosotros .containerInfo, .contenedor .nosotros .contenedorMatch, .contenedor .nosotros .contenedorEmpleos, .contenedor .nosotros .containerTestimony {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
-  .contenedor .nosotros .containerInfo .info {
+  .contenedor .nosotros .containerInfo .info, .contenedor .nosotros .contenedorMatch .info, .contenedor .nosotros .contenedorEmpleos .info, .contenedor .nosotros .containerTestimony .info {
     width: 60%;
     height: auto;
     background-color: #0f0f0f;
@@ -1674,7 +1669,7 @@ html .contenedor .arrow {
     margin: 0px auto;
     overflow: hidden;
   }
-  .contenedor .nosotros .containerInfo .laptop {
+  .contenedor .nosotros .containerInfo .laptop, .contenedor .nosotros .contenedorMatch .laptop, .contenedor .nosotros .contenedorEmpleos .laptop, .contenedor .nosotros .containerTestimony .laptop {
     width: 90%;
   }
   .contenedor .contenedorEmpleos {
@@ -1728,7 +1723,7 @@ html .contenedor .arrow {
   .contenedor .heroSection .hero .cellPhone {
     width: 53%;
   }
-  .contenedor .nosotros .containerInfo .info {
+  .contenedor .nosotros .containerInfo .info, .contenedor .nosotros .contenedorMatch .info, .contenedor .nosotros .contenedorEmpleos .info, .contenedor .nosotros .containerTestimony .info {
     width: 70%;
   }
   .contenedor .contenedorMatch {
@@ -1846,7 +1841,7 @@ html .contenedor .arrow {
   .contenedor .heroSection .hero .cellphone {
     width: 53%;
   }
-  .contenedor .nosotros .containerInfo .info {
+  .contenedor .nosotros .containerInfo .info, .contenedor .nosotros .contenedorMatch .info, .contenedor .nosotros .contenedorEmpleos .info, .contenedor .nosotros .containerTestimony .info {
     width: 80%;
   }
   .contenedor .contenedorMatch {
@@ -2015,13 +2010,13 @@ html .contenedor .arrow {
     font-size: 1.2rem;
     font-weight: 600;
   }
-  .contenedor .nosotros .containerInfo .laptop {
+  .contenedor .nosotros .containerInfo .laptop, .contenedor .nosotros .contenedorMatch .laptop, .contenedor .nosotros .contenedorEmpleos .laptop, .contenedor .nosotros .containerTestimony .laptop {
     width: 100%;
   }
-  .contenedor .nosotros .containerInfo .info {
+  .contenedor .nosotros .containerInfo .info, .contenedor .nosotros .contenedorMatch .info, .contenedor .nosotros .contenedorEmpleos .info, .contenedor .nosotros .containerTestimony .info {
     width: 100%;
   }
-  .contenedor .nosotros .containerInfo .info p {
+  .contenedor .nosotros .containerInfo .info p, .contenedor .nosotros .contenedorMatch .info p, .contenedor .nosotros .contenedorEmpleos .info p, .contenedor .nosotros .containerTestimony .info p {
     font-size: 0.9rem;
   }
   .contenedor .contenedorEmpleos {

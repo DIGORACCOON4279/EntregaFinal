@@ -1,12 +1,5 @@
 // Testimony
 .containerTestimony{
-    width: $containerWidth;
-    max-width: $maxWidth;
-    margin: $containerMargin;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     .headline{
         width:$widthTotal;
         display:flex;

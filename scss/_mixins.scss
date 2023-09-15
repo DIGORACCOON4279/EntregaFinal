@@ -145,3 +145,39 @@
     }
 }
 
+// Extend
+
+.containerInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedorMatch{
+    @extend  .containerInfo;
+    width: $containerWidth;
+    max-width: $maxWidth;
+    height: auto;
+    margin: $sectionMargin;
+    max-height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.contenedorEmpleos{
+    @extend  .containerInfo;
+    width: $containerWidth;
+    max-width: 1050px;
+    margin: $sectionMargin !important;
+    flex-direction: column;
+    margin:$margin;
+}
+.containerTestimony{
+    @extend  .containerInfo;
+    width: $containerWidth;
+    max-width: $maxWidth;
+    margin: $containerMargin;
+    flex-direction: column;
+    justify-content: center;
+}

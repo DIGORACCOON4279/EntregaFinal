@@ -1,18 +1,5 @@
 // Match
 .contenedorMatch{
-    width: $containerWidth;
-    max-width: $maxWidth;
-    height: auto;
-    margin: $sectionMargin;
-    max-height: max-content;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     .bannerMatch{
         width:$breakPointMax;
         max-width: 1200px;

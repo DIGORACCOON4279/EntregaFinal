@@ -1,13 +1,5 @@
 // Services
 .contenedorEmpleos{
-    width: $containerWidth;
-    max-width: 1050px;
-    margin: $sectionMargin !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin:$margin;
     .subtitulo{
         color: $whiteColor;
         font-size: $LargeTitle;
