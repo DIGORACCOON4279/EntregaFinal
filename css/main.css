@@ -1550,7 +1550,7 @@ html .contenedor .arrow {
   position: relative;
 }
 .mainContainer .main .item {
-  width: 50%;
+  width: 45vw;
   z-index: 0;
   position: fixed;
   top: 15%;
@@ -1580,7 +1580,7 @@ html .contenedor .arrow {
   bottom: 30%;
 }
 .mainContainer .main .item3 {
-  width: 90vw;
+  width: 80vw;
   z-index: 0;
   position: fixed;
   bottom: 25%;
