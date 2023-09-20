@@ -83,7 +83,7 @@
                 display: flex;
                 input{
                     width: 250px;
-                    border-radius: 50px !important;
+                    border-radius: $ctoBorderRadius;
                     border: 1px solid $shadowColor;
                     box-shadow: 0 0 10px 2px $shadowColor;
                     background-color: $backgroundColor;
@@ -99,7 +99,7 @@
                     color: $whiteColor;
                     background-color: $primaryColor;
                     border:1px solid $primaryColor;
-                    border-radius: 50px !important;
+                    border-radius: $ctoBorderRadius;
                     cursor: pointer;
                     padding: 12.5px 5px;
                     text-decoration: none;

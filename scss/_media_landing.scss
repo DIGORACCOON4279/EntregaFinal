@@ -28,11 +28,11 @@
                 }
             }
         }
-        .socialMediaUno, .arrowUp{
-            display: none !important;
+        #socialMediaUno, #arrowUp{
+            display: none;
         }
         .nosotros{
-            margin-top: 500px !important;
+            margin-top: 150px;
         }
     }
     .footer{
@@ -109,11 +109,6 @@
                     flex-direction: column-reverse;
                     justify-content: space-around;
                     align-items: center;
-                    .itemCellphones{
-                        .accordion{
-                            gap:0 !important;
-                        }
-                    }
                 }
             }
         }
@@ -208,7 +203,7 @@
                         text-decoration: none;
                         color: $whiteColor;
                         padding: 20px 350px 20px 40px !important;
-                        margin-left: -83px !important;
+                        margin-left: -83px;
                         border-bottom:1px solid transparent;
                         transition: all .5s ease;
                         .item{
@@ -272,7 +267,7 @@
         .heroSection{
             .hero{
                 .cellphone{
-                    width: 53%;
+                    width: 33%;
                 }
             }
         }
@@ -371,16 +366,6 @@
             height: 100%;
             ul{
                 display: flex;
-                li{
-                    .categoria{
-                        padding: 25px auto !important;
-                        border-radius: 0px !important;
-                        transition: all .5s ease;
-                    }
-                    &:hover .categoria{
-                        background-color: $backgroundColor;
-                    }
-                }
             }
             .socialMedia{
                 display: flex;
@@ -402,7 +387,7 @@
                     }
                 }
                 .cellphone{
-                    width: 53%;
+                    width: 48%;
                 }
             }
         }
@@ -449,11 +434,14 @@
 @media (max-width: 490px){
     .header{
         .menu{
-            width: $widthTotal;
+            width: $screenWidth;
             height: 100%;
             ul{
-                li .categoria{
-                    font-size: $breakText !important;
+                li{
+                    width: 100vw;
+                    .categoria{
+                        font-size: $breakText;
+                    }
                 }
             }
         }
@@ -481,7 +469,7 @@
                     }
                 }
                 .cellphone{
-                    width: 73%;
+                    width: 63%;
                 }
             }
         }
@@ -585,11 +573,11 @@
                         .accordion-item{
                             .accordion-header{
                                 .title{
-                                    font-size: $breakText !important;
+                                    font-size: $breakText;
                                 }
                             }
                             .paragraph{
-                                font-size: $smallTitle !important;
+                                font-size: $smallTitle;
                             }
                         }
                     }
@@ -605,14 +593,14 @@
             }
             .scrollDownAnswers{
                 summary{
-                    font-size: $breakText !important
+                    font-size: $breakText;
                 }
                 p{
-                    font-size: $smallTitle !important;
+                    font-size: $smallTitle;
                 }
             }
             .whatsApp{
-                width: 100% !important;
+                flex-grow: 1;
                 font-size: $breakText;
             }
         }

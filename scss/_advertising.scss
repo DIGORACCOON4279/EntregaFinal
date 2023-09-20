@@ -45,22 +45,18 @@
                 height: 100%;
             }
             .accordion{
-                width: $widthTotal !important;
-                margin: auto auto !important;
+                width: $widthTotal;
+                margin: auto auto;
                 .accordion-Item{
                     .accordion-header{
-                        font-size: $regularText !important;
-                        font-family: $mainFont !important;
-                        .accordion-button{
-                            box-shadow: none !important;
-                        }
+                        font-size: $regularText;
+                        font-family: $mainFont;
                     }
                 }
                 .accordion-body{
-                    font-family: $mainFont !important;
-                    font-size: $breakText !important;
-                    font-weight: $boldMedium !important;
-                    color: $blackColor !important;
+                    font-family: $mainFont;
+                    font-size: $breakText;
+                    font-weight: $boldMedium;
                 }
             }
         }

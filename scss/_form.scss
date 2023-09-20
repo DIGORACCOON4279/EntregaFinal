@@ -1,9 +1,9 @@
 // FormContainer
 .formContainer{
     width: $containerWidth;
-    max-width: 1300px;
+    max-width: $maxWidth;
     height: auto;
-    margin:-50px auto 100px !important;
+    margin: $sectionMargin;
     text-align: center;
     .subtitulo{
         color: $whiteColor;
@@ -26,28 +26,24 @@
             }
         }
         .form{
-            .formControl{
-                border-radius: $ctoBorderRadius !important;
-            }
             .form-floating{
                 font-size: $smallTitle ;
                 font-weight: $boldMedium;
                 font-family: $mainFont;
                 background-color: $backgroundColor;
                 box-shadow: 0 0 10px 2px $shadowColor;
-                border-radius: $ctoBorderRadius!important;
+                border-radius: $ctoBorderRadius;
                 label{
                     display: block;
                     font-weight: $boldMedium;
                     font-size:  $smallTitle;
-                    border-radius: $ctoBorderRadius !important;
                 }
             }
             textarea, input{
                 display: block;
                 width:$widthTotal;
                 padding:15px;
-                border-radius: 20px !important;
+                border-radius: 50px;
                 font-size:  $smallTitle;
                 font-weight: $boldMedium;
                 border: 1px solid transparent;
@@ -55,13 +51,16 @@
                 box-shadow: 0 0 10px 2px $shadowColor;
                 color:  $tertiaryColor;
             }
+            textarea{
+                border-radius: 10px;
+            }
             .btnAccion{
                 width: 46%;
                 display:inline;
                 cursor: pointer;
-                background-color:  $primaryColor;
+                background-color: $primaryColor;
                 border:1px solid  $primaryColor;
-                border-radius: $ctoBorderRadius !important;
+                border-radius: $ctoBorderRadius;
                 font-family: $mainFont;
                 font-weight: $bold;
                 font-size:$regularText;

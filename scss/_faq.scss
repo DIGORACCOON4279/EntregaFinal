@@ -1,9 +1,9 @@
 // ContactUs
 .accordion{
     width: $containerWidth;
-    max-width: 1300px;
-    height:auto;
-    margin: $sectionMargin !important;
+    max-width: $maxWidth;
+    height: auto;
+    margin: $sectionMargin;
     .subtitle{
         color: $whiteColor;
         font-size: $LargeTitle;

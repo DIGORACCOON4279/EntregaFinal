@@ -3,7 +3,6 @@
     .contenedor{
         .buscadorServices{
             width: 70%;
-            margin: $margin;
         }
         .card{
             width:78%;
@@ -37,8 +36,8 @@
             }
         }
         .accordion, .formContainer{
-            width:90%;
-            margin: $margin;
+            width: $containerWidth;
+            margin: $sectionMargin;
             .whatsApp{
                 width: 20%;
             }
@@ -88,9 +87,7 @@
                 padding:$paddingCto;
             }
         }
-        .accordion, .formContainer{
-            width: 90%;
-            margin: $margin;
+        .accordion{
             .whatsApp{
                 width: 30%;
                 padding:$paddingCto;
@@ -134,15 +131,11 @@
             }
         }
         .accordion{
-            width: 88%;
-            margin: $margin;
             .whatsApp{
                 width: 30%;
             }
         }
         .formContainer{
-            width: 88%;
-            margin: $margin;
             .mapa{
                 display: none;
             }
@@ -153,7 +146,6 @@
     .contenedor{
         .buscadorServices{
             width: 80%;
-            margin: $margin;
         }
         .cards{
             width:100%;
@@ -191,9 +183,7 @@
                 width:30%;
             }
         }
-        .accordion, .formContainer{
-            width:100%;
-            margin: $margin;
+        .accordion{
             .whatsApp{
                 width: 40%;
             }
@@ -209,7 +199,7 @@
                 width:100%;
                 display: flex;
                 .cardDev, .cardDesigners{
-                    min-width:240px !important;
+                    min-width:240px;
                 }
             }
             .contactanosDesarrolladores, .contactanosDiseñadores{
@@ -229,7 +219,7 @@
                     flex-direction:column;
                     justify-content: center;
                     align-items: flex-start;
-                    padding: 0px 10px !important;
+                    padding: 0px 20px;
                     row-gap: 10px;
                     overflow: hidden;
                     img.job{
@@ -246,7 +236,7 @@
                         }
                     }
                     .postulate, .postulateDesign{
-                        width: 30%;
+                        width: 38%;
                         margin:20px 0px;
                         justify-content: space-around;
                         align-items: center;
@@ -281,10 +271,6 @@
                 width: 35%;
             }
         }
-        .accordion, .formContainer{
-            width:100%;
-            margin: $margin;
-        }
     }
 }
 @media (max-width:490px){
@@ -301,7 +287,7 @@
                 width:100%;
                 margin:auto;
                 .cardDev, .cardDesigners{
-                    width: 100% !important;
+                    width: 100%;
                     row-gap: 5px ;
                     h3{
                         font-size:$breakText;
@@ -353,7 +339,8 @@
                         }
                     }
                     .postulate, .postulateDesign{
-                        width: 50% !important;margin: 20px 0px;
+                        width: 50%;
+                        margin: 20px 0px;
                         font-size: $smallTitle;
                         justify-content: space-around;
                     }
@@ -404,10 +391,6 @@
                 font-size: $breakText;
             }
         }
-        .accordion{
-            width:100%;
-            margin: $margin;
-        }
         .formContainer{
             .subtitulo{
                 font-size: $breakTitle;
@@ -445,7 +428,7 @@
             }
         }
         .containerTestimony{
-            width:85% !important;
+            width:85%;
             .headline{
                 width:100%;
                 text-align: left;
@@ -467,8 +450,7 @@
                 }
             }
         }
-        .accordion, .formContainer{
-            width:100%;
+        .accordion{
             .whatsApp{
                 width: $widthTotal;
             }

@@ -169,7 +169,7 @@
     @extend  .containerInfo;
     width: $containerWidth;
     max-width: 1050px;
-    margin: $sectionMargin !important;
+    margin: $sectionMargin;
     flex-direction: column;
     margin:$margin;
 }
@@ -181,5 +181,3 @@
     flex-direction: column;
     justify-content: center;
 }
-
-

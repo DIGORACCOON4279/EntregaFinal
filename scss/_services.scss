@@ -86,7 +86,7 @@
 }
 .buscadorServices{
     width: 50%;
-    margin: $sectionMargin !important;
+    margin: $sectionMargin;
     p{
         font-size: $regularText;
         text-align: left;
@@ -95,7 +95,7 @@
     input{
         width: $widthTotal;
         font-size: $smallTitle;
-        border-radius: $ctoBorderRadius !important;
+        border-radius: $ctoBorderRadius;
         border: 1px solid  $shadowColor;
         box-shadow: 0 0 10px 2px  $shadowColor;
         background-color: $backgroundColor;
