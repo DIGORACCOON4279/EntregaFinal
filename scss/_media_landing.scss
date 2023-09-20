@@ -126,7 +126,7 @@
                 .info{
                     .btnAction{
                         .ctaDeveloper, .ctaDesigner{
-                            width:70%;
+                            width:50%;
                         }
                     }
                 }
@@ -247,6 +247,7 @@
             transition: all .3s;
             &:hover{
                 transform: scale(105%) rotate(270deg);
+                filter: drop-shadow( 0 0 5px $dropShadow);
             }
         }
         .close{
@@ -260,6 +261,7 @@
             transition: all .3s;
             &:hover{
                 transform: scale(105%) rotate(270deg);
+                filter: drop-shadow( 0 0 5px $dropShadow);
             }
         }
     }

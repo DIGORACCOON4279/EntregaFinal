@@ -897,7 +897,7 @@ html .contenedor .arrow {
   padding: 10px 0;
 }
 .containerDevelopment .vacanciesDevelopment .cardVacancy .info .local .dataLink, .containerDevelopment .vacanciesDesign .cardVacancy .info .local .dataLink, .containerDesign .vacanciesDevelopment .cardVacancy .info .local .dataLink, .containerDesign .vacanciesDesign .cardVacancy .info .local .dataLink {
-  width: 7%;
+  width: 11%;
 }
 .containerDevelopment .vacanciesDevelopment .cardVacancy .info .local p, .containerDevelopment .vacanciesDesign .cardVacancy .info .local p, .containerDesign .vacanciesDevelopment .cardVacancy .info .local p, .containerDesign .vacanciesDesign .cardVacancy .info .local p {
   align-self: flex-end;
@@ -1710,7 +1710,7 @@ html .contenedor .arrow {
 }
 @media (max-width: 1000px) {
   .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
-    width: 70%;
+    width: 50%;
   }
   .contenedor .heroSection .hero .cellPhone {
     width: 53%;
@@ -1816,6 +1816,7 @@ html .contenedor .arrow {
   }
   .header .drawer:hover {
     transform: scale(105%) rotate(270deg);
+    filter: drop-shadow(0 0 5px #3a3a3a);
   }
   .header .close {
     width: 32px;
@@ -1829,6 +1830,7 @@ html .contenedor .arrow {
   }
   .header .close:hover {
     transform: scale(105%) rotate(270deg);
+    filter: drop-shadow(0 0 5px #3a3a3a);
   }
   .contenedor .heroSection .hero .cellphone {
     width: 33%;
@@ -2264,6 +2266,9 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 850px) {
+  .header .drawer {
+    border-radius: 50%;
+  }
   .contenedor .buscadorServices {
     width: 80%;
   }
