@@ -12,7 +12,7 @@ Para la entrega final se realizaron los cambios y las correcciones pertinentes d
 👉Link  </br>
 💻[Prototipo desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=32-9&viewport=-818%2C-6106%2C0.4&t=N2PTUORlqXvggZVU-1&scaling=scale-down&starting-point-node-id=32%3A9&mode=design)</br>
 📱[Prototipo cellphone](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=172%3A3037&type=design&node-id=176-2189&viewport=1677%2C1687%2C0.34&t=7u2bsnRTLdKVq25E-1&scaling=scale-down&starting-point-node-id=176%3A2189&mode=design)</br>
-🚧Mockup - Man at works, Coming Soon Laptop & Cellphone!!!
+🚧Mockup - Man at works, Coming Soon Laptop & Cellphone!!!</br>
 🚀Github Pages [Proyecto](https://digoraccoon4279.github.io/EntregaFinal/)</br>
 🚀 Vercel [Proyecto](https://delord.vercel.app/)
 
