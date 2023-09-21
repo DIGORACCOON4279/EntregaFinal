@@ -58,9 +58,9 @@ DeLord es una web estatica realizada para esta entrega final cumplinendo con:
 ✔Sus respectivos diseño responsive para todas las pages,</br>
 ✔imagenes svg e ilustraciones webp,</br>
 ✔Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials,</br>
-✔Tambien se utilizo bootstrap para sistema de grillas, formulario & accordion &</br>
-✔La mayoria de sus animaciones son realizadas  con animations - @keyframes y transitions,</br>
-✔Por último y no siendo menos importante Se realizo el complemento de los meta en el header para las buenas practicas de posicionamiento SEO.</br>
+✔Tambien se utilizo bootstrap para sistema de grillas, formulario & accordion </br>
+✔La mayoria de sus animaciones son realizadas  con animations - @keyframes y transitions, &</br>
+✔Por último y no siendo menos importante, se realizo el complemento de los meta en el header para las buenas practicas de posicionamiento SEO.</br>
 
 👉  Link  </br>
 
@@ -78,7 +78,7 @@ Landing Page
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/87344a98-ded0-4677-abf4-619224cc8261)
 
 
-*# Entrega Final***
+*# Entrega Final y Resultados***
 
 
 Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas hasta su deployment en Vercel y githubpages  </br>
