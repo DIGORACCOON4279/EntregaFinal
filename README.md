@@ -51,8 +51,7 @@ Desktop </br>
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/1e65312d-87be-4876-9187-5feb59f45ca9)
 
 
-*# Segunda Etapa***
-
+*# Incorporaciones***
 
 DeLord es una web estatica realizada para esta entrega final con sus respectivos diseño responsive para todas las pages, imagenes svg e ilustraciones webp. Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials, tambien se utilizo bootstrap para sistema de grillas, formulario & accordion, la mayoria de sus animaciones son realizadas  con animations - @keyframes y transitions. Se realizo el complemento de los meta en header para las buenas practicas de posicionamiento SEO.</br>
 
