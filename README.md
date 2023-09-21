@@ -35,16 +35,17 @@ Al comienzo se realizo el prototipo inicial en escalas de grises utilizando Figm
 
 Cellphone
 
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/c6ef0ac6-c5bf-4993-8541-d7534525eaa1)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/cc112238-9f80-4637-bead-67c5889de8a8)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/0daa2d84-57a3-4efa-819c-c6261ffc3e70)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/b423aa81-2095-4c7c-86fc-0f01db4d80f2)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/795c580a-49ce-4e5d-9a01-78ccd92f494b)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/9355533f-d93d-4fee-b687-84b4b6ae791f)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/da209815-07ca-4539-a105-2a6dd2e52737)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/7dbc44d9-353a-4a01-86ef-dc0b06b5fae4)
+
 
 Desktop
 
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/39db5102-3126-4b02-9f06-f04aee5583c6)
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/4fdbfc34-5402-43df-8acd-fb59a1740b32)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/25790b0a-1bb9-4464-8e10-fd90add4af70)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/78a27b01-5ce7-46f6-a3f0-48984a264acd)
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/1e65312d-87be-4876-9187-5feb59f45ca9)
 
 
