@@ -83,7 +83,7 @@ Landing Page
 
 Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas como crear el archivo .gitignore e incluir los archivos:</br>
 ✔*.map</br>
-✔node_modules/s </br>
+✔node_modules/ </br>
 ✔css nativo, </br>
 ✔y pushear al repositorio sin ellos y finalmente hasta su deployment en Vercel y github pages  </br>
 
