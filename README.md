@@ -81,7 +81,7 @@ Landing Page
 *# Entrega Final y Resultados***
 
 
-Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas como crear el archivo .gitignore e incluir los archivos:</br>
+Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas como crear el archivo .gitignore y excluir los archivos:</br>
 ✔*.map</br>
 ✔node_modules/ </br>
 ✔css nativo, </br>
