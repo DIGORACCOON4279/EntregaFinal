@@ -63,9 +63,11 @@ Desktop </br>
 
 Landing Page
 
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/cb104762-73d9-43d9-b573-2a42ab3e5e44)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/daab1588-cf42-42f4-9df6-05e275dabf8c)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/098a79c6-7fa8-4908-8f94-51c9254e5b0d)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/a377aa72-b57d-477c-a65b-2a5944707d4e)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/43b55b41-15a5-4e74-99f2-fd0104ceb4ea)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/8b8772fb-fdfa-4e9a-8836-acec9cd0ea51)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/87344a98-ded0-4677-abf4-619224cc8261)
+
 
 *****************************************************************************# Entrega Final*******************************************************************************************
 
