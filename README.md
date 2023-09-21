@@ -4,8 +4,10 @@
 
 
 
-*********************************************************# DeLord-EntregaFinal************************************************************
+*# DeLord-EntregaFinal***
 
+
+*# DeLord en sus Inicios***
 
 
 DeLord es el nombre al proyecto que escogi para presentar en CoderHouse, el cual es un portal web ficticio de empleo para diseñadores y desarrolladores web y empresas vincul@s al campo de la tecnologia.</br>
@@ -21,8 +23,7 @@ Herramientas utilizadas: 🛠</br>
 
 
 
-******************************************************************************# Desarrollo del proyecto*********************************************************************************
-
+*# Desarrollo del proyecto***
 
 
 Al comienzo se realizo el prototipo inicial en escalas de grises utilizando Figma y fue cambiando a traves de la cursada y sus consignas.
@@ -49,6 +50,7 @@ Desktop </br>
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/1e65312d-87be-4876-9187-5feb59f45ca9)
 
 
+*# Segunda Etapa***
 
 
 DeLord es una web estatica realizada para esta entrega final con sus respectivos diseño responsive para todas las pages, imagenes svg e ilustraciones webp. Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials, tambien se utilizo bootstrap para sistema de grillas, formulario & accordion, la mayoria d sus animaciones son realizadas  con animations - @keyframes y transitions. Se realizo el complemento de los meta en header para las buenas practicas de posicionamiento SEO.</br>
@@ -69,7 +71,7 @@ Landing Page
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/87344a98-ded0-4677-abf4-619224cc8261)
 
 
-*****************************************************************************# Entrega Final*******************************************************************************************
+*# Entrega Final***
 
 
 Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas hasta su deployment en Vercel y githubpages  </br>
