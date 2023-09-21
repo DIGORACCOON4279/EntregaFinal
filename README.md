@@ -9,12 +9,12 @@ Para la entrega final se realizaron los cambios y las correcciones pertinentes d
 
 Herramientas usadas: 🛠
 </br>
-✔![terminal](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/7fc04eb4-166a-4f6b-b2e9-e9d589f56c32)</br>
-✔![photopea](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/7f7aaaa0-9a4f-43c2-a00b-5332015aeb52)</br>
-✔![github](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/96ebcd2e-75e0-4952-84b8-a1f396a1ce7b)</br>
-✔![figma](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/799ba9b9-7ac5-4e15-b0aa-eccfae442aa1)</br>
-✔![animations](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/59a6538b-2134-4c54-952c-c8539343de07)</br>
-✔![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/9102670c-92eb-448c-b102-c5af4ce21e67)</br>
+✔Animations![animations](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/2fdc31da-eb29-4247-90d3-0b5727606aa7)</br>
+✔VSC![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/bd61bcc5-5a44-4c33-b675-d03bb01589c0)</br>
+✔Photopea![photopea](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/ceac05f4-c505-4889-85d0-60a1566fc4ef)</br>
+✔Github![github](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/01f94f79-8e78-42f8-bc9a-2b6707a9a36d)</br>
+✔Figma![figma](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/fca318c0-6b7d-4046-b0aa-55a83f0419a3)</br>
+
 
 👉Link  </br>
 💻[Prototipo desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=32-9&viewport=-818%2C-6106%2C0.4&t=N2PTUORlqXvggZVU-1&scaling=scale-down&starting-point-node-id=32%3A9&mode=design)</br>
