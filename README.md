@@ -32,11 +32,29 @@ Al comienzo se realizo el prototipo inicial en escalas de grises utilizando Figm
 💻[Prototipo desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=32-9&viewport=-818%2C-6106%2C0.4&t=N2PTUORlqXvggZVU-1&scaling=scale-down&starting-point-node-id=32%3A9&mode=design)</br>
 📱[Prototipo cellphone](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=172%3A3037&type=design&node-id=176-2189&viewport=1677%2C1687%2C0.34&t=7u2bsnRTLdKVq25E-1&scaling=scale-down&starting-point-node-id=176%3A2189&mode=design)</br>
 
+
+Cellphone
+
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/c6ef0ac6-c5bf-4993-8541-d7534525eaa1)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/cc112238-9f80-4637-bead-67c5889de8a8)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/0daa2d84-57a3-4efa-819c-c6261ffc3e70)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/b423aa81-2095-4c7c-86fc-0f01db4d80f2)
+
+Desktop
+
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/39db5102-3126-4b02-9f06-f04aee5583c6)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/4fdbfc34-5402-43df-8acd-fb59a1740b32)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/25790b0a-1bb9-4464-8e10-fd90add4af70)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/4e648a4b-676f-410b-a1bb-30ce1e9910be)
+
+
+
+
 DeLord es una web estatica realizada para esta entrega final con sus respectivos diseño responsive para todas las pages, imagenes svg e ilustraciones webp. Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials, tambien se utilizo bootstrap para sistema de grillas, formulario & accordion, la mayoria d sus animaciones son realizadas  con animations - @keyframes y transitions. Se realizo el complemento de los meta en header para las buenas practicas de posicionamiento SEO.</br>
 
 👉  Link  </br>
 
-🚧  Mockup - Man at works, Coming Soon Laptop & Cellphone!!! >/br>
+🚧  Mockup - Man at works, Coming Soon Laptop & Cellphone!!! </br>
 🚧  [Mockup Desktop]([https://delord.vercel.app/views/testimonies.html](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=172-7824&viewport=-818%2C-6106%2C0.4&t=86LgWki5e4UH7yzI-1&scaling=scale-down&starting-point-node-id=172%3A7824&mode=design))</br>
 
 
