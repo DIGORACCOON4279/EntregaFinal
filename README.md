@@ -56,7 +56,7 @@ Desktop </br>
 DeLord es una web estatica realizada para esta entrega final cumplinendo con:
 
 ✔Sus respectivos diseño responsive para todas las pages,</br>
-✔imagenes svg e ilustraciones webp,</br>
+✔Imagenes svg e ilustraciones webp,</br>
 ✔Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials,</br>
 ✔Tambien se utilizo bootstrap para sistema de grillas, formulario & accordion </br>
 ✔La mayoria de sus animaciones son realizadas  con animations - @keyframes y transitions, &</br>
