@@ -53,7 +53,14 @@ Desktop </br>
 
 *# Incorporaciones***
 
-DeLord es una web estatica realizada para esta entrega final con sus respectivos diseño responsive para todas las pages, imagenes svg e ilustraciones webp. Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials, tambien se utilizo bootstrap para sistema de grillas, formulario & accordion, la mayoria de sus animaciones son realizadas  con animations - @keyframes y transitions. Se realizo el complemento de los meta en header para las buenas practicas de posicionamiento SEO.</br>
+DeLord es una web estatica realizada para esta entrega final cumplinendo con:
+
+>>Sus respectivos diseño responsive para todas las pages,
+>>imagenes svg e ilustraciones webp,
+>>Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials,
+>>Tambien se utilizo bootstrap para sistema de grillas, formulario & accordion &
+>>La mayoria de sus animaciones son realizadas  con animations - @keyframes y transitions,
+>>Por último y no siendo menos importante Se realizo el complemento de los meta en el header para las buenas practicas de posicionamiento SEO.</br>
 
 👉  Link  </br>
 
