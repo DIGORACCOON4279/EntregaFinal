@@ -4,7 +4,7 @@
 
 
 
-*****************************************************************************# DeLord-EntregaFinal***************************************************************************************
+*********************************************************# DeLord-EntregaFinal************************************************************
 
 
 
@@ -20,7 +20,7 @@ Herramientas utilizadas: 🛠</br>
 
 
 
-*****************************************************************************# Desarrollo del proyecto************************************************************************************
+*************************************************************# Desarrollo del proyecto****************************************************
 
 
 
@@ -38,7 +38,11 @@ DeLord es una web estatica realizada para esta entrega final con sus respectivos
 🚧  Mockup - Man at works, Coming Soon Laptop & Cellphone!!! >/br>
 🚧  [Mockup Desktop](https://delord.vercel.app/views/testimonies.html)</br>
 
-*****************************************************************************# Entrega Final*******************************************************************************
+
+
+*************************************************************# Entrega Final**************************************************************
+
+
 
 Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas hasta su deployment en Vercel y githubpages  </br>
 
