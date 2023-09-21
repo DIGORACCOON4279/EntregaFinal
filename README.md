@@ -53,7 +53,7 @@ Desktop </br>
 
 *# Incorporaciones***
 
-DeLord es una web estatica realizada para esta entrega final cumplinendo con:
+DeLord es una web estatica realizada para esta entrega final cumpliendo con:
 
 ✔Sus respectivos diseño responsive para todas las pages,</br>
 ✔Imagenes svg e ilustraciones webp,</br>
@@ -81,7 +81,11 @@ Landing Page
 *# Entrega Final y Resultados***
 
 
-Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas hasta su deployment en Vercel y githubpages  </br>
+Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas como crear el archivo .gitignore e incluir los archivos 
+*.map
+node_modules/s 
+css nativo, 
+y pushear al repositorio sin ellos y finalmente hasta su deployment en Vercel y githubpages  </br>
 
 👉Link  </br>
 
