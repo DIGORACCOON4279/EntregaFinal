@@ -81,11 +81,11 @@ Landing Page
 *# Entrega Final y Resultados***
 
 
-Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas como crear el archivo .gitignore y excluir los archivos:</br>
+Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas como crear el archivo .gitignore y excluir los archivosal repositorio de:</br>
 ✔*.map</br>
 ✔node_modules/ </br>
 ✔css nativo, </br>
-✔y pushear al repositorio sin ellos y finalmente hasta su deployment en Vercel y github pages  </br>
+✔y finalmente hasta su deployment en Vercel y github pages  </br>
 
 👉Link  </br>
 
