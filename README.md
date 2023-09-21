@@ -56,7 +56,7 @@ DeLord es una web estatica realizada para esta entrega final con sus respectivos
 👉  Link  </br>
 
 🚧  Mockup - Man at works, Coming Soon Laptop & Cellphone!!! </br>
-🚧  [Mockup Desktop]([https://delord.vercel.app/views/testimonies.html](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=172-7824&viewport=-818%2C-6106%2C0.4&t=86LgWki5e4UH7yzI-1&scaling=scale-down&starting-point-node-id=172%3A7824&mode=design))</br>
+🚧  [Mockup Desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=172-7824&viewport=-818%2C-6106%2C0.4&t=86LgWki5e4UH7yzI-1&scaling=scale-down&starting-point-node-id=172%3A7824&mode=design)</br>
 
 
 
