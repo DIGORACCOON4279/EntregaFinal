@@ -45,7 +45,7 @@ Desktop
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/39db5102-3126-4b02-9f06-f04aee5583c6)
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/4fdbfc34-5402-43df-8acd-fb59a1740b32)
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/25790b0a-1bb9-4464-8e10-fd90add4af70)
-![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/4e648a4b-676f-410b-a1bb-30ce1e9910be)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/1e65312d-87be-4876-9187-5feb59f45ca9)
 
 
 
