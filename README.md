@@ -29,11 +29,11 @@ Al comienzo se realizo el prototipo inicial en escalas de grises utilizando Figm
 
 👉Link  </br>
 
-💻[Prototipo desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=32-9&viewport=-818%2C-6106%2C0.4&t=N2PTUORlqXvggZVU-1&scaling=scale-down&starting-point-node-id=32%3A9&mode=design)</br>
 📱[Prototipo cellphone](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=172%3A3037&type=design&node-id=176-2189&viewport=1677%2C1687%2C0.34&t=7u2bsnRTLdKVq25E-1&scaling=scale-down&starting-point-node-id=176%3A2189&mode=design)</br>
+💻[Prototipo desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=32-9&viewport=-818%2C-6106%2C0.4&t=N2PTUORlqXvggZVU-1&scaling=scale-down&starting-point-node-id=32%3A9&mode=design)</br>
 
 
-Cellphone
+Cellphone </br>
 
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/795c580a-49ce-4e5d-9a01-78ccd92f494b)
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/9355533f-d93d-4fee-b687-84b4b6ae791f)
@@ -41,7 +41,7 @@ Cellphone
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/7dbc44d9-353a-4a01-86ef-dc0b06b5fae4)
 
 
-Desktop
+Desktop </br>
 
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/39db5102-3126-4b02-9f06-f04aee5583c6)
 ![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/4fdbfc34-5402-43df-8acd-fb59a1740b32)
@@ -59,17 +59,23 @@ DeLord es una web estatica realizada para esta entrega final con sus respectivos
 🚧  [Mockup Desktop](https://www.figma.com/proto/uA574xOChxtF5VhNTMiwAX/Delord?page-id=0%3A1&type=design&node-id=172-7824&viewport=-818%2C-6106%2C0.4&t=86LgWki5e4UH7yzI-1&scaling=scale-down&starting-point-node-id=172%3A7824&mode=design)</br>
 
 
+Desktop </br>
+
+Landing Page
+
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/cb104762-73d9-43d9-b573-2a42ab3e5e44)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/daab1588-cf42-42f4-9df6-05e275dabf8c)
+![image](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/098a79c6-7fa8-4908-8f94-51c9254e5b0d)
 
 *****************************************************************************# Entrega Final*******************************************************************************************
-
 
 
 Para la entrega final se realizaron los cambios y las correcciones pertinentes del tutor en el proyecto desde su prototipo inicial dependiendo de las consignas hasta su deployment en Vercel y githubpages  </br>
 
 👉Link  </br>
 
-🚀  Github Pages [Proyecto](https://digoraccoon4279.github.io/EntregaFinal/)</br>
-🚀  Vercel [Proyecto](https://delord.vercel.app/) </br>
+🚀  [Github Pages](https://digoraccoon4279.github.io/EntregaFinal/)</br>
+🚀  [Vercel](https://delord.vercel.app/) </br>
 
 
 
