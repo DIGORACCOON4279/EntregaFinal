@@ -1,9 +1,7 @@
-![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/844f6a5d-199f-4836-9d0b-52bc480aebdc)
-
 
 ![portadadelord](https://github.com/DIGORACCOON4279/DeLord-Preentrega3/assets/88150970/2e5541df-d457-4dad-ad0d-d85cc01b8ee3)
 </br>
-# DeLord-EntregaFinal + DiegoMarinMora
+# DeLord-EntregaFinal
 
 DeLord es el nombre al proyecto que escogi para presentar en CoderHouse, el cual es un portal web de empleo para diseñadores y desarrolladores web y empresas vincul@s al campo de la tecnologia.</br>
 Al comienzo se realizo el prototipo inicial en escalas de grises utilizando Figma y fue cambiando a traves de la cursada y sus consignas. DeLord es una web estatica realizada para esta entrega final con sus respectivos diseño responsive para todas las pages, imagenes svg e ilustraciones webp. Se utilizo SASS con variables, nesting, mixin(include & extend) & _partials, tambien se utilizo bootstrap para sistema de grillas, formulario & accordion. Se realizo el complemento de los meta en header para las buenas practicas de posicionamiento SEO.</br>
@@ -15,7 +13,7 @@ Herramientas usadas: 🛠
 ✔![photopea](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/7f7aaaa0-9a4f-43c2-a00b-5332015aeb52)</br>
 ✔![github](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/96ebcd2e-75e0-4952-84b8-a1f396a1ce7b)</br>
 ✔![figma](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/799ba9b9-7ac5-4e15-b0aa-eccfae442aa1)</br>
-✔![animations](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/59a6538b-2134-4c54-952c-c8539343de07</br>)
+✔![animations](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/59a6538b-2134-4c54-952c-c8539343de07)</br>
 ✔![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/9102670c-92eb-448c-b102-c5af4ce21e67)</br>
 
 👉Link  </br>
