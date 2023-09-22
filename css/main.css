@@ -1356,9 +1356,20 @@ html .contenedor .arrow {
 .formContainer .locationForm .form textarea {
   border-radius: 10px;
 }
-.formContainer .locationForm .form .btnAccion {
-  width: 46%;
-  display: inline;
+.formContainer .locationForm .form .ctaInput {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.formContainer .locationForm .form .ctaInput .input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px;
   cursor: pointer;
   background-color: #26A4E3;
   border: 1px solid #26A4E3;
@@ -1367,13 +1378,12 @@ html .contenedor .arrow {
   font-weight: 600;
   font-size: 1rem;
   color: #e3e3e3;
-  margin: 0px 5px;
+  text-decoration: none;
   padding: 20px 35px;
-  text-align: center;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-in-out;
 }
-.formContainer .locationForm .form .btnAccion:hover {
+.formContainer .locationForm .form .ctaInput .input:hover {
   background-color: #232323;
   border: 1px solid #232323;
   color: #26A4E3;
@@ -1459,6 +1469,7 @@ html .contenedor .arrow {
   text-align: center;
   color: #a2a2a2;
   font-size: 0.8rem;
+  padding-bottom: 10px;
 }
 .footer .footerMedium .news .accion {
   margin-top: 10px;
@@ -1466,28 +1477,32 @@ html .contenedor .arrow {
 }
 .footer .footerMedium .news .accion input {
   width: 250px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
   border-radius: 50px;
   border: 1px solid #090909;
   box-shadow: 0 0 10px 2px #090909;
   background-color: #0f0f0f;
   color: #a2a2a2;
   font-family: "Poppins", sans-serif;
-  margin: 0px 5px;
-  padding: 12.5px 20px;
+  margin-right: 5px;
+  padding-left: 20px;
 }
 .footer .footerMedium .news .accion .btnAccion {
   width: 150px;
-  font-size: 1rem;
-  text-align: center;
-  color: #e3e3e3;
+  height: 50px;
+  padding: 12.5px;
+  cursor: pointer;
   background-color: #26A4E3;
   border: 1px solid #26A4E3;
   border-radius: 50px;
-  cursor: pointer;
-  padding: 12.5px 5px;
-  text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-size: 1rem;
+  color: #e3e3e3;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 .footer .footerMedium .news .accion .btnAccion:hover {
@@ -1865,7 +1880,7 @@ html .contenedor .arrow {
     align-items: center;
   }
   .footer .mainFooter {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1881,23 +1896,22 @@ html .contenedor .arrow {
     margin-top: 40px;
   }
   .footer .mainFooter .footerMedium .news {
-    width: auto;
+    width: 100%;
   }
   .footer .mainFooter .footerMedium .news .inscribir {
     text-align: left;
   }
   .footer .mainFooter .footerMedium .news .accion {
-    width: 100%;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    row-gap: 15px;
+    margin: 20px 0px;
   }
-  .footer .mainFooter .footerMedium .news .accion input {
-    margin: 10px -5px;
-  }
-  .footer .mainFooter .footerMedium .news .accion .btnAccion {
+  .footer .mainFooter .footerMedium .news .accion .btnAccion, .footer .mainFooter .footerMedium .news .accion input {
     width: 100%;
+    margin: 0px;
   }
   .footer .mainFooter .menu ul {
     margin-left: -32px;
@@ -2477,9 +2491,11 @@ html .contenedor .arrow {
   .contenedor .formContainer .subtitulo {
     font-size: 1.2rem;
   }
-  .contenedor .formContainer .locationForm .form .btnAccion {
+  .contenedor .formContainer .locationForm .form .ctaInput {
     width: 100%;
-    margin: 10px auto;
+    display: inline-block;
+  }
+  .contenedor .formContainer .locationForm .form .ctaInput .input {
     font-size: 0.9rem;
   }
 }

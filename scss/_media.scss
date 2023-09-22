@@ -401,10 +401,12 @@
             }
             .locationForm{
                 .form{
-                    .btnAccion{
+                    .ctaInput{
                         width: 100%;
-                        margin: 10px auto;
-                        font-size:$breakText;
+                        display: inline-block;
+                        .input{
+                            font-size:$breakText;
+                        }
                     }
                 }
             }
