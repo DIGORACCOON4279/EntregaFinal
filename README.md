@@ -14,7 +14,9 @@
 DeLord es el nombre al proyecto que escogi para presentar en CoderHouse, el cual es un portal web ficticio de empleo para diseñadores y desarrolladores web y empresas vincul@s al campo de la tecnologia.</br>
 
 Herramientas utilizadas: 🛠</br>
+
 👉Link  </br>
+
 ![figma](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/fca318c0-6b7d-4046-b0aa-55a83f0419a3) Figma</br>
 ![animations](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/2fdc31da-eb29-4247-90d3-0b5727606aa7) Animations</br>
 ![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/bd61bcc5-5a44-4c33-b675-d03bb01589c0) VSC</br>
