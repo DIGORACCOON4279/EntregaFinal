@@ -94,7 +94,4 @@ Para la entrega final se realizaron los cambios y las correcciones pertinentes d
 🚀  [Github Pages](https://digoraccoon4279.github.io/EntregaFinal/)</br>
 🚀  [Vercel](https://delord.vercel.app/) </br>
 
-
-![portadadelord](https://github.com/DIGORACCOON4279/DeLord-Preentrega3/assets/88150970/2e5541df-d457-4dad-ad0d-d85cc01b8ee3)
-</br>
 ![logo marca - reducida](https://github.com/DIGORACCOON4279/MercurioGUI/assets/88150970/e8492f0f-bf40-4810-ab83-fea9f0dfe61e)
