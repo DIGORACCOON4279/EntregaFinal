@@ -2070,6 +2070,10 @@ html .contenedor .arrow {
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatc .match {
     font-size: 3rem;
   }
+  .contenedor .containerTestimony .subtitulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
   .contenedor .patrocinadores {
     max-width: 90%;
     margin: 150px auto;

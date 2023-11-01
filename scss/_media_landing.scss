@@ -549,6 +549,12 @@
                 }
             }
         }
+        .containerTestimony{
+            .subtitulo{
+                font-size: $breakTitle;
+                font-weight: $bold;
+            }
+        }
         .patrocinadores{
             max-width:$breakPointMax;
             margin:$sectionMargin;
