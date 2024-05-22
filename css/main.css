@@ -1038,6 +1038,7 @@ html .contenedor .arrow {
   font-size: 1.87rem;
   font-weight: 600;
   margin: 0px auto 100px;
+  text-align: center;
 }
 .patrocinadores .empresasPatrocinadorasUno {
   width: 100%;
@@ -2222,7 +2223,7 @@ html .contenedor .arrow {
   }
   .contenedor .containerTestimony .headline {
     width: 92%;
-    margin: 150px auto 100px;
+    margin: 50px auto;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 30%;
@@ -2248,7 +2249,6 @@ html .contenedor .arrow {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 0px auto;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine {
     width: 100%;
