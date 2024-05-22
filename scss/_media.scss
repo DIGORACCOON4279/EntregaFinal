@@ -373,15 +373,15 @@
                 background-color: aqua;
                 .subtitle{
                     font-size: $breakTitle;
-                    width:fit-content;
+                    text-align: left;
                 }
                 .paragraph{
                     font-size: $breakText;
-                    width:fit-content;
+                    text-align: left;
                 }
                 .promotion{
                     font-size: $breakText;
-                    width:fit-content;
+                    text-align: left;
                 }
             }
             .bundleOpinion{

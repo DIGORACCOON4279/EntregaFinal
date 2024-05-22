@@ -2500,15 +2500,15 @@ html .contenedor .arrow {
   }
   .contenedor .containerTestimony .headline .subtitle {
     font-size: 1.2rem;
-    width: fit-content;
+    text-align: left;
   }
   .contenedor .containerTestimony .headline .paragraph {
     font-size: 0.9rem;
-    width: fit-content;
+    text-align: left;
   }
   .contenedor .containerTestimony .headline .promotion {
     font-size: 0.9rem;
-    width: fit-content;
+    text-align: left;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 90%;
