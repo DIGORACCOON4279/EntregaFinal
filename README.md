@@ -92,6 +92,6 @@ Para la entrega final se realizaron los cambios y las correcciones pertinentes d
 👉Link  </br>
 
 🚀  [Github Pages](https://digoraccoon4279.github.io/EntregaFinal/)</br>
-🚀  [Vercel](https://delord.vercel.app/) </br>
+🚀  [Vercel](https://delord-git-main-digoraccoon4279s-projects.vercel.app/) </br>
 
 ![logo marca - reducida](https://github.com/DIGORACCOON4279/MercurioGUI/assets/88150970/e8492f0f-bf40-4810-ab83-fea9f0dfe61e)
