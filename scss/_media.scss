@@ -372,6 +372,7 @@
                 text-align: left;
                 background-color: aqua;
                 .subtitle{
+                    width:auto;
                     font-size: $breakTitle;
                     text-align: left;
                 }
@@ -380,8 +381,10 @@
                     text-align: left;
                 }
                 .promotion{
+                    width:auto;
                     font-size: $breakText;
                     text-align: left;
+                    background-color: rgb(247, 241, 241);
                 }
             }
             .bundleOpinion{
