@@ -372,12 +372,15 @@
                 text-align: left;
                 .subtitle{
                     font-size: $breakTitle;
+                    width:fit-content;
                 }
                 .paragraph{
                     font-size: $breakText;
+                    width:fit-content;
                 }
                 .promotion{
                     font-size: $breakText;
+                    width:fit-content;
                 }
             }
             .bundleOpinion{
