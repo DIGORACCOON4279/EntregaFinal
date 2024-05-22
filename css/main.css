@@ -708,6 +708,7 @@ html .contenedor .arrow {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 60px;
 }
 .contenedorMatch .bannerMatch .sideCompany .cardCompany, .contenedorMatch .bannerMatch .sideStaff .cardCompany {
   width: 85%;
@@ -717,7 +718,7 @@ html .contenedor .arrow {
   align-items: center;
   background-color: #101010;
   border-radius: 20px;
-  margin: 30px auto;
+  margin: auto;
   padding: 5px 15px;
   column-gap: 15px;
   animation: company 10000ms linear infinite;
@@ -752,7 +753,7 @@ html .contenedor .arrow {
   align-items: center;
   background-color: #101010;
   border-radius: 20px;
-  margin: 30px auto;
+  margin: auto;
   padding: 5px 15px;
   column-gap: 15px;
   animation: staff 10000ms linear infinite;
