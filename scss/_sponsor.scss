@@ -12,7 +12,7 @@
         font-size: $LargeTitle;
         font-weight: $bold;
         margin: $margin 100px;
-        text-align: center
+        text-align: center;
     }
     .empresasPatrocinadorasUno{
         @include empresas_patrocinadoras();

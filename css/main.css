@@ -1111,7 +1111,7 @@ html .contenedor .arrow {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  margin: 50px 0px;
+  margin: 50px auto 100px;
 }
 .containerTestimony .headline .subtitle {
   color: #e3e3e3;
@@ -2223,7 +2223,6 @@ html .contenedor .arrow {
   }
   .contenedor .containerTestimony .headline {
     width: 92%;
-    margin: 50px auto;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 30%;
