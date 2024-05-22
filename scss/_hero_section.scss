@@ -10,6 +10,7 @@
     background-size: cover;
     overflow: visible;
     object-fit: cover;
+    margin: 0px auto 250px;
     animation: background .5s linear;
     @keyframes background{
         0%{
@@ -36,15 +37,14 @@
     .hero{
         width: 100%;
         max-width: 1150px;
-        height: 800px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin: $margin;
+        margin: auto;
+        padding-top:50px;
         .info{
             width: 50%;
-            text-align: left;
             animation: info 1s linear;
             @keyframes info{
                 0%{
@@ -83,8 +83,8 @@
             .btnAction{
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
-                align-items: center;
+                justify-content: space-between;
+                gap:10px;
                 .ctaDeveloper{
                     @include main_cta($background-color: $secondaryColor);
                     &:hover{
@@ -106,7 +106,7 @@
             }
         }
         .cellphone{
-            width: 30%;
+            width:30%;
             object-fit: cover;
             animation: cellphone 1.5s linear;
             @keyframes cellphone{

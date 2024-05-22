@@ -2,24 +2,18 @@
 @media (max-width:1250px){
     .contenedor{
         .heroSection{
-            width: $screenWidth;
-            height:$screenHeight;
-            margin: 400px auto;
+            width: 100%;
+            height:100%;
             .hero{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: center;
                 .info{
-                    width:$breakPointMax;
-                    margin:$margin 100px;
+                    width:60%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin:$margin;
                     .btnAction{
-                        width:75%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        align-items: flex-start;
-                        gap: 20px;
+                        width:100%;
                         padding: 80px auto 0px;
                     }
                 }
@@ -43,6 +37,29 @@
 }
 @media (max-width:1200px){
     .contenedor{
+        .heroSection{
+            width: 100%;
+            height:100%;
+            .hero{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap:30px;
+                padding-top:150px;
+                .info{
+                    width:70%;
+                    text-align: center;
+                    .btnAction{
+                        width:80%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
         .nosotros{
             .subtitulo{
                 margin-bottom: 100px ;
@@ -124,9 +141,11 @@
         .heroSection{
             .hero{
                 .info{
+                    width:90%;
                     .btnAction{
+                        width:40%;
                         .ctaDeveloper, .ctaDesigner{
-                            width:50%;
+                            width:100%;
                         }
                     }
                 }
@@ -379,6 +398,7 @@
             .hero{
                 width:$breakPointMax;
                 .info{
+                    width:100%;
                     .btnAction{
                         width:60%;
                         margin:0px auto;
@@ -399,7 +419,7 @@
                     margin: $margin;
                     .contenedorEmpleo{
                         .btnDesarrolladorDiseñador{
-                            width: 50%;
+                            width: 70%;
                         }
                     }
                 }
@@ -417,6 +437,15 @@
                                 font-size: 4rem;
                             }
                         }
+                    }
+                }
+            }
+        }
+        .bannerPublicidadDos{
+            .bannerSection{
+                .banner{
+                    .itemCellphones{
+                        width:100%;
                     }
                 }
             }
@@ -451,7 +480,6 @@
         max-width:$widthTotal;
         margin: $margin;
         .heroSection{
-            margin-top: 300px;
             .hero{
                 .info{
                     h1{

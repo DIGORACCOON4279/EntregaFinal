@@ -202,6 +202,7 @@ html .contenedor .arrow {
   background-size: cover;
   overflow: visible;
   object-fit: cover;
+  margin: 0px auto 250px;
   animation: background 0.5s linear;
 }
 @keyframes background {
@@ -229,16 +230,15 @@ html .contenedor .arrow {
 .heroSection .hero {
   width: 100%;
   max-width: 1150px;
-  height: 800px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0px auto;
+  margin: auto;
+  padding-top: 50px;
 }
 .heroSection .hero .info {
   width: 50%;
-  text-align: left;
   animation: info 1s linear;
 }
 @keyframes info {
@@ -278,8 +278,8 @@ html .contenedor .arrow {
 .heroSection .hero .info .btnAction {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 .heroSection .hero .info .btnAction .ctaDeveloper {
   width: 50%;
@@ -659,7 +659,7 @@ html .contenedor .arrow {
   margin: 150px auto;
 }
 .bannerPublicidadDos .bannerSection {
-  width: 80%;
+  width: 85%;
   max-width: 1100px;
   margin: 100px 0px;
 }
@@ -667,12 +667,14 @@ html .contenedor .arrow {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 10px;
 }
 .bannerPublicidadDos .bannerSection .banner .itemCellphones {
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  object-fit: cover;
 }
 .bannerPublicidadDos .bannerSection .banner .accordion {
   width: 100%;
@@ -1619,27 +1621,19 @@ html .contenedor .arrow {
 
 @media (max-width: 1250px) {
   .contenedor .heroSection {
-    width: 100vw;
-    height: 100vh;
-    margin: 400px auto;
-  }
-  .contenedor .heroSection .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    width: 100%;
+    height: 100%;
   }
   .contenedor .heroSection .hero .info {
-    width: 90%;
-    margin: 0px auto 100px;
-  }
-  .contenedor .heroSection .hero .info .btnAction {
-    width: 75%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+  }
+  .contenedor .heroSection .hero .info .btnAction {
+    width: 100%;
     padding: 80px auto 0px;
   }
   .contenedor .heroSection .hero .cellphone {
@@ -1656,6 +1650,29 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 1200px) {
+  .contenedor .heroSection {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor .heroSection .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 150px;
+  }
+  .contenedor .heroSection .hero .info {
+    width: 70%;
+    text-align: center;
+  }
+  .contenedor .heroSection .hero .info .btnAction {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .contenedor .nosotros .subtitulo {
     margin-bottom: 100px;
   }
@@ -1724,8 +1741,14 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 1000px) {
+  .contenedor .heroSection .hero .info {
+    width: 90%;
+  }
+  .contenedor .heroSection .hero .info .btnAction {
+    width: 40%;
+  }
   .contenedor .heroSection .hero .info .btnAction .ctaDeveloper, .contenedor .heroSection .hero .info .btnAction .ctaDesigner {
-    width: 50%;
+    width: 100%;
   }
   .contenedor .heroSection .hero .cellPhone {
     width: 53%;
@@ -1935,6 +1958,9 @@ html .contenedor .arrow {
   .contenedor .heroSection .hero {
     width: 90%;
   }
+  .contenedor .heroSection .hero .info {
+    width: 100%;
+  }
   .contenedor .heroSection .hero .info .btnAction {
     width: 60%;
     margin: 0px auto;
@@ -1950,7 +1976,7 @@ html .contenedor .arrow {
     margin: 0px auto;
   }
   .contenedor .contenedorEmpleos .jobs .empleosArticle .contenedorEmpleo .btnDesarrolladorDiseñador {
-    width: 50%;
+    width: 70%;
   }
   .contenedor .contenedorMatch {
     width: 90%;
@@ -1961,6 +1987,9 @@ html .contenedor .arrow {
   }
   .contenedor .contenedorMatch .bannerMatch .centerMatch .center .letterMatch .match {
     font-size: 4rem;
+  }
+  .contenedor .bannerPublicidadDos .bannerSection .banner .itemCellphones {
+    width: 100%;
   }
   .contenedor .accordion {
     width: 100%;
@@ -1984,9 +2013,6 @@ html .contenedor .arrow {
   .contenedor {
     max-width: 100%;
     margin: 0px auto;
-  }
-  .contenedor .heroSection {
-    margin-top: 300px;
   }
   .contenedor .heroSection .hero .info h1 {
     font-size: 1.6rem;
@@ -2396,7 +2422,15 @@ html .contenedor .arrow {
     left: 20%;
   }
   .contenedor .containerTestimony .verMas {
-    width: 35%;
+    width: 60%;
+  }
+  .contenedor .accordion .whatsApp {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .contenedor .containerTestimony .verMas {
+    width: 60%;
   }
 }
 @media (max-width: 490px) {

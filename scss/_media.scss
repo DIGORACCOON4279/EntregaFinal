@@ -272,9 +272,24 @@
                 }
             }
             .verMas{
-                width: 35%;
+                width: 60%;
             }
         }
+        .accordion{
+            .whatsApp{
+                width:60%;
+            }
+        }
+    }
+}
+@media (max-width:600px){
+    .contenedor{
+        .containerTestimony{
+            .verMas{
+                width: 60%;
+            }
+        }
+
     }
 }
 @media (max-width:490px){
