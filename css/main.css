@@ -720,7 +720,7 @@ html .contenedor .arrow {
   margin: 30px auto;
   padding: 5px 15px;
   column-gap: 15px;
-  animation: company 10000ms linear infinite;
+  animation: company 12000ms linear infinite;
 }
 @keyframes company {
   0% {
@@ -755,7 +755,7 @@ html .contenedor .arrow {
   margin: 30px auto;
   padding: 5px 15px;
   column-gap: 15px;
-  animation: staff 10000ms linear infinite;
+  animation: staff 12000ms linear infinite;
 }
 @keyframes staff {
   0% {
