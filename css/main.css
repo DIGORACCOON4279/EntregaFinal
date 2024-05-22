@@ -2499,7 +2499,7 @@ html .contenedor .arrow {
     background-color: aqua;
   }
   .contenedor .containerTestimony .headline .subtitle {
-    width: auto;
+    width: 90%;
     font-size: 1.2rem;
     text-align: left;
   }
@@ -2508,7 +2508,7 @@ html .contenedor .arrow {
     text-align: left;
   }
   .contenedor .containerTestimony .headline .promotion {
-    width: auto;
+    width: 50%;
     font-size: 0.9rem;
     text-align: left;
     background-color: rgb(247, 241, 241);
