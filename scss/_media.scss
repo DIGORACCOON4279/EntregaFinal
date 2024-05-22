@@ -370,7 +370,6 @@
             .headline{
                 width:90%;
                 text-align: left;
-                background-color: aqua;
                 .subtitle{
                     width:90%;
                     font-size: $breakTitle;
@@ -381,10 +380,9 @@
                     text-align: left;
                 }
                 .promotion{
-                    width:50%;
+                    width:45%;
                     font-size: $breakText;
                     text-align: left;
-                    background-color: rgb(247, 241, 241);
                 }
             }
             .bundleOpinion{

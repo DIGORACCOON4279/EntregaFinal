@@ -2496,7 +2496,6 @@ html .contenedor .arrow {
   .contenedor .containerTestimony .headline {
     width: 90%;
     text-align: left;
-    background-color: aqua;
   }
   .contenedor .containerTestimony .headline .subtitle {
     width: 90%;
@@ -2508,10 +2507,9 @@ html .contenedor .arrow {
     text-align: left;
   }
   .contenedor .containerTestimony .headline .promotion {
-    width: 50%;
+    width: 45%;
     font-size: 0.9rem;
     text-align: left;
-    background-color: rgb(247, 241, 241);
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 90%;
