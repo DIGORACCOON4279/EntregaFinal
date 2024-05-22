@@ -2507,9 +2507,9 @@ html .contenedor .arrow {
     text-align: left;
   }
   .contenedor .containerTestimony .headline .promotion {
-    width: 45%;
+    width: 55%;
     font-size: 0.9rem;
-    text-align: left;
+    text-align: center;
   }
   .contenedor .containerTestimony .bundleOpinion .groupLine .cardOpinionShort {
     width: 90%;
