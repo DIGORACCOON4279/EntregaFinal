@@ -1049,12 +1049,6 @@ html .contenedor .arrow {
   margin: 30px auto;
   animation: carouselUno 60s linear infinite;
 }
-.patrocinadores .empresasPatrocinadorasUno img {
-  width: 100px;
-  margin: 0px 50px;
-  filter: grayscale(100%);
-  object-fit: cover;
-}
 @keyframes carouselUno {
   0% {
     transform: translate(0%);
@@ -1072,6 +1066,19 @@ html .contenedor .arrow {
     transform: translate(-100%);
   }
 }
+.patrocinadores .empresasPatrocinadorasUno img {
+  width: 100px;
+  margin: 0px 50px;
+  filter: grayscale(100%);
+  border-radius: 50%;
+  object-fit: cover;
+  transform: scale(100%);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.patrocinadores .empresasPatrocinadorasUno img:hover {
+  transform: scale(105%);
+  filter: grayscale(20%);
+}
 .patrocinadores .empresasPatrocinadorasDos {
   width: 100%;
   display: flex;
@@ -1080,12 +1087,6 @@ html .contenedor .arrow {
   align-items: center;
   margin: 30px auto;
   animation: carouselDos 60s linear infinite;
-}
-.patrocinadores .empresasPatrocinadorasDos img {
-  width: 100px;
-  margin: 0px 50px;
-  filter: grayscale(100%);
-  object-fit: cover;
 }
 @keyframes carouselDos {
   0% {
@@ -1103,6 +1104,18 @@ html .contenedor .arrow {
   100% {
     transform: translate(0%);
   }
+}
+.patrocinadores .empresasPatrocinadorasDos img {
+  width: 100px;
+  margin: 0px 50px;
+  filter: grayscale(100%);
+  object-fit: cover;
+  transform: scale(100%);
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.patrocinadores .empresasPatrocinadorasDos img:hover {
+  transform: scale(110%);
+  filter: grayscale(20%);
 }
 
 .containerTestimony .headline {

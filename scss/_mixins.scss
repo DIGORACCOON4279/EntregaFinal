@@ -42,12 +42,6 @@
     justify-content: $justify-content;
     align-items: $align-items;
     margin: 30px auto;
-    img{
-        width: 100px;
-        margin: 0px 50px;
-        filter: grayscale(100%);
-        object-fit: cover;
-    }
 }
 
 // Views

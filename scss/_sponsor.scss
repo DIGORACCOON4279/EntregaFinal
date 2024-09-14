@@ -1,4 +1,5 @@
 // Sponsor
+
 .patrocinadores{
     width: $containerWidth;
     max-width: 1050px;
@@ -34,6 +35,19 @@
                 transform: translate(-100%);
             }
         }
+        img{
+            width: 100px;
+            margin: 0px 50px;
+            filter: grayscale(100%);
+            border-radius: 50%;
+            object-fit: cover;
+            transform:scale(100%);
+            transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+            &:hover{
+                transform:scale(105%);
+                filter:grayscale(20%);
+            }
+        }
     }
     .empresasPatrocinadorasDos{
         @include empresas_patrocinadoras();
@@ -53,6 +67,18 @@
             }
             100%{
                 transform: translate(0%);
+            }
+        }
+        img{
+            width: 100px;
+            margin: 0px 50px;
+            filter: grayscale(100%);
+            object-fit: cover;
+            transform:scale(100%);
+            transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+            &:hover{
+                transform:scale(110%);
+                filter:grayscale(20%);
             }
         }
     }
