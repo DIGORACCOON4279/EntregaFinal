@@ -120,12 +120,6 @@ html .contenedor .arrow {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 100;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: auto;
   border: 1px solid #090909;
   box-shadow: 0 0 10px 2px #090909;
   background-color: #0f0f0f;
@@ -140,33 +134,42 @@ html .contenedor .arrow {
     transform: translateY(0%);
   }
 }
-.header .logo .logoDelord {
+.header .wrapHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  max-width: 1050px;
+}
+.header .wrapHeader .logo .logoDelord {
   width: 40px;
   transform: scale(100%) rotate(0deg);
   transition: transform 0.5s;
 }
-.header .logo .logoDelord:hover {
+.header .wrapHeader .logo .logoDelord:hover {
   transform: scale(105%) rotate(270deg);
   filter: drop-shadow(5px 5px 30px #26a4e3);
 }
-.header #menu {
+.header .wrapHeader #menu {
   display: none;
 }
-.header .menu {
+.header .wrapHeader .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.header .menu ul {
+.header .wrapHeader .menu ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
 }
-.header .menu ul li {
+.header .wrapHeader .menu ul li {
   text-decoration: none;
 }
-.header .menu ul li .categoria {
+.header .wrapHeader .menu ul li .categoria {
   font-size: 1rem;
   cursor: pointer;
   text-decoration: none;
@@ -174,21 +177,24 @@ html .contenedor .arrow {
   border-bottom: 1.5px solid transparent;
   transition: all 0.5s ease;
 }
-.header .menu ul li .categoria .item {
+.header .wrapHeader .menu ul li .categoria .item {
   display: none;
 }
-.header .menu ul li:hover .categoria {
+.header .wrapHeader .menu ul li:hover .categoria {
   color: #eb5a00;
   background-color: rgba(255, 255, 255, 0.2039215686);
   border-bottom: 1.5px solid #eb5a00;
 }
-.header .menu .socialMedia {
+.header .wrapHeader .menu ul li:last-child {
+  margin-right: -20px;
+}
+.header .wrapHeader .menu .socialMedia {
   display: none;
 }
-.header .drawer {
+.header .wrapHeader .drawer {
   display: none;
 }
-.header .close {
+.header .wrapHeader .close {
   display: none;
 }
 
@@ -477,6 +483,7 @@ html .contenedor .arrow {
 
 .buscadorServices {
   width: 50%;
+  max-width: 1050px;
   margin: 150px auto;
 }
 .buscadorServices p {
@@ -1414,30 +1421,35 @@ html .contenedor .arrow {
   box-shadow: 0 0 10px 2px #090909;
   background-color: #0f0f0f;
   padding-bottom: 10px;
+}
+.footer .wrapFooter {
+  width: 100%;
+  max-width: 1050px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
-.footer .mainFooter {
-  width: 75%;
+.footer .wrapFooter .mainFooter {
+  width: 100%;
   margin: 50px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
 }
-.footer .mainFooter .services {
+.footer .wrapFooter .mainFooter .services {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
 }
-.footer .mainFooter .services .logo {
+.footer .wrapFooter .mainFooter .services .logo {
   width: 40px;
 }
-.footer .mainFooter .services .apps {
+.footer .wrapFooter .mainFooter .services .apps {
   width: 100px;
   display: flex;
   flex-direction: column;
@@ -1445,54 +1457,54 @@ html .contenedor .arrow {
   align-items: flex-start;
   border-top: 1px solid #2e2e2e;
 }
-.footer .mainFooter .services .apps h4 {
+.footer .wrapFooter .mainFooter .services .apps h4 {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 0.8rem;
   color: #a2a2a2;
 }
-.footer .mainFooter .services .apps .app {
+.footer .wrapFooter .mainFooter .services .apps .app {
   width: 100px;
   filter: contrast(85%);
   text-align: flex-start;
 }
-.footer .mainFooter .menu ul {
+.footer .wrapFooter .mainFooter .menu ul {
   display: flex;
   flex-direction: column;
 }
-.footer .mainFooter .menu ul li {
+.footer .wrapFooter .mainFooter .menu ul li {
   list-style: none;
   text-align: start;
 }
-.footer .mainFooter .menu ul li a {
+.footer .wrapFooter .mainFooter .menu ul li a {
   text-decoration: none;
   font-size: 0.8rem;
   color: #a2a2a2;
 }
-.footer .mainFooter .menu ul li a:hover {
+.footer .wrapFooter .mainFooter .menu ul li a:hover {
   text-decoration: underline;
 }
-.footer .footerMedium {
+.footer .wrapFooter .footerMedium {
   margin: 40px auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.footer .footerMedium .news {
+.footer .wrapFooter .footerMedium .news {
   display: flex;
   flex-direction: column;
 }
-.footer .footerMedium .news .inscribir {
+.footer .wrapFooter .footerMedium .news .inscribir {
   text-align: center;
   color: #a2a2a2;
   font-size: 0.8rem;
   padding-bottom: 10px;
 }
-.footer .footerMedium .news .accion {
+.footer .wrapFooter .footerMedium .news .accion {
   margin-top: 10px;
   display: flex;
 }
-.footer .footerMedium .news .accion input {
+.footer .wrapFooter .footerMedium .news .accion input {
   width: 250px;
   height: 50px;
   font-size: 1rem;
@@ -1506,7 +1518,7 @@ html .contenedor .arrow {
   margin-right: 5px;
   padding-left: 20px;
 }
-.footer .footerMedium .news .accion .btnAccion {
+.footer .wrapFooter .footerMedium .news .accion .btnAccion {
   width: 150px;
   height: 50px;
   padding: 12.5px;
@@ -1522,14 +1534,14 @@ html .contenedor .arrow {
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease-in-out;
 }
-.footer .footerMedium .news .accion .btnAccion:hover {
+.footer .wrapFooter .footerMedium .news .accion .btnAccion:hover {
   background-color: #232323;
   border: 1px solid #232323;
   color: #26A4E3;
   box-shadow: 0 0 10px #26A4E3;
   text-shadow: 0 0 10px #26A4E3;
 }
-.footer .containerSocialMedia .socialMedia {
+.footer .wrapFooter .containerSocialMedia .socialMedia {
   width: 70%;
   display: flex;
   flex-direction: row;
@@ -1538,22 +1550,22 @@ html .contenedor .arrow {
   margin: 15px auto;
   padding: 0px;
 }
-.footer .containerSocialMedia .socialMedia li {
+.footer .wrapFooter .containerSocialMedia .socialMedia li {
   list-style: none;
 }
-.footer .containerSocialMedia .socialMedia li a {
+.footer .wrapFooter .containerSocialMedia .socialMedia li a {
   text-decoration: none;
 }
-.footer .containerSocialMedia .socialMedia li a .iconLink {
+.footer .wrapFooter .containerSocialMedia .socialMedia li a .iconLink {
   width: 20px;
   transform: scale(100%);
   transition: transform 0.3s ease-in-out;
 }
-.footer .containerSocialMedia .socialMedia li a .iconLink:hover {
+.footer .wrapFooter .containerSocialMedia .socialMedia li a .iconLink:hover {
   filter: drop-shadow(0 0 10px #3a3a3a);
   transform: scale(112%);
 }
-.footer .containerSocialMedia p {
+.footer .wrapFooter .containerSocialMedia p {
   margin: 0px auto;
   text-align: center;
   border-top: 1px solid #2e2e2e;
@@ -1665,6 +1677,9 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 1200px) {
+  .header .wrapHeader {
+    width: 80%;
+  }
   .contenedor .heroSection {
     width: 100%;
     height: 100%;
@@ -1754,6 +1769,9 @@ html .contenedor .arrow {
   .contenedor .accordion .whatsApp {
     width: 30%;
   }
+  .footer .wrapFooter {
+    width: 80%;
+  }
 }
 @media (max-width: 1000px) {
   .contenedor .heroSection .hero .info {
@@ -1790,9 +1808,12 @@ html .contenedor .arrow {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0px;
   }
-  .header .menu {
+  .header .wrapHeader {
+    width: 90%;
+  }
+  .header .wrapHeader .menu {
     width: 50vw;
     height: 100%;
     display: flex;
@@ -1807,18 +1828,18 @@ html .contenedor .arrow {
     transform: translateX(100%);
     transition: transform 0.3s;
   }
-  .header .menu ul {
+  .header .wrapHeader .menu ul {
     width: inherit;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
   }
-  .header .menu ul li {
+  .header .wrapHeader .menu ul li {
     width: inherit;
     padding: 0px 0px 0px 50px;
   }
-  .header .menu ul li .categoria {
+  .header .wrapHeader .menu ul li .categoria {
     width: inherit;
     display: flex;
     flex-direction: row;
@@ -1833,45 +1854,45 @@ html .contenedor .arrow {
     border-bottom: 1px solid transparent;
     transition: all 0.5s ease;
   }
-  .header .menu ul li .categoria .item {
+  .header .wrapHeader .menu ul li .categoria .item {
     width: 24px;
     margin-right: 20px;
     display: flex;
     transition: all 0.5s ease;
   }
-  .header .menu ul li:hover .categoria {
+  .header .wrapHeader .menu ul li:hover .categoria {
     background-color: #0f0f0f;
   }
-  .header .menu .socialMedia {
+  .header .wrapHeader .menu .socialMedia {
     display: flex;
     justify-content: center;
   }
-  .header .menu .socialMedia .iconLink {
+  .header .wrapHeader .menu .socialMedia .iconLink {
     width: 20px;
     transform: scale(100%);
     transition: transform 0.3s ease-in-out;
     margin: 0 3px;
   }
-  .header .menu .socialMedia .iconLink:hover {
+  .header .wrapHeader .menu .socialMedia .iconLink:hover {
     filter: drop-shadow(0 0 10px #3a3a3a);
     transform: scale(112%);
   }
-  .header #menu:checked ~ .menu {
+  .header .wrapHeader #menu:checked ~ .menu {
     transform: translate(0%);
     z-index: 10;
   }
-  .header .drawer {
+  .header .wrapHeader .drawer {
     display: block;
     width: 32px;
     cursor: pointer;
     transform: scale(100%) rotate(0deg);
     transition: all 0.3s;
   }
-  .header .drawer:hover {
+  .header .wrapHeader .drawer:hover {
     transform: scale(105%) rotate(270deg);
     filter: drop-shadow(0 0 5px #3a3a3a);
   }
-  .header .close {
+  .header .wrapHeader .close {
     width: 32px;
     display: block;
     position: absolute;
@@ -1881,7 +1902,7 @@ html .contenedor .arrow {
     transform: scale(100%) rotate(0deg);
     transition: all 0.3s;
   }
-  .header .close:hover {
+  .header .wrapHeader .close:hover {
     transform: scale(105%) rotate(270deg);
     filter: drop-shadow(0 0 5px #3a3a3a);
   }
@@ -1910,22 +1931,22 @@ html .contenedor .arrow {
   .contenedor .accordion .whatsApp {
     width: 40%;
   }
-  .footer {
+  .footer .wrapFooter {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .footer .mainFooter {
-    width: 60%;
+  .footer .wrapFooter .mainFooter {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 50px 0px;
   }
-  .footer .mainFooter .services {
+  .footer .wrapFooter .mainFooter .services {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1933,40 +1954,37 @@ html .contenedor .arrow {
     order: 2;
     margin-top: 40px;
   }
-  .footer .mainFooter .footerMedium .news {
+  .footer .wrapFooter .mainFooter .footerMedium .news {
     width: 100%;
   }
-  .footer .mainFooter .footerMedium .news .inscribir {
+  .footer .wrapFooter .mainFooter .footerMedium .news .inscribir {
     text-align: left;
   }
-  .footer .mainFooter .footerMedium .news .accion {
-    width: 250px;
+  .footer .wrapFooter .mainFooter .footerMedium .news .accion {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 15px;
     margin: 20px 0px;
   }
-  .footer .mainFooter .footerMedium .news .accion .btnAccion, .footer .mainFooter .footerMedium .news .accion input {
+  .footer .wrapFooter .mainFooter .footerMedium .news .accion .btnAccion, .footer .wrapFooter .mainFooter .footerMedium .news .accion input {
     width: 100%;
     margin: 0px;
   }
-  .footer .mainFooter .menu ul {
+  .footer .wrapFooter .mainFooter .menu ul {
     margin-left: -32px;
   }
 }
 @media (max-width: 767px) {
-  .header {
-    padding: 0px 40px;
-  }
-  .header .menu {
+  .header .wrapHeader .menu {
     width: 55vw;
     height: 100%;
   }
-  .header .menu ul {
+  .header .wrapHeader .menu ul {
     display: flex;
   }
-  .header .menu .socialMedia {
+  .header .wrapHeader .menu .socialMedia {
     display: flex;
     justify-content: center;
   }
@@ -2015,14 +2033,17 @@ html .contenedor .arrow {
   }
 }
 @media (max-width: 490px) {
-  .header .menu {
+  .header .wrapHeader {
+    width: 85%;
+  }
+  .header .wrapHeader .menu {
     width: 100vw;
     height: 100%;
   }
-  .header .menu ul li {
+  .header .wrapHeader .menu ul li {
     width: 100vw;
   }
-  .header .menu ul li .categoria {
+  .header .wrapHeader .menu ul li .categoria {
     font-size: 0.9rem;
   }
   .contenedor {

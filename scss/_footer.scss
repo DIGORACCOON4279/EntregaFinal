@@ -5,154 +5,159 @@
     box-shadow: 0 0 10px 2px $shadowColor;
     background-color: $backgroundColor;
     padding-bottom: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    .mainFooter{
-        width: 75%;
-        margin: 50px auto;
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-        .services{
-            display:flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: flex-start;
-            .logo{
-                width: 40px;
-            }
-            .apps{
-                width:100px;
-                display:flex;
-                flex-direction:column;
-                justify-content: space-around;
-                align-items: flex-start;
-                border-top: 1px solid $lineColor;
-                h4{
-                    margin-top:5px;
-                    margin-bottom: 5px;
-                    font-size:$smallTitle;
-                    color: $tertiaryColor;
-                }
-                .app{
-                    width:100px;
-                    filter: contrast(85%);
-                    text-align:flex-start;
-                }
-            }
-        }
-        .menu{
-            ul{
-                display: flex;
-                flex-direction: column;
-                li{
-                    list-style: none;
-                    text-align: start;
-                    a{
-                        text-decoration: none;
-                        font-size:$smallTitle;
-                        color: $tertiaryColor;
-                        &:hover{
-                            text-decoration: underline;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .footerMedium{
-        margin: 40px auto;
+    .wrapFooter{
+        width:100%;
+        max-width: 1050px;
+        text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
-        .news{
-            display: flex;
-            flex-direction: column;
-            .inscribir{
-                text-align: center;
-                color: $tertiaryColor;
-                font-size: $smallTitle;
-                padding-bottom: 10px;
-            }
-            .accion{
-                margin-top:10px;
-                display: flex;
-                input{
-                    width: 250px;
-                    height: 50px;
-                    font-size: $regularText;
-                    font-weight: $boldMedium;
-                    border-radius: $ctoBorderRadius;
-                    border: 1px solid  $shadowColor;
-                    box-shadow: 0 0 10px 2px  $shadowColor;
-                    background-color: $backgroundColor;
-                    color: $tertiaryColor;
-                    font-family: $mainFont;
-                    margin-right: 5px;
-                    padding-left: 20px;
+        justify-content: space-between;
+        align-items: center;
+        margin:auto;
+        .mainFooter{
+            width: 100%;
+            margin: 50px auto;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            .services{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-start;
+                .logo{
+                    width: 40px;
                 }
-                .btnAccion{
-                    width:150px;
-                    height: 50px;
-                    padding: 12.5px;
-                    cursor: pointer;
-                    background-color: $primaryColor;
-                    border:1px solid  $primaryColor;
-                    border-radius: $ctoBorderRadius;
-                    font-family: $mainFont;
-                    font-weight: $bold;
-                    font-size:$regularText;
-                    color:  $whiteColor;
-                    text-decoration: none;
-                    font-family: $mainFont;
-                    transition: all 0.3s ease-in-out;
-                    &:hover{
-                        background-color: $hoverColor;
-                        border:1px solid  $hoverColor;
-                        color:  $primaryColor;
-                        box-shadow: 0 0 10px  $primaryColor;
-                        text-shadow: 0 0 10px  $primaryColor;
+                .apps{
+                    width:100px;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    border-top: 1px solid $lineColor;
+                    h4{
+                        margin-top:5px;
+                        margin-bottom: 5px;
+                        font-size:$smallTitle;
+                        color: $tertiaryColor;
+                    }
+                    .app{
+                        width:100px;
+                        filter: contrast(85%);
+                        text-align:flex-start;
                     }
                 }
             }
-        }
-    }
-    .containerSocialMedia{
-        .socialMedia{
-            width:70%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            margin: 15px auto;
-            padding: 0px;
-            li{
-                list-style: none;
-                a{
-                    text-decoration: none;
-                    .iconLink{
-                        width: 20px;
-                        transform: scale(100%);
-                        transition: transform .3s ease-in-out;
-                        &:hover{
-                            filter: drop-shadow(0 0 10px $dropShadow);
-                            transform: scale(112%);
+            .menu{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        list-style: none;
+                        text-align: start;
+                        a{
+                            text-decoration: none;
+                            font-size:$smallTitle;
+                            color: $tertiaryColor;
+                            &:hover{
+                                text-decoration: underline;
+                            }
                         }
                     }
                 }
             }
         }
-        p{
-            margin:$neutralMargin;
-            text-align: center;
-            border-top: 1px solid $lineColor;
-            padding-top: 5px;
-            font-size:$xSmallParagraphText;
-            color:  $whiteColor;
+        .footerMedium{
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            .news{
+                display: flex;
+                flex-direction: column;
+                .inscribir{
+                    text-align: center;
+                    color: $tertiaryColor;
+                    font-size: $smallTitle;
+                    padding-bottom: 10px;
+                }
+                .accion{
+                    margin-top:10px;
+                    display: flex;
+                    input{
+                        width: 250px;
+                        height: 50px;
+                        font-size: $regularText;
+                        font-weight: $boldMedium;
+                        border-radius: $ctoBorderRadius;
+                        border: 1px solid  $shadowColor;
+                        box-shadow: 0 0 10px 2px  $shadowColor;
+                        background-color: $backgroundColor;
+                        color: $tertiaryColor;
+                        font-family: $mainFont;
+                        margin-right: 5px;
+                        padding-left: 20px;
+                    }
+                    .btnAccion{
+                        width:150px;
+                        height: 50px;
+                        padding: 12.5px;
+                        cursor: pointer;
+                        background-color: $primaryColor;
+                        border:1px solid  $primaryColor;
+                        border-radius: $ctoBorderRadius;
+                        font-family: $mainFont;
+                        font-weight: $bold;
+                        font-size:$regularText;
+                        color:  $whiteColor;
+                        text-decoration: none;
+                        font-family: $mainFont;
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            background-color: $hoverColor;
+                            border:1px solid  $hoverColor;
+                            color:  $primaryColor;
+                            box-shadow: 0 0 10px  $primaryColor;
+                            text-shadow: 0 0 10px  $primaryColor;
+                        }
+                    }
+                }
+            }
+        }
+        .containerSocialMedia{
+            .socialMedia{
+                width:70%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 15px auto;
+                padding: 0px;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        .iconLink{
+                            width: 20px;
+                            transform: scale(100%);
+                            transition: transform .3s ease-in-out;
+                            &:hover{
+                                filter: drop-shadow(0 0 10px $dropShadow);
+                                transform: scale(112%);
+                            }
+                        }
+                    }
+                }
+            }
+            p{
+                margin:$neutralMargin;
+                text-align: center;
+                border-top: 1px solid $lineColor;
+                padding-top: 5px;
+                font-size:$xSmallParagraphText;
+                color:  $whiteColor;
+            }
         }
     }
 }

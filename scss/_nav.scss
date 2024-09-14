@@ -3,12 +3,6 @@
     width:$widthTotal;
     position:fixed;
     top:0;
-    z-index: 100;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: auto;
     border: 1px solid $shadowColor;
     box-shadow: 0 0 10px 2px $shadowColor;
     background-color: $backgroundColor;
@@ -22,55 +16,68 @@
             transform: translateY(0%);
         }
     }
-    .logo .logoDelord{
-        width: 40px;
-        transform: scale(100%) rotate(0deg);
-        transition: transform .5s;
-        &:hover{
-            transform:scale(105%) rotate(270deg);
-            filter: drop-shadow(5px 5px 30px #26a4e3);
-        }
-    }
-    #menu{
-        display:none;
-    }
-    .menu{
+    .wrapHeader{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        ul{
+        align-items: center;
+        margin: auto;
+        width:100%;
+        max-width: 1050px;
+        .logo .logoDelord{
+            width: 40px;
+            transform: scale(100%) rotate(0deg);
+            transition: transform .5s;
+            &:hover{
+                transform:scale(105%) rotate(270deg);
+                filter: drop-shadow(5px 5px 30px #26a4e3);
+            }
+        }
+        #menu{
+            display:none;
+        }
+        .menu{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            list-style: none;
-            li{
-                text-decoration: none;
-                .categoria{
-                    font-size: $regularText;
-                    cursor: pointer;
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                list-style: none;
+                li{
                     text-decoration: none;
-                    color: $whiteColor;
-                    border-bottom:1.5px solid transparent;
-                    transition: all .5s ease;
-                    .item{
-                        display: none;
+                    .categoria{
+                        font-size: $regularText;
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: $whiteColor;
+                        border-bottom:1.5px solid transparent;
+                        transition: all .5s ease;
+                        .item{
+                            display: none;
+                        }
+
+                    }
+                    &:hover .categoria{
+                        color:$secondaryColor;
+                        background-color: $opacityBackgroundColor;
+                        border-bottom: 1.5px solid $secondaryColor;
                     }
                 }
-                &:hover .categoria{
-                    color:$secondaryColor;
-                    background-color: $opacityBackgroundColor;
-                    border-bottom: 1.5px solid $secondaryColor;
+                li:last-child{
+                    margin-right: -20px;
                 }
             }
+            .socialMedia{
+                display: none;
+            }
         }
-        .socialMedia{
+        .drawer{
             display: none;
         }
-    }
-    .drawer{
-        display: none;
-    }
-    .close{
-        display: none;
+        .close{
+            display: none;
+        }
     }
 }
